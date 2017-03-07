@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Saurav Singh</title>
+		<description>Personal Blog</description>		
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>A Road Ahead!</title>
+				        
+				
+					<description>&lt;p&gt;Hello, people.So this is probably my first blog ever! And, I will be writing here about all the cool stuff on which i’m working on.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 27 Feb 2017 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/journal/A-Road-Ahead.html</link>
+				<guid isPermaLink="true">http://localhost:4000/journal/A-Road-Ahead.html</guid>
+			</item>
+		
+	</channel>
+</rss>
