@@ -1,7 +1,10 @@
 # Site Settings
 title:               Saurav Singh
 tagline:             damngamerz
+description:
+url:                #"https://damngamerz.github.io"
 github:
+  url:               "https://damngamerz.github.io"
 author:
   name:              "Saurav Singh"
   email:             "sauravsinghshakya@yahoo.com"
@@ -11,6 +14,7 @@ author:
   facebook:          "damngamerz"
   linkedin:          "saurav-singh"
 paginate:            5
+disqus:              "your-disqus"
 
 
 # Build settings
@@ -22,4 +26,4 @@ gems:                [jekyll-paginate]
 #Feed settings
 name:                Saurav Singh
 description:         Personal Blog
-url:                 http://www.damngamerz.github.io
+url:                 https://damngamerz.github.io
