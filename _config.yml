@@ -1,11 +1,7 @@
 # Site Settings
 title:               Saurav Singh
-tagline:             <damngamerz>
-description:
-baseurl:            #"/blog"
-url:                #"https://damngamerz.github.io"
+tagline:             damngamerz
 github:
-  url:               "https://damngamerz.github.io/blog"
 author:
   name:              "Saurav Singh"
   email:             "sauravsinghshakya@yahoo.com"
@@ -13,7 +9,7 @@ author:
   instagram:         "damngamerz"
   github:            "damngamerz"
   facebook:          "damngamerz"
-  linkedin:          "lenpaul"
+  linkedin:          "saurav-singh"
 paginate:            5
 
 
@@ -22,3 +18,8 @@ markdown:            kramdown
 highlighter:         rouge
 permalink:           none
 gems:                [jekyll-paginate]
+
+#Feed settings
+name:                Saurav Singh
+description:         Personal Blog
+url:                 http://www.damngamerz.github.io
