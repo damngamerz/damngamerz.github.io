@@ -7,6 +7,19 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>The 3 Things I Learned</title>
+				        
+				
+					<description>&lt;p&gt;Hello people, So it’s been a week and as promised, I’m going to tell you about my experience in &lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt;. Which is an open-source community.I will specifically tell you about my journey, and probably everything that happened to me in the first two weeks.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 07 Mar 2017 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/journal/The-3-Things-I-Learned.html</link>
+				<guid isPermaLink="true">http://localhost:4000/journal/The-3-Things-I-Learned.html</guid>
+			</item>
+		
+			<item>
 				<title>A Road Ahead!</title>
 				        
 				
