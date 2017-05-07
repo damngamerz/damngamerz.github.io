@@ -7,10 +7,36 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Accepted YAY!</title>
+				        
+				
+					<description>&lt;p&gt;The day for which I had waited so long has finally come. My project with coala has been accepted. Hooray!!! This probably is my biggest life achievement so far and I’m so happy from inside that there are butterflies fluttering in my stomach :P&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 06 May 2017 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/gsoc/Accepted_YAY!.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/Accepted_YAY!.html</guid>
+			</item>
+		
+			<item>
+				<title>My Project Proposals</title>
+				        
+				
+					<description>&lt;p&gt;It’s been a while since my last blog. So, this blog is all about my goals towards this year’s awesome summer. Let’s directly come to the point. Guys, I’m participating in Google Summer of Code 2017 (GSoC-2017). I will tell you more about my proposals, meanwhile lets get familiar with some pre-requisites.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 28 Mar 2017 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/gsoc/My-Project-Proposals.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/My-Project-Proposals.html</guid>
+			</item>
+		
+			<item>
 				<title>The 3 Things I Learned</title>
 				        
 				
-					<description>&lt;p&gt;Hello people, So it’s been a week and as promised, I’m going to tell you about my experience in &lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt;. Which is an open-source community.I will specifically tell you about my journey, and probably everything that happened to me in the first two weeks.&lt;/p&gt;
+					<description>&lt;p&gt;Hello people, So it’s been a week and as promised, I’m going to tell you about my experience in &lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt;. Which is an open-source community. I will specifically tell you about my journey, and probably everything that happened to me in the first two weeks.&lt;/p&gt;
 
 </description>
 				
@@ -23,7 +49,7 @@
 				<title>A Road Ahead!</title>
 				        
 				
-					<description>&lt;p&gt;Hello, people.So this is probably my first blog ever! And, I will be writing here about all the cool stuff on which i’m working on.&lt;/p&gt;
+					<description>&lt;p&gt;Hello, people. So this is probably my first blog ever! And, I will be writing here about all the cool stuff on which I’m working on.&lt;/p&gt;
 
 </description>
 				
