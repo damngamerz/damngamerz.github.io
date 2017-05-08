@@ -12,6 +12,25 @@
 				
 					<description>&lt;p&gt;The day for which I had waited so long has finally come. My project with coala has been accepted. Hooray!!! This probably is my biggest life achievement so far and I’m so happy from inside that there are butterflies fluttering in my stomach :P&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/gsoc_mail.png&quot; alt=&quot;My Project Proposals&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The project I got accepted is named as Documentation Extraction and Parsing. This project is all about developing an analyzing routine at least for python and java that will find all documentation strings in a file, parse them into specific groups and check them against a specified documentation style given by the user.&lt;/p&gt;
+
+&lt;p&gt;Right now the period is called Community Bonding, and lasts until 30th of May, after which the actual work starts. This is the time when students and mentors get to know each other and talk about implementing the project. Also play a bit of factorio together :P&lt;/p&gt;
+
+&lt;h3 id=&quot;its-going-to-be-hard&quot;&gt;It’s going to be hard&lt;/h3&gt;
+
+&lt;p&gt;Till now I was only working on college projects and came onto open-source projects from last october. wheareas I started with coala in January’s end. This was the hardest time I had spent in the entire course of my engineering and was incredibly fruitful. I feel like this project is going to be a real-challenge, to which I m planning to work hard on.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h3&gt;
+
+&lt;p&gt;This month will be a challenge to me as I have my ongoing final exams till 16th of May. Yes, it’s going to be hell hard. But nothing comes easy on your plate, does it?&lt;/p&gt;
+
+&lt;h3 id=&quot;thanks-people&quot;&gt;Thanks! people!&lt;/h3&gt;
+
+&lt;p&gt;This blog post was intended to thank everyone involved. Special thanks goes to &lt;a href=&quot;https://github.com/SanketDG&quot;&gt;Sanket Dasgupta&lt;/a&gt; and other mentors from coala. Also credit is all yours &lt;a href=&quot;https://github.com/vVv-AA&quot;&gt;Jasmin Patel&lt;/a&gt; for encouraging me in the initial phase :) With the help of these amazing people, I was able to achieve something I never thought I would.&lt;/p&gt;
+
+&lt;p&gt;Every weekend from now onwards I will write about my ongoing work. Till my next post See yaa!!&lt;/p&gt;
 </description>
 				
 				<pubDate>Sat, 06 May 2017 00:00:00 +0530</pubDate>
@@ -25,6 +44,21 @@
 				
 					<description>&lt;p&gt;It’s been a while since my last blog. So, this blog is all about my goals towards this year’s awesome summer. Let’s directly come to the point. Guys, I’m participating in Google Summer of Code 2017 (GSoC-2017). I will tell you more about my proposals, meanwhile lets get familiar with some pre-requisites.&lt;/p&gt;
 
+&lt;h3 id=&quot;what-gsoc-is-about&quot;&gt;What GSoC is about?&lt;/h3&gt;
+
+&lt;p&gt;The Google Summer of Code, often abbreviated to GSoC, is an international annual program, in which Google awards stipends, to all students who successfully complete a requested free and open-source software coding project during the summer. It is focused on bringing more student developers into open source software development. Students work with an open source organization on a 3 month programming project during their break from college.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-project-proposals&quot;&gt;My Project Proposals&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/my_proposal.png&quot; alt=&quot;My Project Proposals&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Anyways, The student application window is open. And Im really excited about participating in it. So here’s the deal. Im applying for 2 project proposals:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Documentation Extraction and Parsing&lt;/strong&gt;: Well this project is all about developing an analyzing routine at least for python and java that will find all documentation strings in a file, parse them into specific groups and check them against a specified documentation style given by the user. For more specific info look at my &lt;a href=&quot;https://drive.google.com/open?id=0B2ZlhOHwaV58Tmhva09ua3FRNzQ&quot;&gt;proposal&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Handle Nested Programming Language&lt;/strong&gt;: This one will help coala and its users by having analyzing routines over nested languages (eg. a html file can have php in it, such as inside a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;code-block&amp;gt;&lt;/code&gt;). For more specific look at this one’s &lt;a href=&quot;https://drive.google.com/open?id=0B2ZlhOHwaV58YW5acDJKLWkxMDA&quot;&gt;proposal&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That’s it guys!! I will be writting my next blog ahh not soon enough :( busy in projects and assignments, but you can surely expect one after the results of GSoC 2017 being declared. Till then see yaa next time :)&lt;/p&gt;
 </description>
 				
 				<pubDate>Tue, 28 Mar 2017 00:00:00 +0530</pubDate>
@@ -38,6 +72,34 @@
 				
 					<description>&lt;p&gt;Hello people, So it’s been a week and as promised, I’m going to tell you about my experience in &lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt;. Which is an open-source community. I will specifically tell you about my journey, and probably everything that happened to me in the first two weeks.&lt;/p&gt;
 
+&lt;h3 id=&quot;what-coala-is-about&quot;&gt;What coala is about?&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt; written with small &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt;, stands for “COde AnaLysis Application”. As it’s name suggests, coala is a static code analysis software that empowers developers to create rules which a project’s code should conform to. coala takes care of showing these issues to users in a friendly manner, is versatile and can be used in any environment. It also show’s Patches in a friendly manner which can fix your code according to the specified rules.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-i-chose-coala-for-open-source-contribution&quot;&gt;Why I chose coala for open-source contribution?&lt;/h3&gt;
+
+&lt;p&gt;The answer is very simple, it’s written in python. And out of the blue box this project came to me while I was surfing on the Internet.&lt;/p&gt;
+
+&lt;h3 id=&quot;about-my-first-2-weeks-after-joining-the-community&quot;&gt;About my first 2 weeks after joining the community.&lt;/h3&gt;
+
+&lt;p&gt;So, we have a newcomers guide, which every newcomer has to follow. The very first step in the guide was to introduce yourself on the gitter channel. We have a secret code-word for all newcomers, “Hello World”. So I just pinged on the channel and soon I got an invitation to the organisation. The guide is very helpful towards newcomers. It’s a complete guide which will land you to get your first Pull Request(PR) merged. The newcomers issues are very simple. Can vary from correcting a typo, removing a line or fixing some simple stuff.&lt;/p&gt;
+
+&lt;p&gt;This community has a workflow that on each issue only an individual who is assigned to it, can work for it. So my first task was to get myself assigned to a newcomer’s issue. Well in coala most of the things are automated. So, for issue assignment we have a gitter &lt;code class=&quot;highlighter-rouge&quot;&gt;cobot&lt;/code&gt; (coala bot) with which you can easily assign yourself to any issue with a single command. Soon after I got myself assigned to one, I started working on my first patch. It was about removing deprecated &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;center&amp;gt;&lt;/code&gt; tags from their “projects” website. Well that was pretty easy isn’t it? Yes, so I finished making my PR in about 10-15 mins. Just Wait a sec! the work doesn’t get’s over yet!!. We have some specific rules before a PR is merged into the code-base. After submitting your PR you have to wait for a review from any existing member of a community. Which I feel is the best thing in this community, anyone can review anyone’s PR. By reviewing we can even learn more about someone’s work. This even embraces our own coding knowledge. I totally love reviewing other’s work by this you can actually learn more about coding style. So, soon my pending PR got reviewed and BAAM! in 2 days my first patch got merged into coala’s code-base.&lt;/p&gt;
+
+&lt;p&gt;After this I took 2-3 more issues. And on the end of my second week I got promoted to a core-dev &lt;a href=&quot;http://www.coala.io/&quot;&gt;@coala&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/developer_result.jpg&quot; alt=&quot;Developer Result&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to all the maintainer’s and my fellow dev’s &lt;a href=&quot;http://www.coala.io/&quot;&gt;@coala&lt;/a&gt;. Special Thanks to &lt;a href=&quot;https://github.com/sils&quot;&gt;@sils&lt;/a&gt;,&lt;a href=&quot;https://github.com/Makman2&quot;&gt;@Makman2&lt;/a&gt;,&lt;a href=&quot;https://github.com/jayvdb&quot;&gt;@jayvdb&lt;/a&gt;,&lt;a href=&quot;https://github.com/SanketDG&quot;&gt;@SanketDG&lt;/a&gt; and &lt;a href=&quot;https://github.com/Mixih&quot;&gt;@mixih&lt;/a&gt; for giving me an initial boost.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-3-things-i-learned&quot;&gt;The 3 Things I Learned&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;The first and the most exciting thing I learned after joining coala was, getting to know people and about their work. It’s really fascinating how much these people invest their time in open-source project. And at last it’s all worth it. Every single bit of it. I can actually tell you that, after experiencing it myself. The feel about how your work can make a difference in million’s of peoples lives, is enough to get yourself motivated.&lt;/li&gt;
+  &lt;li&gt;Second thing I learned was, whenever you got yourself stuck at some point while working on an issue. Don’t directly ask for it in the channel without doing some prior research on it. In my opinion this actually wastes a lot of time even for you and also for the person who is answering it. Doing some prior research can actually help you to support your case well, you can elaborate the cause well by saying that, “I have tried these all things but still this isn’t working for me”.&lt;/li&gt;
+  &lt;li&gt;Third and the last thing which I learned was about reviewing. Doing patches solving issues, isn’t the only way to contribute in an organisation. Reviewing is also one of the most important aspect. By reviewing you can actually learn about how a code can be written in more than one way. Sometimes, you can even get you hands on small tricks, when applied can actually make your code much more efficient than before.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So, this was all about my first few weeks experience in coala. For more, Stay Tuned! And Start Contributing :)&lt;/p&gt;
 </description>
 				
 				<pubDate>Tue, 07 Mar 2017 00:00:00 +0530</pubDate>
@@ -51,6 +113,33 @@
 				
 					<description>&lt;p&gt;Hello, people. So this is probably my first blog ever! And, I will be writing here about all the cool stuff on which I’m working on.&lt;/p&gt;
 
+&lt;h3 id=&quot;a-road-ahead&quot;&gt;A Road Ahead&lt;/h3&gt;
+
+&lt;p&gt;So the name itself justifies i’m going on a road, a journey. Any Guesses? Well, My journey has already begun in the last week of January 2017.And it’s about joining an open-source community. So, it has been 3 weeks for me and in this blog I will be explaining about how anyone can start contributing to an open-source environment. By giving a gist of my experience I hope you will also make your mind in taking your first step towards the open-source world. But first we need some prerequisites.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-an-open-source-anyway-&quot;&gt;What’s an open-source anyway ?&lt;/h3&gt;
+
+&lt;p&gt;In a simple way, open-source Applications/softwares are free softwares for which the original source code is made freely available and may be redistributed and modified. So, anyone can use open-source software for free, for forever…&lt;/p&gt;
+
+&lt;h3 id=&quot;why-should-i-do-open-source-contribution-&quot;&gt;Why should I do open-source contribution ?&lt;/h3&gt;
+
+&lt;p&gt;According to me to learn any specific language suppose &lt;code class=&quot;highlighter-rouge&quot;&gt;C Language&lt;/code&gt;. The best way to dive into something is to do a project on it. That’s why I suggest you to join open-source.&lt;/p&gt;
+
+&lt;p&gt;Now, talkin about my experience when my first ever patch got merged into main code-base. The, feeling which i got was immensely great. It wasn’t about “my patch got accepted yay!” But the feeling was more about ,”Now my patch will help million’s of world wide user’s. They will be using my work in their daily life”. And at the end it will be worth while your time. I can surely asure you that.&lt;/p&gt;
+
+&lt;h3 id=&quot;which-open-source-project-should-i-choose-how-i-can-get-started-&quot;&gt;Which open-source project should I choose? How I can get started ?&lt;/h3&gt;
+
+&lt;p&gt;This question is trivial. I really think that one should always follow it’s instincts. So, go ahead choose what interests you the most. There are many great projects but i would personally recommend you to start working on small projects then go towards big sheeps.&lt;/p&gt;
+
+&lt;h3 id=&quot;do-i-need-any-prerequisites-&quot;&gt;Do I need any prerequisites ?&lt;/h3&gt;
+
+&lt;p&gt;That depend’s on how you want to work on the project. You can either hack the core of the language first or Directly go on with the flow. The second option is mostly choosed over the first. Even I’m learning with the flow!!, but contributing towards open-source projects requires hell lot of a patience. Which I think once you get started, you will get a hang of it!&lt;/p&gt;
+
+&lt;p&gt;So, those are the most basic questions which I find people asking around. And Now I will be sharing with you, which open-source project I have choosen and why.&lt;/p&gt;
+
+&lt;p&gt;This all started when I came across python in the 1st week of january 2017. And I found it very interesting towards it’s simplicity, working with lists, so many ready-mate packages, &lt;code class=&quot;highlighter-rouge&quot;&gt;NumPy&lt;/code&gt; which made N-dimentional array object’s a child’s play and so-on. So, I decided to choose this language, and wanted to do a project on it. Literally I knew nothing about which project I’m gonna choose? So out of the blue box while surfing on the internet, I came across this wonderful project called &lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt;, which basically does static code-analysis. This project in itself is very awesome. I would like to tell you more about it! But you have to wait till next week.&lt;/p&gt;
+
+&lt;p&gt;That’s it folks! Hope you like my first blog.&lt;/p&gt;
 </description>
 				
 				<pubDate>Mon, 27 Feb 2017 00:00:00 +0530</pubDate>
