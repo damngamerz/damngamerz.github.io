@@ -12,7 +12,7 @@
 				
 					<description>&lt;p&gt;The day for which I had waited so long has finally come. My project with coala has been accepted. Hooray!!! This probably is my biggest life achievement so far and I’m so happy from inside that there are butterflies fluttering in my stomach :P&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/gsoc_mail.png&quot; alt=&quot;My Project Proposals&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/gsoc_mail.png&quot; alt=&quot;GSoC Mail&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The project I got accepted is named as Documentation Extraction and Parsing. This project is all about developing an analyzing routine at least for python and java that will find all documentation strings in a file, parse them into specific groups and check them against a specified documentation style given by the user.&lt;/p&gt;
 
@@ -55,7 +55,7 @@
 &lt;p&gt;Anyways, The student application window is open. And Im really excited about participating in it. So here’s the deal. Im applying for 2 project proposals:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;&lt;strong&gt;Documentation Extraction and Parsing&lt;/strong&gt;: Well this project is all about developing an analyzing routine at least for python and java that will find all documentation strings in a file, parse them into specific groups and check them against a specified documentation style given by the user. For more specific info look at my &lt;a href=&quot;https://drive.google.com/open?id=0B2ZlhOHwaV58Tmhva09ua3FRNzQ&quot;&gt;proposal&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Handle Nested Programming Language&lt;/strong&gt;: This one will help coala and its users by having analyzing routines over nested languages (eg. a html file can have php in it, such as inside a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;code-block&amp;gt;&lt;/code&gt;). For more specific look at this one’s &lt;a href=&quot;https://drive.google.com/open?id=0B2ZlhOHwaV58YW5acDJKLWkxMDA&quot;&gt;proposal&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Handle Nested Programming Language&lt;/strong&gt;: This one will help coala and its users by having analyzing routines over nested languages (eg. a html file can have php in it, such as inside a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;code-block&amp;gt;&lt;/code&gt;). For more specific info look at my &lt;a href=&quot;https://drive.google.com/open?id=0B2ZlhOHwaV58YW5acDJKLWkxMDA&quot;&gt;proposal&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;That’s it guys!! I will be writting my next blog ahh not soon enough :( busy in projects and assignments, but you can surely expect one after the results of GSoC 2017 being declared. Till then see yaa next time :)&lt;/p&gt;
@@ -115,27 +115,27 @@
 
 &lt;h3 id=&quot;a-road-ahead&quot;&gt;A Road Ahead&lt;/h3&gt;
 
-&lt;p&gt;So the name itself justifies i’m going on a road, a journey. Any Guesses? Well, My journey has already begun in the last week of January 2017.And it’s about joining an open-source community. So, it has been 3 weeks for me and in this blog I will be explaining about how anyone can start contributing to an open-source environment. By giving a gist of my experience I hope you will also make your mind in taking your first step towards the open-source world. But first we need some prerequisites.&lt;/p&gt;
+&lt;p&gt;So the name itself justifies I’m going on a road, a journey. Any Guesses? Well, My journey has already begun in the last week of January 2017. And it’s about joining an open-source community. So, it has been 3 weeks for me and in this blog I will be explaining about how anyone can start contributing to an open-source environment. By giving a gist of my experience I hope you will also make your mind in taking your first step towards the open-source world. But first we need some prerequisites.&lt;/p&gt;
 
 &lt;h3 id=&quot;whats-an-open-source-anyway-&quot;&gt;What’s an open-source anyway ?&lt;/h3&gt;
 
-&lt;p&gt;In a simple way, open-source Applications/softwares are free softwares for which the original source code is made freely available and may be redistributed and modified. So, anyone can use open-source software for free, for forever…&lt;/p&gt;
+&lt;p&gt;In a simple way, open-source Applications/Softwares are free softwares for which the original source code is made freely available and may be redistributed and modified. So, anyone can use open-source software for free, for forever…&lt;/p&gt;
 
 &lt;h3 id=&quot;why-should-i-do-open-source-contribution-&quot;&gt;Why should I do open-source contribution ?&lt;/h3&gt;
 
 &lt;p&gt;According to me to learn any specific language suppose &lt;code class=&quot;highlighter-rouge&quot;&gt;C Language&lt;/code&gt;. The best way to dive into something is to do a project on it. That’s why I suggest you to join open-source.&lt;/p&gt;
 
-&lt;p&gt;Now, talkin about my experience when my first ever patch got merged into main code-base. The, feeling which i got was immensely great. It wasn’t about “my patch got accepted yay!” But the feeling was more about ,”Now my patch will help million’s of world wide user’s. They will be using my work in their daily life”. And at the end it will be worth while your time. I can surely asure you that.&lt;/p&gt;
+&lt;p&gt;Now, talkin about my experience when my first ever patch got merged into main code-base. The, feeling which I got was immensely great. It wasn’t about “my patch got accepted yay!” But the feeling was more about ,”Now my patch will help million’s of world wide user’s. They will be using my work in their daily life”. And at the end it will be worth while your time. I can surely asure you that.&lt;/p&gt;
 
-&lt;h3 id=&quot;which-open-source-project-should-i-choose-how-i-can-get-started-&quot;&gt;Which open-source project should I choose? How I can get started ?&lt;/h3&gt;
+&lt;h3 id=&quot;which-open-source-project-should-i-choose-how-can-i-get-started-&quot;&gt;Which open-source project should I choose? How can I get started ?&lt;/h3&gt;
 
-&lt;p&gt;This question is trivial. I really think that one should always follow it’s instincts. So, go ahead choose what interests you the most. There are many great projects but i would personally recommend you to start working on small projects then go towards big sheeps.&lt;/p&gt;
+&lt;p&gt;This question is trivial. I really think that one should always follow his instincts. So, go ahead choose what interests you the most. There are many great projects but I would personally recommend you to start working on small projects then go towards big sheeps.&lt;/p&gt;
 
 &lt;h3 id=&quot;do-i-need-any-prerequisites-&quot;&gt;Do I need any prerequisites ?&lt;/h3&gt;
 
-&lt;p&gt;That depend’s on how you want to work on the project. You can either hack the core of the language first or Directly go on with the flow. The second option is mostly choosed over the first. Even I’m learning with the flow!!, but contributing towards open-source projects requires hell lot of a patience. Which I think once you get started, you will get a hang of it!&lt;/p&gt;
+&lt;p&gt;That depend’s on how you want to work on the project. You can either hack the core of the language first or directly go on with the flow. The second option is mostly choosed over the first. Even I’m learning with the flow!!, but contributing towards open-source projects requires hell lot of a patience. Which I think once you get started, you will get a hang of it!&lt;/p&gt;
 
-&lt;p&gt;So, those are the most basic questions which I find people asking around. And Now I will be sharing with you, which open-source project I have choosen and why.&lt;/p&gt;
+&lt;p&gt;So, those are the most basic questions which I find people asking around. And now I will be sharing with you, which open-source project I have choosen and why.&lt;/p&gt;
 
 &lt;p&gt;This all started when I came across python in the 1st week of january 2017. And I found it very interesting towards it’s simplicity, working with lists, so many ready-mate packages, &lt;code class=&quot;highlighter-rouge&quot;&gt;NumPy&lt;/code&gt; which made N-dimentional array object’s a child’s play and so-on. So, I decided to choose this language, and wanted to do a project on it. Literally I knew nothing about which project I’m gonna choose? So out of the blue box while surfing on the internet, I came across this wonderful project called &lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt;, which basically does static code-analysis. This project in itself is very awesome. I would like to tell you more about it! But you have to wait till next week.&lt;/p&gt;
 

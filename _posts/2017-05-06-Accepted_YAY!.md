@@ -12,7 +12,7 @@ image:
 
 The day for which I had waited so long has finally come. My project with coala has been accepted. Hooray!!! This probably is my biggest life achievement so far and I'm so happy from inside that there are butterflies fluttering in my stomach :P
 
-![My Project Proposals]({{ site.url }}/images/gsoc_mail.png)
+![GSoC Mail]({{ site.url }}/images/gsoc_mail.png)
 
 The project I got accepted is named as Documentation Extraction and Parsing. This project is all about developing an analyzing routine at least for python and java that will find all documentation strings in a file, parse them into specific groups and check them against a specified documentation style given by the user.
 
