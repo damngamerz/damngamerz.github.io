@@ -5,7 +5,7 @@
 
   <title>
     
-      A Road Ahead! | Saurav Singh
+      First Week GSoC'17 | Saurav Singh
     
   </title>
 
@@ -68,56 +68,76 @@
 
     <div class="post-container">
       <h1>
-  A Road Ahead!
+  First Week GSoC'17
 </h1>
 
 
-  <img src="https://damngamerz.github.io/images/bag.jpg">
+  <img src="https://damngamerz.github.io/images/1stweek.jpg">
 
 
-<p>Hello, people. So this is probably my first blog ever! And, I will be writing here about all the cool stuff on which I’m working on.</p>
+<p>Hey people!! This is the end of my first week at GSoC’2017 (Google Summer of Code). The programme kicks off with the start of community bonding. Which is probably the period where students and mentors break the ice between them. So, I will be summarizing what all has been done till now, and what lies on the road ahead. In this blog Im gonna explain about my project in little more detail, followed by my objective for the upcoming week. This is gonna be a lengthy one so hold on tight!!</p>
 
-<h3 id="a-road-ahead">A Road Ahead</h3>
+<h3 id="whats-my-project-about">What’s my project about?</h3>
+<p>I have already been through with the description of my project twice, in my previous blogs. So rather than repeating the same Im gonna explain you in a bit detail what exactly my project will be acheiving after it’s completion. So my project deals with the documentation of different languages</p>
 
-<p>So the name itself justifies I’m going on a road, a journey. Any Guesses? Well, My journey has already begun in the last week of January 2017. And it’s about joining an open-source community. So, it has been 3 weeks for me and in this blog I will be explaining about how anyone can start contributing to an open-source environment. By giving a gist of my experience I hope you will also make your mind in taking your first step towards the open-source world. But first we need some prerequisites.</p>
+<p>For java, the idea for the docstyle to be followed is defined <a href="http://www.oracle.com/technetwork/articles/java/index-137868.html">here</a>. In general it will look like:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>/**
+ * &lt;main_description&gt;
+ *
+ * @param &lt;param_name&gt; &lt;param_description&gt;
+ * @return             &lt;return_description&gt;
+ */
+</code></pre>
+</div>
+<p>Similarly for python, the idea for the docstring to be followed is defined in <a href="https://www.python.org/dev/peps/pep-0257/">PEP-257</a>. And this looks like:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>"""
+&lt;main_description&gt;
 
-<h3 id="whats-an-open-source-anyway-">What’s an open-source anyway ?</h3>
+:param &lt;param_name&gt;:
+    &lt;param_description&gt;
+:return:
+    &lt;return_description&gt;
+"""
+</code></pre>
+</div>
 
-<p>In a simple way, open-source Applications/Softwares are free softwares for which the original source code is made freely available and may be redistributed and modified. So, anyone can use open-source software for free, for forever…</p>
+<p>So, I have to basically design an efficient API and later DocStyleBear &amp; DocGrammarBear(using the API), which will contain analyzing routines over the documentation of python and java files according to the above defined format.</p>
 
-<h3 id="why-should-i-do-open-source-contribution-">Why should I do open-source contribution ?</h3>
+<h3 id="how-did-the-1st-week-go">How did the 1st week go?</h3>
+<p>Start of the week was full of joyness and excitement among all of the selected students. Which is because most of the bachelors (including me) are having first time experience as an intern and we are very much excited to begin our work. So we started our bonding period with a nice chat, setting everything up. Everything is going as smooth as it can ever be. We discussed about what all has to be done in the recent upcoming days, and what all will be done for the big picture. SO! LET’S ROLLLL!!</p>
 
-<p>According to me to learn any specific language suppose <code class="highlighter-rouge">C Language</code>. The best way to dive into something is to do a project on it. That’s why I suggest you to join open-source.</p>
+<p>My first task was to create a detailed schedule over gitlab. We have done this through creating milestones according to official <a href="https://developers.google.com/open-source/gsoc/timeline">GSoC Timeline</a>. Which are as follows:</p>
 
-<p>Now, talkin about my experience when my first ever patch got merged into main code-base. The, feeling which I got was immensely great. It wasn’t about “my patch got accepted yay!” But the feeling was more about ,”Now my patch will help million’s of world wide user’s. They will be using my work in their daily life”. And at the end it will be worth while your time. I can surely asure you that.</p>
+<p>Objectives:</p>
+<ul>
+  <li><a href="https://gitlab.com/coala/GSoC-2017/milestones/4">BONDING PERIOD</a></li>
+  <li><a href="https://gitlab.com/coala/GSoC-2017/milestones/5">CODING PHASE-1</a></li>
+  <li><a href="https://gitlab.com/coala/GSoC-2017/milestones/10">CODING PHASE-2</a></li>
+  <li><a href="https://gitlab.com/coala/GSoC-2017/milestones/11">CODING PHASE-3</a></li>
+</ul>
 
-<h3 id="which-open-source-project-should-i-choose-how-can-i-get-started-">Which open-source project should I choose? How can I get started ?</h3>
+<p>Second, was to introduce myself to the whole community on the coala-dev &amp; coala-newcomers mailing lists.</p>
 
-<p>This question is trivial. I really think that one should always follow his instincts. So, go ahead choose what interests you the most. There are many great projects but I would personally recommend you to start working on small projects then go towards big sheeps.</p>
+<p>And Final, was that I have get my feed.xml for this blog-page to be aggregated with <a href="http://blog.coala.io/">blog.coala.io</a>. You guys can now also access my blogs @coala’s official <a href="http://blog.coala.io/">blog-page</a>.</p>
 
-<h3 id="do-i-need-any-prerequisites-">Do I need any prerequisites ?</h3>
+<h3 id="whats-for-the-upcoming-week">What’s for the upcoming week?</h3>
+<p>Finally my exams are over and summer vacation has begun. Now I can devote my full time to this project. So probably Im gonna start completing my BONDING PERIOD: Milestones. Which right now has 4 issues. Also, I will be diving deep into the coala’s codebase to understand its voodoo, and will be writing about it’s working in the near future.</p>
 
-<p>That depend’s on how you want to work on the project. You can either hack the core of the language first or directly go on with the flow. The second option is mostly choosed over the first. Even I’m learning with the flow!!, but contributing towards open-source projects requires hell lot of a patience. Which I think once you get started, you will get a hang of it!</p>
-
-<p>So, those are the most basic questions which I find people asking around. And now I will be sharing with you, which open-source project I have choosen and why.</p>
-
-<p>This all started when I came across python in the 1st week of january 2017. And I found it very interesting towards it’s simplicity, working with lists, so many ready-mate packages, <code class="highlighter-rouge">NumPy</code> which made N-dimentional array object’s a child’s play and so-on. So, I decided to choose this language, and wanted to do a project on it. Literally I knew nothing about which project I’m gonna choose? So out of the blue box while surfing on the internet, I came across this wonderful project called <code class="highlighter-rouge">coala</code>, which basically does static code-analysis. This project in itself is very awesome. I would like to tell you more about it! But you have to wait till next week.</p>
-
-<p>That’s it folks! Hope you like my first blog.</p>
+<p>That’s it for this week folks!! See yaa!!</p>
 
 <span class="post-date">
   Written on
   
-  February
-  27th,
+  May
+  17th,
   2017
   by Saurav Singh
 </span>
 <div class="post-date">Feel free to share!</div>
   <div class="sharing-icons">
-    <a href="https://twitter.com/intent/tweet?text=A Road Ahead!&amp;url=https://damngamerz.github.io/journal/A-Road-Ahead.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/journal/A-Road-Ahead.html&amp;title=A Road Ahead!" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/journal/A-Road-Ahead.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/intent/tweet?text=First Week GSoC'17&amp;url=https://damngamerz.github.io/gsoc/First-Week-GSoC'17.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/gsoc/First-Week-GSoC'17.html&amp;title=First Week GSoC'17" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/gsoc/First-Week-GSoC'17.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -128,16 +148,6 @@
     
       
         
-          <li>
-            <h3>
-              <a href="https://damngamerz.github.io/gsoc/First-Week-GSoC'17.html">
-                First Week GSoC'17
-                <!--<img src="http://localhost:4000/images/1stweek-teaser.jpg">-->
-                <!--<small>May 17, 2017</small>-->
-              </a>
-            </h3>
-          </li>
-          
         
       
         
@@ -164,6 +174,28 @@
             </h3>
           </li>
           
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
         
       
     

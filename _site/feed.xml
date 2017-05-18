@@ -7,6 +7,66 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>First Week GSoC'17</title>
+				        
+				
+					<description>&lt;p&gt;Hey people!! This is the end of my first week at GSoC’2017 (Google Summer of Code). The programme kicks off with the start of community bonding. Which is probably the period where students and mentors break the ice between them. So, I will be summarizing what all has been done till now, and what lies on the road ahead. In this blog Im gonna explain about my project in little more detail, followed by my objective for the upcoming week. This is gonna be a lengthy one so hold on tight!!&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-my-project-about&quot;&gt;What’s my project about?&lt;/h3&gt;
+&lt;p&gt;I have already been through with the description of my project twice, in my previous blogs. So rather than repeating the same Im gonna explain you in a bit detail what exactly my project will be acheiving after it’s completion. So my project deals with the documentation of different languages&lt;/p&gt;
+
+&lt;p&gt;For java, the idea for the docstyle to be followed is defined &lt;a href=&quot;http://www.oracle.com/technetwork/articles/java/index-137868.html&quot;&gt;here&lt;/a&gt;. In general it will look like:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/**
+ * &amp;lt;main_description&amp;gt;
+ *
+ * @param &amp;lt;param_name&amp;gt; &amp;lt;param_description&amp;gt;
+ * @return             &amp;lt;return_description&amp;gt;
+ */
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Similarly for python, the idea for the docstring to be followed is defined in &lt;a href=&quot;https://www.python.org/dev/peps/pep-0257/&quot;&gt;PEP-257&lt;/a&gt;. And this looks like:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;&quot;&quot;
+&amp;lt;main_description&amp;gt;
+
+:param &amp;lt;param_name&amp;gt;:
+    &amp;lt;param_description&amp;gt;
+:return:
+    &amp;lt;return_description&amp;gt;
+&quot;&quot;&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;So, I have to basically design an efficient API and later DocStyleBear &amp;amp; DocGrammarBear(using the API), which will contain analyzing routines over the documentation of python and java files according to the above defined format.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-did-the-1st-week-go&quot;&gt;How did the 1st week go?&lt;/h3&gt;
+&lt;p&gt;Start of the week was full of joyness and excitement among all of the selected students. Which is because most of the bachelors (including me) are having first time experience as an intern and we are very much excited to begin our work. So we started our bonding period with a nice chat, setting everything up. Everything is going as smooth as it can ever be. We discussed about what all has to be done in the recent upcoming days, and what all will be done for the big picture. SO! LET’S ROLLLL!!&lt;/p&gt;
+
+&lt;p&gt;My first task was to create a detailed schedule over gitlab. We have done this through creating milestones according to official &lt;a href=&quot;https://developers.google.com/open-source/gsoc/timeline&quot;&gt;GSoC Timeline&lt;/a&gt;. Which are as follows:&lt;/p&gt;
+
+&lt;p&gt;Objectives:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/4&quot;&gt;BONDING PERIOD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/5&quot;&gt;CODING PHASE-1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/10&quot;&gt;CODING PHASE-2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/11&quot;&gt;CODING PHASE-3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Second, was to introduce myself to the whole community on the coala-dev &amp;amp; coala-newcomers mailing lists.&lt;/p&gt;
+
+&lt;p&gt;And Final, was that I have get my feed.xml for this blog-page to be aggregated with &lt;a href=&quot;http://blog.coala.io/&quot;&gt;blog.coala.io&lt;/a&gt;. You guys can now also access my blogs @coala’s official &lt;a href=&quot;http://blog.coala.io/&quot;&gt;blog-page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-for-the-upcoming-week&quot;&gt;What’s for the upcoming week?&lt;/h3&gt;
+&lt;p&gt;Finally my exams are over and summer vacation has begun. Now I can devote my full time to this project. So probably Im gonna start completing my BONDING PERIOD: Milestones. Which right now has 4 issues. Also, I will be diving deep into the coala’s codebase to understand its voodoo, and will be writing about it’s working in the near future.&lt;/p&gt;
+
+&lt;p&gt;That’s it for this week folks!! See yaa!!&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 17 May 2017 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/gsoc/First-Week-GSoC'17.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/First-Week-GSoC'17.html</guid>
+			</item>
+		
+			<item>
 				<title>Accepted YAY!</title>
 				        
 				
