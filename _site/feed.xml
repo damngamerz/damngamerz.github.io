@@ -7,6 +7,67 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>An Insight Into coala's Structure</title>
+				        
+				
+					<description>&lt;p&gt;Hi Guys!! Its been a long since my last post. This blog post is intended for all newcomer’s who would like to contribute to coala. So, I will give you an insight into coala’s Structure in a bit detail to actually get you started.&lt;/p&gt;
+
+&lt;h2 id=&quot;an-insight-into-coalas-structure&quot;&gt;An Insight Into coala’s Structure.&lt;/h2&gt;
+&lt;p&gt;coala’s code base can be found here at &lt;a href=&quot;https://github.com/coala/coala&quot;&gt;github&lt;/a&gt;. It’s directory tree looks like:
+&lt;img src=&quot;http://localhost:4000/images/coala_tree.png&quot; alt=&quot;coala's tree&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see, this tree has 3 major parts.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;coalib&lt;/strong&gt;: Which is the homeground of coala API. This is the place where most of the important technical aspects goes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;docs&lt;/strong&gt;: Contains generated documention of coala API, which is built and beautifully displayed over &lt;a href=&quot;http://api.coala.io&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;api.coala.io&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;tests&lt;/strong&gt;: Contains all the test files over coalib directory.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Since, &lt;code class=&quot;highlighter-rouge&quot;&gt;docs&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;tests&lt;/code&gt; are established over &lt;code class=&quot;highlighter-rouge&quot;&gt;coalib&lt;/code&gt;, so &lt;code class=&quot;highlighter-rouge&quot;&gt;coalib&lt;/code&gt; is the star directory. And hence, I would be only explaining about it.&lt;/p&gt;
+
+&lt;h2 id=&quot;coalib&quot;&gt;coalib&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;coalib&lt;/code&gt; is the collection of various subpackages regarding writing, executing, editing bears, formatting, settings and much more. So let’s dig in boys!!&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;coalib&lt;/code&gt; is further divided into 11 parts:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;bearlib&lt;/strong&gt;: Which contains bear utilities, &lt;code class=&quot;highlighter-rouge&quot;&gt;aspects&lt;/code&gt;’s API, &lt;code class=&quot;highlighter-rouge&quot;&gt;abstractions&lt;/code&gt; like linter bears and also &lt;code class=&quot;highlighter-rouge&quot;&gt;languages&lt;/code&gt; which contains various language definitions(such as identifying different languages with their versions) to provide unified language experience to coala.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bears&lt;/strong&gt;: Provides the base bear class i.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;LocalBear&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;GlobalBear&lt;/code&gt;. Without which bears that exists in coala-bears &lt;a href=&quot;https://github.com/coala/coala-bears&quot;&gt;repo&lt;/a&gt; wouldn’t exist.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;collecting&lt;/strong&gt;: provides collector routines which collects all bears, dependencies and file directories for coala. The collection works on the basis of 2 factors inputs provided at &lt;code class=&quot;highlighter-rouge&quot;&gt;CLI&lt;/code&gt; and at &lt;code class=&quot;highlighter-rouge&quot;&gt;.coafile&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;core&lt;/code&gt; module contains the chronological order about what coala has to do with a bear. It takes care of all the step’s involved(like having a complete schedule), when a bear runs over a given file.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;misc&lt;/strong&gt;: Provides all the other utilities like &lt;code class=&quot;highlighter-rouge&quot;&gt;cachingUtilities&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;DictUtilities&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;BuildManPage&lt;/code&gt; module and &lt;code class=&quot;highlighter-rouge&quot;&gt;Shell&lt;/code&gt; module. &lt;code class=&quot;highlighter-rouge&quot;&gt;Shell&lt;/code&gt; module is the important aspect here, as it helps coala to run in an interactive shell mode.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;output&lt;/strong&gt;: Provides the API for making coala interactive with its users via &lt;code class=&quot;highlighter-rouge&quot;&gt;CLI&lt;/code&gt;. The &lt;code class=&quot;highlighter-rouge&quot;&gt;ConsoleInteraction&lt;/code&gt; module provides the utilities about user provided &lt;code class=&quot;highlighter-rouge&quot;&gt;Actions&lt;/code&gt; like &lt;code class=&quot;highlighter-rouge&quot;&gt;Show_Patch&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Apply_Patch&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Ignore_Patch&lt;/code&gt;..etc. It acts as a mediator between coala and the user, helps coala in providing the user important information by printing generated diff’s, messages, list of bears..etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;parsing&lt;/strong&gt;: The name itself suggests this is the &lt;code class=&quot;highlighter-rouge&quot;&gt;parsing&lt;/code&gt; module. It contains all the routines about parsing important information from a string of characters. Most of them support regex pattern matching. For example: Parsing &lt;code class=&quot;highlighter-rouge&quot;&gt;CLI&lt;/code&gt; arguments and creating sections out of it.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;processes&lt;/strong&gt;: Provides the processing utilities and routines which takes decisive actions when a bear is in running state. It has routines which works like a control centre for processes. It takes care of process execution’s tasks such as:
+    &lt;ul&gt;
+      &lt;li&gt;preparing a process -&amp;gt; loading files -&amp;gt; creating queues&lt;/li&gt;
+      &lt;li&gt;spawn up one or more processes&lt;/li&gt;
+      &lt;li&gt;yielding results from the processes&lt;/li&gt;
+      &lt;li&gt;finally joining all the processes&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;results&lt;/strong&gt;: This section works closely with the &lt;code class=&quot;highlighter-rouge&quot;&gt;output&lt;/code&gt; section. &lt;code class=&quot;highlighter-rouge&quot;&gt;results&lt;/code&gt; provides routines like &lt;code class=&quot;highlighter-rouge&quot;&gt;Diff&lt;/code&gt; module, &lt;code class=&quot;highlighter-rouge&quot;&gt;LineDiff&lt;/code&gt; module, &lt;code class=&quot;highlighter-rouge&quot;&gt;TextRange&lt;/code&gt; module and &lt;code class=&quot;highlighter-rouge&quot;&gt;ApplyAction&lt;/code&gt;’s module(user defined actions like ApplyPatch, IgnorePatch, ResultAction and ShowPatchAction). &lt;code class=&quot;highlighter-rouge&quot;&gt;Diff&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;LineDiff&lt;/code&gt; modules are similar, they both generates a unified diff corresponding to a generated patch by coala. The only difference between them is &lt;code class=&quot;highlighter-rouge&quot;&gt;LineDiff&lt;/code&gt; generates diffs over two strings wheareas &lt;code class=&quot;highlighter-rouge&quot;&gt;Diff&lt;/code&gt; generates it over two files. When a &lt;code class=&quot;highlighter-rouge&quot;&gt;Diff&lt;/code&gt; is being generated or we have a yielded &lt;code class=&quot;highlighter-rouge&quot;&gt;Result&lt;/code&gt;, it is supplied to the &lt;code class=&quot;highlighter-rouge&quot;&gt;output&lt;/code&gt; section, which in turn is being commuted to the user.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;settings&lt;/strong&gt;: A &lt;code class=&quot;highlighter-rouge&quot;&gt;setting&lt;/code&gt; in coala consists of a key and a value. It mainly offers many conversions into common data types. It provides important modules like &lt;code class=&quot;highlighter-rouge&quot;&gt;Section&lt;/code&gt; module which holds all the set of settings and &lt;code class=&quot;highlighter-rouge&quot;&gt;ConfigurationGathering&lt;/code&gt; module which plays two important roles:
+    &lt;ul&gt;
+      &lt;li&gt;finds user configs(&lt;code class=&quot;highlighter-rouge&quot;&gt;.coafile&lt;/code&gt; ofcourse)&lt;/li&gt;
+      &lt;li&gt;gathers configuration(such as loading configs, retrieves bears and all needed settings, saves the settings back if needed and warns about non existent targets)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;testing&lt;/strong&gt;: The last and final section is the &lt;code class=&quot;highlighter-rouge&quot;&gt;testing&lt;/code&gt;, which contains the API for bear testing. It provides &lt;code class=&quot;highlighter-rouge&quot;&gt;LocalBearTestHelper&lt;/code&gt; module which contains routines like &lt;code class=&quot;highlighter-rouge&quot;&gt;check_results&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;check_validity&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;verify_local_bear&lt;/code&gt;. These basically test a bear by doing a simple assertion test, between the given result and to the actual yielded result from the bear over a given file.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you will dive deep enough, it’s working is even more interesting. If it sounds interesting to you as well, you can start contributing right away by following our &lt;a href=&quot;http://coala.io/newcomer&quot;&gt;newcomer’s guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Till next time see ya!!&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 28 May 2017 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/gsoc/An-Insight-Into-coala's-Structure.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/An-Insight-Into-coala's-Structure.html</guid>
+			</item>
+		
+			<item>
 				<title>First Week GSoC'17</title>
 				        
 				

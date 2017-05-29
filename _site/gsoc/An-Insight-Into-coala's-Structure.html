@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+    
+      An Insight Into coala's Structure | Saurav Singh
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://damngamerz.github.io/css/main.css">
+  <link rel="stylesheet" href="https://damngamerz.github.io/css/syntax.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80213386-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="https://damngamerz.github.io/">Saurav Singh</a>
+    <small class="masthead-subtitle">damngamerz</small>
+    <div class="menu">
+  <div class="menu-content">
+    <a href="https://damngamerz.github.io/about.html">About</a>
+    <a href="https://damngamerz.github.io/writing.html">Writing</a>
+    <a href="https://damngamerz.github.io/contacts.html">Contact</a>
+  </div>
+  <div class="social-icons">
+    <a href="https://github.com/damngamerz"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://gitlab.com/damngamerz"><i class="fa fa-gitlab" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://twitter.com/damngamerz"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://www.facebook.com/damngamerz"><i class="fa fa-facebook" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://instagram.com/damngamerz"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://linkedin.com/in/damngamerz"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
+    <a href="mailto:sauravsinghshakya@yahoo.com"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://damngamerz.github.io/feed.xml"><i class="fa fa-rss" aria-hidden="true" target="_blank"></i></a>
+  </div>
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h1>
+  An Insight Into coala's Structure
+</h1>
+
+
+  <img src="https://damngamerz.github.io/images/coala_intro.jpg">
+
+
+<p>Hi Guys!! Its been a long since my last post. This blog post is intended for all newcomer’s who would like to contribute to coala. So, I will give you an insight into coala’s Structure in a bit detail to actually get you started.</p>
+
+<h2 id="an-insight-into-coalas-structure">An Insight Into coala’s Structure.</h2>
+<p>coala’s code base can be found here at <a href="https://github.com/coala/coala">github</a>. It’s directory tree looks like:
+<img src="http://localhost:4000/images/coala_tree.png" alt="coala's tree" /></p>
+
+<p>You can see, this tree has 3 major parts.</p>
+
+<ol>
+  <li><strong>coalib</strong>: Which is the homeground of coala API. This is the place where most of the important technical aspects goes.</li>
+  <li><strong>docs</strong>: Contains generated documention of coala API, which is built and beautifully displayed over <a href="http://api.coala.io"><code class="highlighter-rouge">api.coala.io</code></a></li>
+  <li><strong>tests</strong>: Contains all the test files over coalib directory.</li>
+</ol>
+
+<p>Since, <code class="highlighter-rouge">docs</code> and <code class="highlighter-rouge">tests</code> are established over <code class="highlighter-rouge">coalib</code>, so <code class="highlighter-rouge">coalib</code> is the star directory. And hence, I would be only explaining about it.</p>
+
+<h2 id="coalib">coalib</h2>
+<p><code class="highlighter-rouge">coalib</code> is the collection of various subpackages regarding writing, executing, editing bears, formatting, settings and much more. So let’s dig in boys!!</p>
+
+<p><code class="highlighter-rouge">coalib</code> is further divided into 11 parts:</p>
+
+<ol>
+  <li><strong>bearlib</strong>: Which contains bear utilities, <code class="highlighter-rouge">aspects</code>’s API, <code class="highlighter-rouge">abstractions</code> like linter bears and also <code class="highlighter-rouge">languages</code> which contains various language definitions(such as identifying different languages with their versions) to provide unified language experience to coala.</li>
+  <li><strong>bears</strong>: Provides the base bear class i.e. <code class="highlighter-rouge">LocalBear</code> and <code class="highlighter-rouge">GlobalBear</code>. Without which bears that exists in coala-bears <a href="https://github.com/coala/coala-bears">repo</a> wouldn’t exist.</li>
+  <li><strong>collecting</strong>: provides collector routines which collects all bears, dependencies and file directories for coala. The collection works on the basis of 2 factors inputs provided at <code class="highlighter-rouge">CLI</code> and at <code class="highlighter-rouge">.coafile</code>.</li>
+  <li><strong>core</strong>: <code class="highlighter-rouge">core</code> module contains the chronological order about what coala has to do with a bear. It takes care of all the step’s involved(like having a complete schedule), when a bear runs over a given file.</li>
+  <li><strong>misc</strong>: Provides all the other utilities like <code class="highlighter-rouge">cachingUtilities</code>, <code class="highlighter-rouge">DictUtilities</code>, <code class="highlighter-rouge">BuildManPage</code> module and <code class="highlighter-rouge">Shell</code> module. <code class="highlighter-rouge">Shell</code> module is the important aspect here, as it helps coala to run in an interactive shell mode.</li>
+  <li><strong>output</strong>: Provides the API for making coala interactive with its users via <code class="highlighter-rouge">CLI</code>. The <code class="highlighter-rouge">ConsoleInteraction</code> module provides the utilities about user provided <code class="highlighter-rouge">Actions</code> like <code class="highlighter-rouge">Show_Patch</code>, <code class="highlighter-rouge">Apply_Patch</code>, <code class="highlighter-rouge">Ignore_Patch</code>..etc. It acts as a mediator between coala and the user, helps coala in providing the user important information by printing generated diff’s, messages, list of bears..etc.</li>
+  <li><strong>parsing</strong>: The name itself suggests this is the <code class="highlighter-rouge">parsing</code> module. It contains all the routines about parsing important information from a string of characters. Most of them support regex pattern matching. For example: Parsing <code class="highlighter-rouge">CLI</code> arguments and creating sections out of it.</li>
+  <li><strong>processes</strong>: Provides the processing utilities and routines which takes decisive actions when a bear is in running state. It has routines which works like a control centre for processes. It takes care of process execution’s tasks such as:
+    <ul>
+      <li>preparing a process -&gt; loading files -&gt; creating queues</li>
+      <li>spawn up one or more processes</li>
+      <li>yielding results from the processes</li>
+      <li>finally joining all the processes</li>
+    </ul>
+  </li>
+  <li><strong>results</strong>: This section works closely with the <code class="highlighter-rouge">output</code> section. <code class="highlighter-rouge">results</code> provides routines like <code class="highlighter-rouge">Diff</code> module, <code class="highlighter-rouge">LineDiff</code> module, <code class="highlighter-rouge">TextRange</code> module and <code class="highlighter-rouge">ApplyAction</code>’s module(user defined actions like ApplyPatch, IgnorePatch, ResultAction and ShowPatchAction). <code class="highlighter-rouge">Diff</code> and <code class="highlighter-rouge">LineDiff</code> modules are similar, they both generates a unified diff corresponding to a generated patch by coala. The only difference between them is <code class="highlighter-rouge">LineDiff</code> generates diffs over two strings wheareas <code class="highlighter-rouge">Diff</code> generates it over two files. When a <code class="highlighter-rouge">Diff</code> is being generated or we have a yielded <code class="highlighter-rouge">Result</code>, it is supplied to the <code class="highlighter-rouge">output</code> section, which in turn is being commuted to the user.</li>
+  <li><strong>settings</strong>: A <code class="highlighter-rouge">setting</code> in coala consists of a key and a value. It mainly offers many conversions into common data types. It provides important modules like <code class="highlighter-rouge">Section</code> module which holds all the set of settings and <code class="highlighter-rouge">ConfigurationGathering</code> module which plays two important roles:
+    <ul>
+      <li>finds user configs(<code class="highlighter-rouge">.coafile</code> ofcourse)</li>
+      <li>gathers configuration(such as loading configs, retrieves bears and all needed settings, saves the settings back if needed and warns about non existent targets)</li>
+    </ul>
+  </li>
+  <li><strong>testing</strong>: The last and final section is the <code class="highlighter-rouge">testing</code>, which contains the API for bear testing. It provides <code class="highlighter-rouge">LocalBearTestHelper</code> module which contains routines like <code class="highlighter-rouge">check_results</code>, <code class="highlighter-rouge">check_validity</code> and <code class="highlighter-rouge">verify_local_bear</code>. These basically test a bear by doing a simple assertion test, between the given result and to the actual yielded result from the bear over a given file.</li>
+</ol>
+
+<p>If you will dive deep enough, it’s working is even more interesting. If it sounds interesting to you as well, you can start contributing right away by following our <a href="http://coala.io/newcomer">newcomer’s guide</a>.</p>
+
+<p>Till next time see ya!!</p>
+
+<span class="post-date">
+  Written on
+  
+  May
+  28th,
+  2017
+  by Saurav Singh
+</span>
+<div class="post-date">Feel free to share!</div>
+  <div class="sharing-icons">
+    <a href="https://twitter.com/intent/tweet?text=An Insight Into coala's Structure&amp;url=https://damngamerz.github.io/gsoc/An-Insight-Into-coala's-Structure.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/gsoc/An-Insight-Into-coala's-Structure.html&amp;title=An Insight Into coala's Structure" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/gsoc/An-Insight-Into-coala's-Structure.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+<div class="related">
+  <h1 >You may also enjoy:</h1>
+  
+  <ul class="related-posts">
+    
+      
+        
+        
+      
+        
+          <li>
+            <h3>
+              <a href="https://damngamerz.github.io/gsoc/First-Week-GSoC'17.html">
+                First Week GSoC'17
+                <!--<img src="http://localhost:4000/images/1stweek-teaser.jpg">-->
+                <!--<small>May 17, 2017</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+        
+          <li>
+            <h3>
+              <a href="https://damngamerz.github.io/gsoc/Accepted_YAY!.html">
+                Accepted YAY!
+                <!--<img src="http://localhost:4000/images/results-teaser.jpg">-->
+                <!--<small>May 6, 2017</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+  </ul>
+</div>
+
+
+
+  <section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'damngamerz';
+    var disqus_developer = 0;
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+    </div>
+
+    <footer class="footer">
+  <a href="https://github.com/damngamerz"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://gitlab.com/damngamerz"><i class="fa fa-gitlab" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://twitter.com/damngamerz"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://www.facebook.com/damngamerz"><i class="fa fa-facebook" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://instagram.com/damngamerz"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://linkedin.com/in/damngamerz"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
+  <a href="mailto:sauravsinghshakya@yahoo.com"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://damngamerz.github.io/feed.xml"><i class="fa fa-rss" aria-hidden="true" target="_blank"></i></a>
+  <div class="post-date"><a href="https://damngamerz.github.io/about.html">Saurav Singh | damngamerz © by Saurav Singh</a></div>
+</footer>
+
+
+  </div>
+</body>
+</html>
