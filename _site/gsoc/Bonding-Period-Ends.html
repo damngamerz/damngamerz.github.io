@@ -5,7 +5,7 @@
 
   <title>
     
-      My Project Proposals | Saurav Singh
+      Bonding Period Ends | Saurav Singh
     
   </title>
 
@@ -68,44 +68,75 @@
 
     <div class="post-container">
       <h1>
-  My Project Proposals
+  Bonding Period Ends
 </h1>
 
 
-  <img src="https://damngamerz.github.io/images/gsoc.jpg">
+  <img src="https://damngamerz.github.io/images/bonding.jpg">
 
 
-<p>It’s been a while since my last blog. So, this blog is all about my goals towards this year’s awesome summer. Let’s directly come to the point. Guys, I’m participating in Google Summer of Code 2017 (GSoC-2017). I will tell you more about my proposals, meanwhile lets get familiar with some pre-requisites.</p>
+<p>Hi Guys!! With the end of this month <code class="highlighter-rouge">Community Bonding</code> period finally comes to an end, which marks the beginning of <code class="highlighter-rouge">Coding Phase-I</code>. In which, students officially now starts coding on their projects. Before even I would start with <code class="highlighter-rouge">Coding Phase-I</code>, I thought about summarizing my overall objectives achieved in <code class="highlighter-rouge">Community Bonding</code>.</p>
 
-<h3 id="what-gsoc-is-about">What GSoC is about?</h3>
-
-<p>The Google Summer of Code, often abbreviated to GSoC, is an international annual program, in which Google awards stipends, to all students who successfully complete a requested free and open-source software coding project during the summer. It is focused on bringing more student developers into open source software development. Students work with an open source organization on a 3 month programming project during their break from college.</p>
-
-<h3 id="my-project-proposals">My Project Proposals</h3>
-
-<p><img src="http://localhost:4000/images/my_proposal.png" alt="My Project Proposals" /></p>
-
-<p>Anyways, The student application window is open. And Im really excited about participating in it. So here’s the deal. Im applying for 2 project proposals:</p>
+<h2 id="summary">Summary</h2>
 <ol>
-  <li><strong>Documentation Extraction and Parsing</strong>: Well this project is all about developing an analyzing routine at least for python and java that will find all documentation strings in a file, parse them into specific groups and check them against a specified documentation style given by the user. For more specific info look at my <a href="https://drive.google.com/open?id=0B2ZlhOHwaV58Tmhva09ua3FRNzQ">proposal</a>.</li>
-  <li><strong>Handle Nested Programming Language</strong>: This one will help coala and its users by having analyzing routines over nested languages (eg. a html file can have php in it, such as inside a <code class="highlighter-rouge">&lt;code-block&gt;</code>). For more specific info look at my <a href="https://drive.google.com/open?id=0B2ZlhOHwaV58YW5acDJKLWkxMDA">proposal</a>.</li>
+  <li>I started with testing the old <code class="highlighter-rouge">DocumentationStyleBear</code> over <code class="highlighter-rouge">coala</code> and <code class="highlighter-rouge">coala-bears</code> repo. My first task was to get the old <a href="https://github.com/coala/coala-bears/pull/1506"><code class="highlighter-rouge">DocStyleBear</code> PR</a> of <a href="https://github.com/SanketDG">SanketDG</a> merged, currently! I have hijacked it :P . I found 2 major issues while testing:
+    <ul>
+      <li>We know python has some fancy strings which are written as:
+        <div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="nx">arguments</span><span class="o">=</span><span class="s2">"""
+sum= a+b+c
+avg= (a+b+c)/3
+"""</span>
+</code></pre>
+        </div>
+        <p><code class="highlighter-rouge">DocumentionAPI</code> should ignore such strings. I had a healthy discussion with my mentors about this issue and we came to a conclusion that it required some more ideation, hence being moved to <code class="highlighter-rouge">Coding Phase-I</code>.</p>
+      </li>
+      <li><code class="highlighter-rouge">DocumentationAPI</code> was not having support for <code class="highlighter-rouge">:raises xyz:</code>. Hence, it’s being successfully <a href="https://github.com/coala/coala/pull/4281">implemented</a>. The patch right now is in review phase.</li>
+    </ul>
+  </li>
+  <li>There was bug in <code class="highlighter-rouge">DocumentationAPI</code>, which generated cut-off diffs. For example, if a docstring is written this way:
+    <div class="language-js highlighter-rouge"><pre class="highlight"><code>    <span class="s2">"""
+ This is not a cool way to write docstrings.
+    """</span>
+</code></pre>
+    </div>
+    <p>The generated diff would be.</p>
+    <div class="language-js highlighter-rouge"><pre class="highlight"><code>    <span class="s2">"""
+     not a cool way to write docstrings.
+    """</span>
+</code></pre>
+    </div>
+    <p>A patch fixing this bug has been <a href="https://github.com/coala/coala/pull/4275">implemented and merged</a>.</p>
+  </li>
+  <li>A new parameter <code class="highlighter-rouge">allow_missing_func_desc</code> needs to be added which will ignore a warning message, when <code class="highlighter-rouge">DocStyleBear</code> doesn’t finds a function description. This has also been <a href="https://github.com/coala/coala-bears/pull/1506">implemented</a>.</li>
+  <li>Last and Final task was to analyze coala’s structure and write a blog about it. So, <a href="https://damngamerz.github.io/gsoc/An-Insight-Into-coala's-Structure.html">here it is</a>.</li>
 </ol>
 
-<p>That’s it guys!! I will be writting my next blog ahh not soon enough :( busy in projects and assignments, but you can surely expect one after the results of GSoC 2017 being declared. Till then see yaa next time :)</p>
+<p>At the end here’s a burnout chart depicting my working efficiency.
+<img src="http://localhost:4000/images/chart_bonding.png" alt="bonding chart" />
+Although, I wasn’t able to complete my <code class="highlighter-rouge">Bonding</code> milestone 100%. As to close an issue, the related PR should be merged beforehand. While I got my 2 PR’s in review state. And both of those PR’s had big updates/patches, which I submitted beforehand deadline by 2 days and hence it didn’t got sufficient time to go through review phase.</p>
+
+<h2 id="whats-next">What’s next?</h2>
+<p>Well <code class="highlighter-rouge">Coding Phase-I</code> begins now, and I can’t risk my chances of staying behind schedule. The things I learned from <code class="highlighter-rouge">Community Bonding</code> phase will play a very crucial role in this phase, one of which is I have to submit my patches as early as possible, cause about 60% time goes in review cycle. Ofcourse, I don’t blame the review process by that statement, cause it is very fruitful and it always polishes the PR to get merge ready. Although, I must say coala’s review process is fast, well faster than the other open-source organisations, In which a simple patch can be in review phase for months before it finally gets accepted. Here it take a day or so. But for big patches it obviously takes weeks of review iterations to actually get it merged. Kudos!! to all my fellow devs and maintainers for making this process fast!!</p>
+
+<h2 id="thanks">Thanks!</h2>
+<p>Special Thanks to both of my mentors <a href="https://github.com/SanketDG">SanketDG</a>, <a href="https://github.com/NiklasMM">NiklasMM</a> and other mentors of coala. Without them this wouldn’t have been possible. Thanks for understanding when I asked to code in <code class="highlighter-rouge">Bonding Period</code> phase and making me code in, which really gave me a taste of how <code class="highlighter-rouge">Coding Phase-I</code> will actually go. I will try hard to not let you guys down.</p>
+
+<p>Till next time Tschüss!!</p>
 
 <span class="post-date">
   Written on
   
-  March
-  28th,
+  May
+  31st
+    ,
   2017
   by Saurav Singh
 </span>
 <div class="post-date">Feel free to share!</div>
   <div class="sharing-icons">
-    <a href="https://twitter.com/intent/tweet?text=My Project Proposals&amp;url=https://damngamerz.github.io/gsoc/My-Project-Proposals.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/gsoc/My-Project-Proposals.html&amp;title=My Project Proposals" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/gsoc/My-Project-Proposals.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/intent/tweet?text=Bonding Period Ends&amp;url=https://damngamerz.github.io/gsoc/Bonding-Period-Ends.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/gsoc/Bonding-Period-Ends.html&amp;title=Bonding Period Ends" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/gsoc/Bonding-Period-Ends.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -116,16 +147,6 @@
     
       
         
-          <li>
-            <h3>
-              <a href="https://damngamerz.github.io/gsoc/Bonding-Period-Ends.html">
-                Bonding Period Ends
-                <!--<img src="http://localhost:4000/images/bonding-teaser.jpg">-->
-                <!--<small>May 31, 2017</small>-->
-              </a>
-            </h3>
-          </li>
-          
         
       
         

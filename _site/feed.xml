@@ -7,6 +7,64 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Bonding Period Ends</title>
+				        
+				
+					<description>&lt;p&gt;Hi Guys!! With the end of this month &lt;code class=&quot;highlighter-rouge&quot;&gt;Community Bonding&lt;/code&gt; period finally comes to an end, which marks the beginning of &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt;. In which, students officially now starts coding on their projects. Before even I would start with &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt;, I thought about summarizing my overall objectives achieved in &lt;code class=&quot;highlighter-rouge&quot;&gt;Community Bonding&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;I started with testing the old &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationStyleBear&lt;/code&gt; over &lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;coala-bears&lt;/code&gt; repo. My first task was to get the old &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1506&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; PR&lt;/a&gt; of &lt;a href=&quot;https://github.com/SanketDG&quot;&gt;SanketDG&lt;/a&gt; merged, currently! I have hijacked it :P . I found 2 major issues while testing:
+    &lt;ul&gt;
+      &lt;li&gt;We know python has some fancy strings which are written as:
+        &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&quot;
+sum= a+b+c
+avg= (a+b+c)/3
+&quot;&quot;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+        &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentionAPI&lt;/code&gt; should ignore such strings. I had a healthy discussion with my mentors about this issue and we came to a conclusion that it required some more ideation, hence being moved to &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt;.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; was not having support for &lt;code class=&quot;highlighter-rouge&quot;&gt;:raises xyz:&lt;/code&gt;. Hence, it’s being successfully &lt;a href=&quot;https://github.com/coala/coala/pull/4281&quot;&gt;implemented&lt;/a&gt;. The patch right now is in review phase.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;There was bug in &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt;, which generated cut-off diffs. For example, if a docstring is written this way:
+    &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&quot;
+ This is not a cool way to write docstrings.
+    &quot;&quot;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;The generated diff would be.&lt;/p&gt;
+    &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&quot;
+     not a cool way to write docstrings.
+    &quot;&quot;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;A patch fixing this bug has been &lt;a href=&quot;https://github.com/coala/coala/pull/4275&quot;&gt;implemented and merged&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;A new parameter &lt;code class=&quot;highlighter-rouge&quot;&gt;allow_missing_func_desc&lt;/code&gt; needs to be added which will ignore a warning message, when &lt;code class=&quot;highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; doesn’t finds a function description. This has also been &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1506&quot;&gt;implemented&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Last and Final task was to analyze coala’s structure and write a blog about it. So, &lt;a href=&quot;https://damngamerz.github.io/gsoc/An-Insight-Into-coala's-Structure.html&quot;&gt;here it is&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;At the end here’s a burnout chart depicting my working efficiency.
+&lt;img src=&quot;http://localhost:4000/images/chart_bonding.png&quot; alt=&quot;bonding chart&quot; /&gt;
+Although, I wasn’t able to complete my &lt;code class=&quot;highlighter-rouge&quot;&gt;Bonding&lt;/code&gt; milestone 100%. As to close an issue, the related PR should be merged beforehand. While I got my 2 PR’s in review state. And both of those PR’s had big updates/patches, which I submitted beforehand deadline by 2 days and hence it didn’t got sufficient time to go through review phase.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
+&lt;p&gt;Well &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt; begins now, and I can’t risk my chances of staying behind schedule. The things I learned from &lt;code class=&quot;highlighter-rouge&quot;&gt;Community Bonding&lt;/code&gt; phase will play a very crucial role in this phase, one of which is I have to submit my patches as early as possible, cause about 60% time goes in review cycle. Ofcourse, I don’t blame the review process by that statement, cause it is very fruitful and it always polishes the PR to get merge ready. Although, I must say coala’s review process is fast, well faster than the other open-source organisations, In which a simple patch can be in review phase for months before it finally gets accepted. Here it take a day or so. But for big patches it obviously takes weeks of review iterations to actually get it merged. Kudos!! to all my fellow devs and maintainers for making this process fast!!&lt;/p&gt;
+
+&lt;h2 id=&quot;thanks&quot;&gt;Thanks!&lt;/h2&gt;
+&lt;p&gt;Special Thanks to both of my mentors &lt;a href=&quot;https://github.com/SanketDG&quot;&gt;SanketDG&lt;/a&gt;, &lt;a href=&quot;https://github.com/NiklasMM&quot;&gt;NiklasMM&lt;/a&gt; and other mentors of coala. Without them this wouldn’t have been possible. Thanks for understanding when I asked to code in &lt;code class=&quot;highlighter-rouge&quot;&gt;Bonding Period&lt;/code&gt; phase and making me code in, which really gave me a taste of how &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt; will actually go. I will try hard to not let you guys down.&lt;/p&gt;
+
+&lt;p&gt;Till next time Tschüss!!&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 31 May 2017 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/gsoc/Bonding-Period-Ends.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/Bonding-Period-Ends.html</guid>
+			</item>
+		
+			<item>
 				<title>An Insight Into coala's Structure</title>
 				        
 				
