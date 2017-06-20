@@ -7,6 +7,44 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Phase 1 Mid Month Summary</title>
+				        
+				
+					<description>&lt;p&gt;Hey there Guys!, I hope you are doing well. In this blog I will summarizing my GSoC’17 work till now. So it’s been 18 days of &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt; and I have been moving forward with all I have, to make this project come to life. So Let’s begin!&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Since, I learnt my lesson well from &lt;code class=&quot;highlighter-rouge&quot;&gt;Bonding Phase&lt;/code&gt; :P so I started solving the big issues first. As they takes up a lot of time in review phase. Firstly I began adding additional functionalities to &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; is the core of &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; which mainly dissociated the whole documentation into it’s sub-parts (i.e. params,exceptions and return descriptions).&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Previous &lt;code class=&quot;highlighter-rouge&quot;&gt;assemble()&lt;/code&gt; function was not accounting for a case in which middle and ending markers are same. Eg. &lt;code class=&quot;highlighter-rouge&quot;&gt;marker[1]==marker[2]&lt;/code&gt; which is a type of case in python docstring.
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;docstring_find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;## This is dummy docstring find function.&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;#  @param filename contains filename&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;#  @raises FileNotFoundError raises when filename is not found&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;#  @return nothing&lt;/span&gt;
+   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;Hence I completed the work over this and a patch is submitted and &lt;a href=&quot;https://github.com/coala/coala/pull/4319&quot;&gt;merged&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; accepts &lt;code class=&quot;highlighter-rouge&quot;&gt;range&lt;/code&gt; as an argument we will be shifting it to &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt;. Since &lt;code class=&quot;highlighter-rouge&quot;&gt;TextRange&lt;/code&gt; is constructed from &lt;code class=&quot;highlighter-rouge&quot;&gt;TextPosition&lt;/code&gt; it’s just a simplification of constructor but important indeed. A patch is currectly in the &lt;a href=&quot;https://github.com/coala/coala/issues/2646&quot;&gt;review phase&lt;/a&gt; right now. I guess it will be merged in 2 review iterations or so.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So these were the two major changes which I had done, making about 60% completion of the milestones in my opinion. I guess this time I will be able to achieve 100%. 100% or not my patches should be good in quality thats my inner objective ;)&lt;/p&gt;
+
+&lt;p&gt;There’s one more thing, the &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1506&quot;&gt;big patch&lt;/a&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationStyleBear&lt;/code&gt; finally got accepted. It’s not fully complete at the moment. Requires lot of additional functionalities but that’s the basic functionality which we have longed for.&lt;/p&gt;
+&lt;h2 id=&quot;whats-up-ahead&quot;&gt;What’s up ahead?&lt;/h2&gt;
+&lt;p&gt;Next, I have 4 additions lined up for &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationExtraction&lt;/code&gt; out of which only 2 are solvable at the moment and the rest will be moved ahead to &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-II&lt;/code&gt;. I will be writing more about them in my next blog.&lt;/p&gt;
+
+&lt;p&gt;That’s all guys. Till next time See YAA!!&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 18 Jun 2017 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/gsoc/Phase-1-Mid-Month-Summary.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-1-Mid-Month-Summary.html</guid>
+			</item>
+		
+			<item>
 				<title>Bonding Period Ends</title>
 				        
 				
