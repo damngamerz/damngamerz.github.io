@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+    
+      Phase 1 Month End Summary | Saurav Singh
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://damngamerz.github.io/css/main.css">
+  <link rel="stylesheet" href="https://damngamerz.github.io/css/syntax.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80213386-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="https://damngamerz.github.io/">Saurav Singh</a>
+    <small class="masthead-subtitle">damngamerz</small>
+    <div class="menu">
+  <div class="menu-content">
+    <a href="https://damngamerz.github.io/about.html">About</a>
+    <a href="https://damngamerz.github.io/writing.html">Writing</a>
+    <a href="https://damngamerz.github.io/contacts.html">Contact</a>
+  </div>
+  <div class="social-icons">
+    <a href="https://github.com/damngamerz"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://gitlab.com/damngamerz"><i class="fa fa-gitlab" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://twitter.com/damngamerz"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://www.facebook.com/damngamerz"><i class="fa fa-facebook" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://instagram.com/damngamerz"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://linkedin.com/in/damngamerz"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
+    <a href="mailto:sauravsinghshakya@yahoo.com"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://damngamerz.github.io/feed.xml"><i class="fa fa-rss" aria-hidden="true" target="_blank"></i></a>
+  </div>
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h1>
+  Phase 1 Month End Summary
+</h1>
+
+
+  <img src="https://damngamerz.github.io/images/bonding.jpg">
+
+
+<p>Hi Guys!, How you doing?
+It’s been 4 weeks of <code class="highlighter-rouge">CODING PHASE-I</code> and it’s evaluation time. So from 26th 9:30pm, Evaluation links will become active both me and my mentor have to fill a Q &amp; A form ^_^. I will tell you more about it in a while, but first I will be sumarizing my GSoC’2017’s work of last 2 weeks. So, let’s begin!!</p>
+
+<h2 id="summary">Summary</h2>
+<p>The deadline of achieving the milestones set by my organization is 26th June. Following are the issues on which I have worked upon in last 2 weeks:</p>
+<ol>
+  <li>In python we have triple quoted string literals. Eg:
+    <div class="language-python highlighter-rouge"><pre class="highlight"><code>    <span class="n">dummy_variable</span> <span class="o">=</span> <span class="s">"""
+This is a triple quoted string literal and is not a docstring.
+"""</span>
+</code></pre>
+    </div>
+    <p>This needs to be ignored, as it’s not a docstring. The solution to this was pretty simple, we made sure that starting marker (i.e.<code class="highlighter-rouge">marker[0]</code>) should only be followed by an indentation, so as to consider it a valid docstring. Hence I completed the work over this and a patch is submitted and <a href="https://github.com/coala/coala/pull/4383">merged</a>.</p>
+  </li>
+  <li><code class="highlighter-rouge">parse()</code> member function of <code class="highlighter-rouge">DocumentationComment</code> was breaking if we miss an ending colon in the docstring. Eg:
+    <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">foobar</span><span class="p">(</span><span class="n">param1</span><span class="p">,</span> <span class="n">param2</span><span class="p">):</span>
+    <span class="s">"""
+    This is a dummy function.
+    
+    :param param1: ending colon is present
+    :param param2  ending colon is missing
+    :return: nothing
+    """</span>
+    <span class="k">return</span> <span class="bp">None</span>
+</code></pre>
+    </div>
+    <p>We first began to find a solution by adding <code class="highlighter-rouge">self.errors</code> in <code class="highlighter-rouge">DocumentationComment</code>’s <code class="highlighter-rouge">__init__</code> which will return a list of raised errors to the bear, so that it yields a <code class="highlighter-rouge">RESULT</code> with a beautiful message. Though this worked but was not an appropriate way to handle exceptions. You might be thinking why not directly <code class="highlighter-rouge">raise</code> an appropriate exception from the <code class="highlighter-rouge">DocumentationComment</code>?
+Well, If you look carefully about working of <code class="highlighter-rouge">coala</code> it runs the bear as a <code class="highlighter-rouge">generator</code> and yeilds a <code class="highlighter-rouge">RESULT</code> if it finds something inappropiate. Our sole aim was to keep the <code class="highlighter-rouge">generator</code> running, so if we raise an <code class="highlighter-rouge">Exception</code> inside <code class="highlighter-rouge">DocumentationComment</code> the generator will be terminated and <code class="highlighter-rouge">coala</code> won’t run further to find any other docstring.
+Second way was to yield something like <code class="highlighter-rouge">MalformedComment</code> instead of <code class="highlighter-rouge">DocumentationComment</code>. This seems a good idea but it would require a lot of ideation. Also <code class="highlighter-rouge">DocumentationExtraction</code> yields <code class="highlighter-rouge">DocumentationComment</code> and we can’t make it out anywhere just after the extraction that the docstring is malformed.
+So what was the solution?
+Lately, I noticed why the parser was breaking. There was an <code class="highlighter-rouge">IndexError</code> at the position where we spitted the parameter’s name and description. So the fix was to check either for ending marker or for a space so as to split the parameter’s name and a description. And Viola!! This worked!! Although I still feel like <code class="highlighter-rouge">DocumentationAPI</code> needs to have a separate <code class="highlighter-rouge">Exception</code> class. Anyway patch submitted and <a href="https://github.com/coala/coala/pull/4407">merged</a></p>
+  </li>
+</ol>
+
+<p>Also, 2 Issues are moved ahead to <code class="highlighter-rouge">PHASE-II</code>. We feel like it’s better to solve them after the implementation of <code class="highlighter-rouge">DocBaseClass()</code>.</p>
+
+<p>This was it!! I achieved my milestone of <code class="highlighter-rouge">PHASE-I</code>. You can see my progress <a href="https://gitlab.com/coala/GSoC-2017/milestones/5">here</a>. And here’s how my burndown chart looks like.</p>
+
+<p><img src="http://localhost:4000/images/chart_phase1.png" alt="bonding chart" />
+feelsgoodman!! ^_^</p>
+
+<h2 id="thanks">Thanks!!</h2>
+<p>Thanks and Congrats to…. Ofcourse, both of my mentors <a href="https://github.com/SanketDG">SanketDG</a> &amp; <a href="https://github.com/NiklasMM">NiklasMM</a> for achieving this milestone together. We still have 2 more on the uproad to go through ;)</p>
+
+<p>Special Thanks to <a href="https://github.com/Makman2">Makman2</a>. He helped me alot initially, with some of the issues and also reviewed my patches.</p>
+
+<h2 id="whats-up-next">What’s up next?</h2>
+<p>Next up after the evaluation is <code class="highlighter-rouge">CODING PHASE-II</code>. In which our sole aim is to implement a <code class="highlighter-rouge">DocBaseClass</code> and then use it in our existing <code class="highlighter-rouge">DocStyleBear</code>.</p>
+
+<h2 id="europython-update">EuroPython Update.</h2>
+<p>Yass bois!! Im going to attend EP’2017. Got my VISA approved YAY!!
+July is going to be one hell of a month.</p>
+
+<p>That’s it for today. Till next time. See yaa!!</p>
+
+<span class="post-date">
+  Written on
+  
+  June
+  26th,
+  2017
+  by Saurav Singh
+</span>
+<div class="post-date">Feel free to share!</div>
+  <div class="sharing-icons">
+    <a href="https://twitter.com/intent/tweet?text=Phase 1 Month End Summary&amp;url=https://damngamerz.github.io/gsoc/Phase-1-Month-End-Summary.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/gsoc/Phase-1-Month-End-Summary.html&amp;title=Phase 1 Month End Summary" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/gsoc/Phase-1-Month-End-Summary.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+<div class="related">
+  <h1 >You may also enjoy:</h1>
+  
+  <ul class="related-posts">
+    
+      
+        
+        
+      
+        
+          <li>
+            <h3>
+              <a href="https://damngamerz.github.io/gsoc/EuroPython-And-A-Lot-More-Awesomeness.html">
+                EuroPython And A Lot More Awesomeness
+                <!--<img src="http://localhost:4000/images/EuroPython-teaser.jpg">-->
+                <!--<small>June 20, 2017</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+        
+          <li>
+            <h3>
+              <a href="https://damngamerz.github.io/gsoc/Phase-1-Mid-Month-Summary.html">
+                Phase 1 Mid Month Summary
+                <!--<img src="http://localhost:4000/images/bonding-teaser.jpg">-->
+                <!--<small>June 18, 2017</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+  </ul>
+</div>
+
+
+
+  <section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'damngamerz';
+    var disqus_developer = 0;
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+    </div>
+
+    <footer class="footer">
+  <a href="https://github.com/damngamerz"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://gitlab.com/damngamerz"><i class="fa fa-gitlab" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://twitter.com/damngamerz"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://www.facebook.com/damngamerz"><i class="fa fa-facebook" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://instagram.com/damngamerz"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://linkedin.com/in/damngamerz"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
+  <a href="mailto:sauravsinghshakya@yahoo.com"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://damngamerz.github.io/feed.xml"><i class="fa fa-rss" aria-hidden="true" target="_blank"></i></a>
+  <div class="post-date"><a href="https://damngamerz.github.io/about.html">Saurav Singh | damngamerz © by Saurav Singh</a></div>
+</footer>
+
+
+  </div>
+</body>
+</html>
