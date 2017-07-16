@@ -5,7 +5,7 @@
 
   <title>
     
-      My Project Proposals | Saurav Singh
+      Phase 2 Mid Month Summary | Saurav Singh
     
   </title>
 
@@ -68,44 +68,56 @@
 
     <div class="post-container">
       <h1>
-  My Project Proposals
+  Phase 2 Mid Month Summary
 </h1>
 
 
-  <img src="https://damngamerz.github.io/images/gsoc.jpg">
+  <img src="https://damngamerz.github.io/images/coding.jpg">
 
 
-<p>It’s been a while since my last blog. So, this blog is all about my goals towards this year’s awesome summer. Let’s directly come to the point. Guys, I’m participating in Google Summer of Code 2017 (GSoC-2017). I will tell you more about my proposals, meanwhile lets get familiar with some pre-requisites.</p>
+<p>Hi guys, It’s been 2 weeks since 1st evaluation. And this is my <code class="highlighter-rouge">Coding Phase-2</code> Mid Month summary.</p>
 
-<h3 id="what-gsoc-is-about">What GSoC is about?</h3>
-
-<p>The Google Summer of Code, often abbreviated to GSoC, is an international annual program, in which Google awards stipends, to all students who successfully complete a requested free and open-source software coding project during the summer. It is focused on bringing more student developers into open source software development. Students work with an open source organization on a 3 month programming project during their break from college.</p>
-
-<h3 id="my-project-proposals">My Project Proposals</h3>
-
-<p><img src="http://localhost:4000/images/my_proposal.png" alt="My Project Proposals" /></p>
-
-<p>Anyways, The student application window is open. And Im really excited about participating in it. So here’s the deal. Im applying for 2 project proposals:</p>
+<h2 id="summary">Summary</h2>
+<p>This part of GSoC I felt was the toughest and interesting. Cause it was all designing which took a mere time but I finally did it ^_^</p>
 <ol>
-  <li><strong>Documentation Extraction and Parsing</strong>: Well this project is all about developing an analyzing routine at least for python and java that will find all documentation strings in a file, parse them into specific groups and check them against a specified documentation style given by the user. For more specific info look at my <a href="https://drive.google.com/open?id=0B2ZlhOHwaV58Tmhva09ua3FRNzQ">proposal</a>.</li>
-  <li><strong>Handle Nested Programming Language</strong>: This one will help coala and its users by having analyzing routines over nested languages (eg. a html file can have php in it, such as inside a <code class="highlighter-rouge">&lt;code-block&gt;</code>). For more specific info look at my <a href="https://drive.google.com/open?id=0B2ZlhOHwaV58YW5acDJKLWkxMDA">proposal</a>.</li>
+  <li>In coala we have <code class="highlighter-rouge">BearBaseClass</code> so as to create new bears and which also is the back-bone of coala-bears repo. I had to design something similar called <code class="highlighter-rouge">DocBaseClass</code> which will take care of extraction, parsing of fixed documentation and diff generation. So it looks like this.
+    <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">class</span> <span class="nc">DocBaseClass</span><span class="p">:</span>
+  <span class="n">extraction</span><span class="p">():</span>
+    <span class="o">...</span>
+  <span class="n">fix_parse_data</span><span class="p">():</span>
+    <span class="o">...</span>
+  <span class="n">diff_generation</span><span class="p">():</span>
+    <span class="o">...</span>
+</code></pre>
+    </div>
+    <p>The main objective for this base class to exist is that. The <code class="highlighter-rouge">fix_parse_data()</code> member function can be overided by the user according to their needs. A <a href="https://github.com/coala/coala/pull/4465">PR is opened</a> and is currently in a review phase.</p>
+  </li>
+  <li><code class="highlighter-rouge">DocumetationStyleBear</code> is ported to use this new <code class="highlighter-rouge">DocBaseClass</code>. The <a href="https://github.com/coala/coala-bears/pull/1928">PR is opened</a> and is currently waiting for the upstream merge, after which it will get reviewed.</li>
 </ol>
 
-<p>That’s it guys!! I will be writting my next blog ahh not soon enough :( busy in projects and assignments, but you can surely expect one after the results of GSoC 2017 being declared. Till then see yaa next time :)</p>
+<p>So these were the two major changes which I had done, making about 70% completion of the milestones in my opinion. I guess this time too I will be able to achieve 100% in time.</p>
+
+<h2 id="whats-up-next">What’s up next?</h2>
+<p>Though my mentors agreed upon to only implement this functionality for this month. But I will be moving to bugs as there’re few in my opinion which definitely needs to be fixed. And then I will be testing this new <code class="highlighter-rouge">DocumentationStyleBear</code> over coala-repo.</p>
+
+<h2 id="europython-update">EuroPython Update!</h2>
+<p>Ahh It’s been a long amazing week beer, beach, a lot of tasty food and what not :P Im still in rimini, Italy and will write a blog soon after I return back to India summarizing my experience of it ^_^</p>
+
+<p>Till next time! See Yaa!!</p>
 
 <span class="post-date">
   Written on
   
-  March
-  28th,
+  July
+  16th,
   2017
   by Saurav Singh
 </span>
 <div class="post-date">Feel free to share!</div>
   <div class="sharing-icons">
-    <a href="https://twitter.com/intent/tweet?text=My Project Proposals&amp;url=https://damngamerz.github.io/gsoc/My-Project-Proposals.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/gsoc/My-Project-Proposals.html&amp;title=My Project Proposals" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/gsoc/My-Project-Proposals.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/intent/tweet?text=Phase 2 Mid Month Summary&amp;url=https://damngamerz.github.io/gsoc/Phase-2-Mid-Month-Summary.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/gsoc/Phase-2-Mid-Month-Summary.html&amp;title=Phase 2 Mid Month Summary" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/gsoc/Phase-2-Mid-Month-Summary.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -116,16 +128,6 @@
     
       
         
-          <li>
-            <h3>
-              <a href="https://damngamerz.github.io/gsoc/Phase-2-Mid-Month-Summary.html">
-                Phase 2 Mid Month Summary
-                <!--<img src="http://localhost:4000/images/coding-teaser.jpg">-->
-                <!--<small>July 16, 2017</small>-->
-              </a>
-            </h3>
-          </li>
-          
         
       
         
