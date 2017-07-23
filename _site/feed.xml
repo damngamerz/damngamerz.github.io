@@ -7,6 +7,67 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>EuroPython Awesomeness</title>
+				        
+				
+					<description>&lt;p&gt;Hi guys, It had been an awesome one week for me in Rimini, Italy. In this blog I will tell you about the moments I had at EuroPython Conference 2017. This blog will be more visualistic so brace yourself up.&lt;/p&gt;
+
+&lt;p&gt;First of all meet my coala team. It’s because of these guys that I had been to such a wonderful conference. Made lots of friends. Had a talk with creative and likely minded people. My dream of having a beer with my GSoC mentor Niklas got fulfilled ^_^ . And later ofcourse some awesome cuisines, dinner, beer and wine ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/coala-team.jpg&quot; alt=&quot;coala team&quot; /&gt;
+(Sebastian, Me(Saurav), Celestine , Max, Fabian &amp;amp; Alex)&lt;/p&gt;
+
+&lt;p&gt;Oh we’re 9 people by the way. Some of them are in my later pics.&lt;/p&gt;
+
+&lt;p&gt;When I reached at the AirBnB and opened the fridge. I found these on the very moment ^_^
+It’s called the coala ritual. Well every new-comers gets a bar of chocolates. Or a piece :P if we are running out of them. You have to get your hands on those awesome chocolates &amp;lt;3
+&lt;img src=&quot;http://localhost:4000/images/chocolates.jpeg&quot; alt=&quot;coala chocolates&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Anyway lets move ahead, it was an awesome experience for me cause this was my first technical conference and on the first day itself, we organized Beginner’s Day Workshop. Where I was mentoring a group of people with &lt;code class=&quot;highlighter-rouge&quot;&gt;pandas&lt;/code&gt; library, Machine-Learning and Data Science stuff. It was more like of knowledge sharing session. And at the end of the day we had to share with everyone what we did/discussed the whole day. It was pretty much sweeeeet.&lt;/p&gt;
+
+&lt;p&gt;Then at the beginning of each day we had keynote sessions. In which everyone participated. And the whole Amphitheatro was completely filled. Wanna see the crowd?&lt;/p&gt;
+
+&lt;p&gt;Here it is.
+&lt;img src=&quot;http://localhost:4000/images/crowd.jpg&quot; alt=&quot;crowd&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I kind of sticked to coala’s desk at sponsors room. Where I helped people to understand what coala was about. For some I even fired it up on there machines. And then I met a lot of sponsoring people from companies like facebook, kiwi.com, Intel etc.&lt;/p&gt;
+
+&lt;p&gt;The most amazing guys which I met was the kiwi.com people. Met Simone Esposito and Jan Bleha.
+It was my pleasure meeting them personally. And these guys were also one of the reason of making my trip to Italy affordable. They gave me flight vouchers of 200 Euros in a programme called &lt;a href=&quot;www.kiwi.com/sourcelift/&quot;&gt;Sourcelift&lt;/a&gt;. Also later that day they invited all coala people to their BEACH PARTY!! You Guys you are AWESOME ^_^&lt;/p&gt;
+
+&lt;p&gt;Here’s a pic of Jan and me(Saurav).
+&lt;img src=&quot;http://localhost:4000/images/Jan-Bleha.jpg&quot; alt=&quot;Jan Bleha&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At the end of the conference day we had Lightening Talks which was the coolest part of whole EuroPython according to me. In which random people chooses their topic of interest and speak on it for 5 mins. Even I gave a talk about “A Newcomers Perspective to FOSS” where I explained about my experience of OpenSource. Which was pretty good experience for me, considering the fact that it was my first public speaking experience.&lt;/p&gt;
+
+&lt;p&gt;Although every day was pretty tiring in the end. But guess what? we were so close to beach that I dont think of the day where we didn’t walked on the shore-line. Here’s how it looks.
+&lt;img src=&quot;http://localhost:4000/images/Beach3.jpg&quot; alt=&quot;Beach3&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/Beach2.jpg&quot; alt=&quot;Beach2&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/Beach1.jpg&quot; alt=&quot;Beach1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then there was the day of EuroPython Social Event ^_^ I gotta tell this, the food was just amazing. And we had lots of fun especially that drinking game with beer xD.&lt;/p&gt;
+
+&lt;p&gt;This was one of the best group pics I have.
+&lt;img src=&quot;http://localhost:4000/images/social-event.jpg&quot; alt=&quot;social event&quot; /&gt;
+(Niklas, Max, Alex , Me(Saurav), Celestine, Fabian, Stefan and Lasse)&lt;/p&gt;
+
+&lt;p&gt;Still Sebastian is missing hmm :/&lt;/p&gt;
+
+&lt;p&gt;Anyway at the end of the week I was happy but on the same side a bit sad cause EuroPython was coming to end. Surely If I will get the same opportunity again I won’t miss it. And maybe every year from now on I will be attending EuroPython :)&lt;/p&gt;
+
+&lt;p&gt;And lastly I want to Thank all the guys who were associated with me on this trip. I really had a good and memorable experience. See you next year :)&lt;/p&gt;
+
+&lt;p&gt;Amoreee!!!! Bologna.&lt;/p&gt;
+
+&lt;p&gt;Signing off till my next Blog.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 23 Jul 2017 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/journey/EuroPython-Awesomeness.html</link>
+				<guid isPermaLink="true">http://localhost:4000/journey/EuroPython-Awesomeness.html</guid>
+			</item>
+		
+			<item>
 				<title>Phase 2 Mid Month Summary</title>
 				        
 				
@@ -427,47 +488,6 @@ Although, I wasn’t able to complete my &lt;code class=&quot;highlighter-rouge&
 				<pubDate>Tue, 28 Mar 2017 00:00:00 +0530</pubDate>
 				<link>http://localhost:4000/gsoc/My-Project-Proposals.html</link>
 				<guid isPermaLink="true">http://localhost:4000/gsoc/My-Project-Proposals.html</guid>
-			</item>
-		
-			<item>
-				<title>The 3 Things I Learned</title>
-				        
-				
-					<description>&lt;p&gt;Hello people, So it’s been a week and as promised, I’m going to tell you about my experience in &lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt;. Which is an open-source community. I will specifically tell you about my journey, and probably everything that happened to me in the first two weeks.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-coala-is-about&quot;&gt;What coala is about?&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt; written with small &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt;, stands for “COde AnaLysis Application”. As it’s name suggests, coala is a static code analysis software that empowers developers to create rules which a project’s code should conform to. coala takes care of showing these issues to users in a friendly manner, is versatile and can be used in any environment. It also show’s Patches in a friendly manner which can fix your code according to the specified rules.&lt;/p&gt;
-
-&lt;h3 id=&quot;why-i-chose-coala-for-open-source-contribution&quot;&gt;Why I chose coala for open-source contribution?&lt;/h3&gt;
-
-&lt;p&gt;The answer is very simple, it’s written in python. And out of the blue box this project came to me while I was surfing on the Internet.&lt;/p&gt;
-
-&lt;h3 id=&quot;about-my-first-2-weeks-after-joining-the-community&quot;&gt;About my first 2 weeks after joining the community.&lt;/h3&gt;
-
-&lt;p&gt;So, we have a newcomers guide, which every newcomer has to follow. The very first step in the guide was to introduce yourself on the gitter channel. We have a secret code-word for all newcomers, “Hello World”. So I just pinged on the channel and soon I got an invitation to the organisation. The guide is very helpful towards newcomers. It’s a complete guide which will land you to get your first Pull Request(PR) merged. The newcomers issues are very simple. Can vary from correcting a typo, removing a line or fixing some simple stuff.&lt;/p&gt;
-
-&lt;p&gt;This community has a workflow that on each issue only an individual who is assigned to it, can work for it. So my first task was to get myself assigned to a newcomer’s issue. Well in coala most of the things are automated. So, for issue assignment we have a gitter &lt;code class=&quot;highlighter-rouge&quot;&gt;cobot&lt;/code&gt; (coala bot) with which you can easily assign yourself to any issue with a single command. Soon after I got myself assigned to one, I started working on my first patch. It was about removing deprecated &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;center&amp;gt;&lt;/code&gt; tags from their “projects” website. Well that was pretty easy isn’t it? Yes, so I finished making my PR in about 10-15 mins. Just Wait a sec! the work doesn’t get’s over yet!!. We have some specific rules before a PR is merged into the code-base. After submitting your PR you have to wait for a review from any existing member of a community. Which I feel is the best thing in this community, anyone can review anyone’s PR. By reviewing we can even learn more about someone’s work. This even embraces our own coding knowledge. I totally love reviewing other’s work by this you can actually learn more about coding style. So, soon my pending PR got reviewed and BAAM! in 2 days my first patch got merged into coala’s code-base.&lt;/p&gt;
-
-&lt;p&gt;After this I took 2-3 more issues. And on the end of my second week I got promoted to a core-dev &lt;a href=&quot;http://www.coala.io/&quot;&gt;@coala&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/developer_result.jpg&quot; alt=&quot;Developer Result&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Thanks to all the maintainer’s and my fellow dev’s &lt;a href=&quot;http://www.coala.io/&quot;&gt;@coala&lt;/a&gt;. Special Thanks to &lt;a href=&quot;https://github.com/sils&quot;&gt;@sils&lt;/a&gt;,&lt;a href=&quot;https://github.com/Makman2&quot;&gt;@Makman2&lt;/a&gt;,&lt;a href=&quot;https://github.com/jayvdb&quot;&gt;@jayvdb&lt;/a&gt;,&lt;a href=&quot;https://github.com/SanketDG&quot;&gt;@SanketDG&lt;/a&gt; and &lt;a href=&quot;https://github.com/Mixih&quot;&gt;@mixih&lt;/a&gt; for giving me an initial boost.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-3-things-i-learned&quot;&gt;The 3 Things I Learned&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;The first and the most exciting thing I learned after joining coala was, getting to know people and about their work. It’s really fascinating how much these people invest their time in open-source project. And at last it’s all worth it. Every single bit of it. I can actually tell you that, after experiencing it myself. The feel about how your work can make a difference in million’s of peoples lives, is enough to get yourself motivated.&lt;/li&gt;
-  &lt;li&gt;Second thing I learned was, whenever you got yourself stuck at some point while working on an issue. Don’t directly ask for it in the channel without doing some prior research on it. In my opinion this actually wastes a lot of time even for you and also for the person who is answering it. Doing some prior research can actually help you to support your case well, you can elaborate the cause well by saying that, “I have tried these all things but still this isn’t working for me”.&lt;/li&gt;
-  &lt;li&gt;Third and the last thing which I learned was about reviewing. Doing patches solving issues, isn’t the only way to contribute in an organisation. Reviewing is also one of the most important aspect. By reviewing you can actually learn about how a code can be written in more than one way. Sometimes, you can even get you hands on small tricks, when applied can actually make your code much more efficient than before.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So, this was all about my first few weeks experience in coala. For more, Stay Tuned! And Start Contributing :)&lt;/p&gt;
-</description>
-				
-				<pubDate>Tue, 07 Mar 2017 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/journal/The-3-Things-I-Learned.html</link>
-				<guid isPermaLink="true">http://localhost:4000/journal/The-3-Things-I-Learned.html</guid>
 			</item>
 		
 	</channel>
