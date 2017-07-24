@@ -5,7 +5,7 @@
 
   <title>
     
-      A Road Ahead! | Saurav Singh
+      Phase 2 Month End Summary | Saurav Singh
     
   </title>
 
@@ -68,56 +68,52 @@
 
     <div class="post-container">
       <h1>
-  A Road Ahead!
+  Phase 2 Month End Summary
 </h1>
 
 
-  <img src="https://damngamerz.github.io/images/bag.jpg">
+  <img src="https://damngamerz.github.io/images/coding.jpg">
 
 
-<p>Hello, people. So this is probably my first blog ever! And, I will be writing here about all the cool stuff on which I’m working on.</p>
+<p>Hi Guys!, How you doing?
+It’s been 4 weeks of <code class="highlighter-rouge">CODING PHASE-2</code> and it’s evaluation time again. So from 24th 9:30pm, Evaluation links will become active both me and my mentor have to fill a Q &amp; A form ^_^. So in this blog I will be sumarizing my GSoC’2017’s work of last 2 weeks. Let’s begin!!</p>
 
-<h3 id="a-road-ahead">A Road Ahead</h3>
+<h2 id="summary">Summary</h2>
+<p>The deadline of achieving the milestones set by my organization is 24th July. The big thing was <code class="highlighter-rouge">DocBaseClass</code> got merged which now takes care of extraction, parsing and diff generation of documentation. Developers now only have to inherit this class in order to work on documentation linters. Following are the issues on which I have worked upon in last 2 weeks. These are mostly bugs fixes and quirks to DocumentationAPI and DocStyleBear:</p>
 
-<p>So the name itself justifies I’m going on a road, a journey. Any Guesses? Well, My journey has already begun in the last week of January 2017. And it’s about joining an open-source community. So, it has been 3 weeks for me and in this blog I will be explaining about how anyone can start contributing to an open-source environment. By giving a gist of my experience I hope you will also make your mind in taking your first step towards the open-source world. But first we need some prerequisites.</p>
+<ol>
+  <li>DocStyleBear now has a setting to expand one-liners. By default it will convert all the docstrings which only have main description to one-liners. In order to expand it as multi-line docstring, you have to set <code class="highlighter-rouge">expand_one_liners=True</code>. A patch has been implemented and <a href="https://github.com/coala/coala-bears/pull/1940">merged</a>.</li>
+  <li>DocumentationAPI was returning nothing when JavaDoctyle was written with malformed docstyle markers. We now use <code class="highlighter-rouge">markers.strip()</code> to extract documentation. A patch has been implemented and <a href="https://github.com/coala/coala/pull/4530">merged</a>.</li>
+  <li>The official standard of writing a documentation includes a blank line before and after a docstring. Hence this was important and <code class="highlighter-rouge">DocumentationComment</code> class now has padding option to include a blank line. A patch is implemented and in <a href="https://github.com/coala/coala/pull/4549">review</a>. I hope It will get merged before the deadline.</li>
+</ol>
 
-<h3 id="whats-an-open-source-anyway-">What’s an open-source anyway ?</h3>
+<p>This was it!! Im close to achieving my milestone of <code class="highlighter-rouge">PHASE-2</code>. You can see my progress <a href="https://gitlab.com/coala/GSoC-2017/milestones/10">here</a>. And here’s how my burndown chart looks like.</p>
 
-<p>In a simple way, open-source Applications/Softwares are free softwares for which the original source code is made freely available and may be redistributed and modified. So, anyone can use open-source software for free, for forever…</p>
+<p><img src="http://localhost:4000/images/chart_phase2.png" alt="bonding chart" />
+sweeeet!! ^_^</p>
 
-<h3 id="why-should-i-do-open-source-contribution-">Why should I do open-source contribution ?</h3>
+<h2 id="party-time">PARTY TIME!!</h2>
+<p>Kudos to….Both of my mentors <a href="https://github.com/SanketDG">SanketDG</a> &amp; <a href="https://github.com/NiklasMM">NiklasMM</a> for achieving this milestone together. I’m really enjoying working with them. We sometimes even have disagreements with each other about somethings :D , which always turns out to be fruitful at the end. We still have 1 more month ;) and I think we can complete this project in time.</p>
 
-<p>According to me to learn any specific language suppose <code class="highlighter-rouge">C Language</code>. The best way to dive into something is to do a project on it. That’s why I suggest you to join open-source.</p>
+<h2 id="whats-up-next">What’s up Next?</h2>
+<p>Next up I have to implement is DocGrammarBear which will be doing spell checking, grammar checking..etc over documentation. Also there’re some quirks and bugs related to DocStyleBear, which I will be fixing in next Coding Phase.</p>
 
-<p>Now, talkin about my experience when my first ever patch got merged into main code-base. The, feeling which I got was immensely great. It wasn’t about “my patch got accepted yay!” But the feeling was more about ,”Now my patch will help million’s of world wide user’s. They will be using my work in their daily life”. And at the end it will be worth while your time. I can surely asure you that.</p>
-
-<h3 id="which-open-source-project-should-i-choose-how-can-i-get-started-">Which open-source project should I choose? How can I get started ?</h3>
-
-<p>This question is trivial. I really think that one should always follow his instincts. So, go ahead choose what interests you the most. There are many great projects but I would personally recommend you to start working on small projects then go towards big sheeps.</p>
-
-<h3 id="do-i-need-any-prerequisites-">Do I need any prerequisites ?</h3>
-
-<p>That depend’s on how you want to work on the project. You can either hack the core of the language first or directly go on with the flow. The second option is mostly choosed over the first. Even I’m learning with the flow!!, but contributing towards open-source projects requires hell lot of a patience. Which I think once you get started, you will get a hang of it!</p>
-
-<p>So, those are the most basic questions which I find people asking around. And now I will be sharing with you, which open-source project I have choosen and why.</p>
-
-<p>This all started when I came across python in the 1st week of january 2017. And I found it very interesting towards it’s simplicity, working with lists, so many ready-mate packages, <code class="highlighter-rouge">NumPy</code> which made N-dimentional array object’s a child’s play and so-on. So, I decided to choose this language, and wanted to do a project on it. Literally I knew nothing about which project I’m gonna choose? So out of the blue box while surfing on the internet, I came across this wonderful project called <code class="highlighter-rouge">coala</code>, which basically does static code-analysis. This project in itself is very awesome. I would like to tell you more about it! But you have to wait till next week.</p>
-
-<p>That’s it folks! Hope you like my first blog.</p>
+<p>Till next time. See Yaa!!</p>
 
 <span class="post-date">
   Written on
   
-  February
-  27th,
+  July
+  23rd
+    ,
   2017
   by Saurav Singh
 </span>
 <div class="post-date">Feel free to share!</div>
   <div class="sharing-icons">
-    <a href="https://twitter.com/intent/tweet?text=A Road Ahead!&amp;url=https://damngamerz.github.io/journal/A-Road-Ahead.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/journal/A-Road-Ahead.html&amp;title=A Road Ahead!" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/journal/A-Road-Ahead.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/intent/tweet?text=Phase 2 Month End Summary&amp;url=https://damngamerz.github.io/gsoc/Phase-2-Month-End-Summary.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/gsoc/Phase-2-Month-End-Summary.html&amp;title=Phase 2 Month End Summary" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/gsoc/Phase-2-Month-End-Summary.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -128,16 +124,6 @@
     
       
         
-          <li>
-            <h3>
-              <a href="https://damngamerz.github.io/gsoc/Phase-2-Month-End-Summary.html">
-                Phase 2 Month End Summary
-                <!--<img src="http://localhost:4000/images/coding-teaser.jpg">-->
-                <!--<small>July 23, 2017</small>-->
-              </a>
-            </h3>
-          </li>
-          
         
       
         
@@ -175,6 +161,38 @@
         
       
         
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+          <li>
+            <h3>
+              <a href="https://damngamerz.github.io/gsoc/Phase-1-Month-End-Summary.html">
+                Phase 1 Month End Summary
+                <!--<img src="http://localhost:4000/images/bonding-teaser.jpg">-->
+                <!--<small>June 26, 2017</small>-->
+              </a>
+            </h3>
+          </li>
+          
         
       
     

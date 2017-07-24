@@ -7,6 +7,41 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Phase 2 Month End Summary</title>
+				        
+				
+					<description>&lt;p&gt;Hi Guys!, How you doing?
+It’s been 4 weeks of &lt;code class=&quot;highlighter-rouge&quot;&gt;CODING PHASE-2&lt;/code&gt; and it’s evaluation time again. So from 24th 9:30pm, Evaluation links will become active both me and my mentor have to fill a Q &amp;amp; A form ^_^. So in this blog I will be sumarizing my GSoC’2017’s work of last 2 weeks. Let’s begin!!&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;The deadline of achieving the milestones set by my organization is 24th July. The big thing was &lt;code class=&quot;highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt; got merged which now takes care of extraction, parsing and diff generation of documentation. Developers now only have to inherit this class in order to work on documentation linters. Following are the issues on which I have worked upon in last 2 weeks. These are mostly bugs fixes and quirks to DocumentationAPI and DocStyleBear:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;DocStyleBear now has a setting to expand one-liners. By default it will convert all the docstrings which only have main description to one-liners. In order to expand it as multi-line docstring, you have to set &lt;code class=&quot;highlighter-rouge&quot;&gt;expand_one_liners=True&lt;/code&gt;. A patch has been implemented and &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1940&quot;&gt;merged&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;DocumentationAPI was returning nothing when JavaDoctyle was written with malformed docstyle markers. We now use &lt;code class=&quot;highlighter-rouge&quot;&gt;markers.strip()&lt;/code&gt; to extract documentation. A patch has been implemented and &lt;a href=&quot;https://github.com/coala/coala/pull/4530&quot;&gt;merged&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;The official standard of writing a documentation includes a blank line before and after a docstring. Hence this was important and &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; class now has padding option to include a blank line. A patch is implemented and in &lt;a href=&quot;https://github.com/coala/coala/pull/4549&quot;&gt;review&lt;/a&gt;. I hope It will get merged before the deadline.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This was it!! Im close to achieving my milestone of &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-2&lt;/code&gt;. You can see my progress &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/10&quot;&gt;here&lt;/a&gt;. And here’s how my burndown chart looks like.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/chart_phase2.png&quot; alt=&quot;bonding chart&quot; /&gt;
+sweeeet!! ^_^&lt;/p&gt;
+
+&lt;h2 id=&quot;party-time&quot;&gt;PARTY TIME!!&lt;/h2&gt;
+&lt;p&gt;Kudos to….Both of my mentors &lt;a href=&quot;https://github.com/SanketDG&quot;&gt;SanketDG&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/NiklasMM&quot;&gt;NiklasMM&lt;/a&gt; for achieving this milestone together. I’m really enjoying working with them. We sometimes even have disagreements with each other about somethings :D , which always turns out to be fruitful at the end. We still have 1 more month ;) and I think we can complete this project in time.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-up-next&quot;&gt;What’s up Next?&lt;/h2&gt;
+&lt;p&gt;Next up I have to implement is DocGrammarBear which will be doing spell checking, grammar checking..etc over documentation. Also there’re some quirks and bugs related to DocStyleBear, which I will be fixing in next Coding Phase.&lt;/p&gt;
+
+&lt;p&gt;Till next time. See Yaa!!&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 23 Jul 2017 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/gsoc/Phase-2-Month-End-Summary.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-2-Month-End-Summary.html</guid>
+			</item>
+		
+			<item>
 				<title>EuroPython Awesomeness</title>
 				        
 				
@@ -460,34 +495,6 @@ Although, I wasn’t able to complete my &lt;code class=&quot;highlighter-rouge&
 				<pubDate>Sat, 06 May 2017 00:00:00 +0530</pubDate>
 				<link>http://localhost:4000/gsoc/Accepted_YAY!.html</link>
 				<guid isPermaLink="true">http://localhost:4000/gsoc/Accepted_YAY!.html</guid>
-			</item>
-		
-			<item>
-				<title>My Project Proposals</title>
-				        
-				
-					<description>&lt;p&gt;It’s been a while since my last blog. So, this blog is all about my goals towards this year’s awesome summer. Let’s directly come to the point. Guys, I’m participating in Google Summer of Code 2017 (GSoC-2017). I will tell you more about my proposals, meanwhile lets get familiar with some pre-requisites.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-gsoc-is-about&quot;&gt;What GSoC is about?&lt;/h3&gt;
-
-&lt;p&gt;The Google Summer of Code, often abbreviated to GSoC, is an international annual program, in which Google awards stipends, to all students who successfully complete a requested free and open-source software coding project during the summer. It is focused on bringing more student developers into open source software development. Students work with an open source organization on a 3 month programming project during their break from college.&lt;/p&gt;
-
-&lt;h3 id=&quot;my-project-proposals&quot;&gt;My Project Proposals&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/my_proposal.png&quot; alt=&quot;My Project Proposals&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Anyways, The student application window is open. And Im really excited about participating in it. So here’s the deal. Im applying for 2 project proposals:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Documentation Extraction and Parsing&lt;/strong&gt;: Well this project is all about developing an analyzing routine at least for python and java that will find all documentation strings in a file, parse them into specific groups and check them against a specified documentation style given by the user. For more specific info look at my &lt;a href=&quot;https://drive.google.com/open?id=0B2ZlhOHwaV58Tmhva09ua3FRNzQ&quot;&gt;proposal&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Handle Nested Programming Language&lt;/strong&gt;: This one will help coala and its users by having analyzing routines over nested languages (eg. a html file can have php in it, such as inside a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;code-block&amp;gt;&lt;/code&gt;). For more specific info look at my &lt;a href=&quot;https://drive.google.com/open?id=0B2ZlhOHwaV58YW5acDJKLWkxMDA&quot;&gt;proposal&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;That’s it guys!! I will be writting my next blog ahh not soon enough :( busy in projects and assignments, but you can surely expect one after the results of GSoC 2017 being declared. Till then see yaa next time :)&lt;/p&gt;
-</description>
-				
-				<pubDate>Tue, 28 Mar 2017 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/gsoc/My-Project-Proposals.html</link>
-				<guid isPermaLink="true">http://localhost:4000/gsoc/My-Project-Proposals.html</guid>
 			</item>
 		
 	</channel>
