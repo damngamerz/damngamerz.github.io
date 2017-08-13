@@ -5,7 +5,7 @@
 
   <title>
     
-      My Project Proposals | Saurav Singh
+      Phase 3 Mid Month Summary | Saurav Singh
     
   </title>
 
@@ -68,44 +68,52 @@
 
     <div class="post-container">
       <h1>
-  My Project Proposals
+  Phase 3 Mid Month Summary
 </h1>
 
 
-  <img src="/images/gsoc.jpg">
+  <img src="/images/coding_final.jpg">
 
 
-<p>It’s been a while since my last blog. So, this blog is all about my goals towards this year’s awesome summer. Let’s directly come to the point. Guys, I’m participating in Google Summer of Code 2017 (GSoC-2017). I will tell you more about my proposals, meanwhile lets get familiar with some pre-requisites.</p>
+<p>Hey guys, It’s been 2 weeks since 2nd evaluation. And this is my <code class="highlighter-rouge">Coding Phase-3</code> Mid Month summary. Before I begin with the summary, I just wanna share with you guys that I nearly passed my 2nd evaluation. My bad, I wasn’t able to achieve my last issue, it turns out the issue’s solution was designing the API rather than what I proposed earlier.</p>
 
-<h3 id="what-gsoc-is-about">What GSoC is about?</h3>
+<h2 id="how-did-i-feel-about-failing-the-milestone">How did I feel about failing the milestone?</h2>
+<p>It sucks!! Well at first I really got tensed what will the org. admins decide. But it turns out they understood the situation and believed in me that I will still achieve my final goal. Ofcourse! I will not let them down :) . Thanks to org. admins and my mentors for understanding why I wasn’t able to achieve it. At the end it all turned out well, I’m quite happy about how the final solution turned out to be. Also this solution is the biggest patch of my GSoC experience, which introduced 2 new features to the Documentation API. Kind of an achievement for me ^_^</p>
 
-<p>The Google Summer of Code, often abbreviated to GSoC, is an international annual program, in which Google awards stipends, to all students who successfully complete a requested free and open-source software coding project during the summer. It is focused on bringing more student developers into open source software development. Students work with an open source organization on a 3 month programming project during their break from college.</p>
-
-<h3 id="my-project-proposals">My Project Proposals</h3>
-
-<p><img src="http://localhost:4000/images/my_proposal.png" alt="My Project Proposals" /></p>
-
-<p>Anyways, The student application window is open. And Im really excited about participating in it. So here’s the deal. Im applying for 2 project proposals:</p>
+<h2 id="summary">Summary</h2>
+<p>Originally! the only objective for me this month was to implement <code class="highlighter-rouge">DocGrammarBear</code>. Which will check for grammatical errors inside the DocumentationComment’s descriptions. But most of the time I spent on clearing the issue which got a bit off-scheduled from my previous milestone.</p>
 <ol>
-  <li><strong>Documentation Extraction and Parsing</strong>: Well this project is all about developing an analyzing routine at least for python and java that will find all documentation strings in a file, parse them into specific groups and check them against a specified documentation style given by the user. For more specific info look at my <a href="https://drive.google.com/open?id=0B2ZlhOHwaV58Tmhva09ua3FRNzQ">proposal</a>.</li>
-  <li><strong>Handle Nested Programming Language</strong>: This one will help coala and its users by having analyzing routines over nested languages (eg. a html file can have php in it, such as inside a <code class="highlighter-rouge">&lt;code-block&gt;</code>). For more specific info look at my <a href="https://drive.google.com/open?id=0B2ZlhOHwaV58YW5acDJKLWkxMDA">proposal</a>.</li>
+  <li>First, the issue was to check and fix the blank lines before and after the Documentation for <code class="highlighter-rouge">function</code> vs <code class="highlighter-rouge">class</code>. According to <a href="https://www.python.org/dev/peps/pep-0257/">PEP-257</a> <code class="highlighter-rouge">class</code> docstrings should be followed by a blank line and <code class="highlighter-rouge">function</code> docstrings should never have any blank lines before of after. This issue got so stretched that I ended up implementing 2 new features to the DocumentationAPI.
+    <ol>
+      <li><strong>Automatic Padding</strong>- We have a setting in DocumentationAPI which automatically tells how many lines are above and below the docstring.</li>
+      <li><strong>Docstring Type</strong>- We can detect &amp; determine between docstrings, whether they are of type <code class="highlighter-rouge">function</code>, <code class="highlighter-rouge">class</code> or <code class="highlighter-rouge">others</code>.</li>
+    </ol>
+
+    <p>These both additions were important inorder to solve this issue perfectly. A <a href="https://github.com/coala/coala/pull/4557">PR has been made</a> and is close to being merged.</p>
+  </li>
+  <li><code class="highlighter-rouge">DocGrammarBear</code> which will check for grammatical errors inside the DocumentationComment’s description. <a href="https://github.com/coala/coala-bears/pull/1980">PR is ready</a> and close to merge. Also I made an <a href="https://asciinema.org/a/132564">asciinema</a> so you can see this bear in action.</li>
 </ol>
 
-<p>That’s it guys!! I will be writting my next blog ahh not soon enough :( busy in projects and assignments, but you can surely expect one after the results of GSoC 2017 being declared. Till then see yaa next time :)</p>
+<p>These were the 2 major objectives of this month. I think I can achieve my final milestone. As everything is back on schedule.</p>
+
+<h2 id="whats-up-next">What’s up next?</h2>
+<p>There are 2 bugs regarding DocumentationAPI which still needs be taken care of. First, Ignoring string literal solution kind of created a bug with its last marker being taken as the start of new docstring. Second, We kinda broke the corner case of all docstrings with java docstyle bug fix. Need to fix it or revert this and raise an error message. That’s it guys!</p>
+
+<p>Till next time! See Yaa!!</p>
 
 <span class="post-date">
   Written on
   
-  March
-  28th,
+  August
+  11th,
   2017
   by Saurav Singh
 </span>
 <div class="post-date">Feel free to share!</div>
   <div class="sharing-icons">
-    <a href="https://twitter.com/intent/tweet?text=My Project Proposals&amp;url=/gsoc/My-Project-Proposals.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=/gsoc/My-Project-Proposals.html&amp;title=My Project Proposals" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="https://plus.google.com/share?url=/gsoc/My-Project-Proposals.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/intent/tweet?text=Phase 3 Mid Month Summary&amp;url=/gsoc/Phase-3-Mid-Month-Summary.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=/gsoc/Phase-3-Mid-Month-Summary.html&amp;title=Phase 3 Mid Month Summary" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=/gsoc/Phase-3-Mid-Month-Summary.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -116,16 +124,6 @@
     
       
         
-          <li>
-            <h3>
-              <a href="/gsoc/Phase-3-Mid-Month-Summary.html">
-                Phase 3 Mid Month Summary
-                <!--<img src="http://localhost:4000/images/coding_final-teaser.jpg">-->
-                <!--<small>August 11, 2017</small>-->
-              </a>
-            </h3>
-          </li>
-          
         
       
         
