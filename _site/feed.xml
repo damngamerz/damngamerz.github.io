@@ -7,6 +7,50 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Phase 3 Month End Summary</title>
+				        
+				
+					<description>&lt;p&gt;Hi Guys!, How you doing?
+It’s been 4 weeks of &lt;code class=&quot;highlighter-rouge&quot;&gt;CODING PHASE-3&lt;/code&gt; and it’s evaluation time again, this is the final one. So from 21st 9:30pm, Evaluation links will become active both me and my mentor have to fill a Q &amp;amp; A form ^_^. In this blog I will be sumarizing my GSoC’2017’s work of last 2 weeks. Let’s begin!!&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;The deadline of achieving the milestones set by my organization is 21st August. The big thing was &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; now has support for automatic padding and docstring type. Which tells us about the trailing no. of blank lines before or after the docstring and also about the type of docstring it is: &lt;code class=&quot;highlighter-rouge&quot;&gt;function&lt;/code&gt; level or &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; level. By using these, now we can have blank lines detected and fixed according to &lt;a href=&quot;https://www.python.org/dev/peps/pep-0257/&quot;&gt;PEP-257&lt;/a&gt;. Last 2 weeks was mostly about bug fixes.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Triple quoted string literals which was ignored by &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; was creating a bug. It’s end marker was taken as the starting of a new docstring. Seems like the patch which I submitted in &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-1&lt;/code&gt; to ignore these string literals was creating this. So I found the other way around. We now Ignore the whole &lt;code class=&quot;highlighter-rouge&quot;&gt;DocComment&lt;/code&gt; instead of ignoring it by regex(Which was the case previously). So a PR reverting the previous changes and applying a new solution was &lt;a href=&quot;https://github.com/coala/coala/pull/4632&quot;&gt;made and merged.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;There was a Java docstyle bug (you can read more about it &lt;a href=&quot;https://github.com/coala/coala/issues/4029&quot;&gt;here&lt;/a&gt;). The solution I proposed in &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-2&lt;/code&gt; was breaking a corner case. Which we thought could be fixed seperately. But it wasn’t like that. So finally we came to a conclusion that &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; couldn’t fix docstrings if their markers are faulty. As markers are the only thing by which drives &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; to find docstrings inside a file, we now just yield a &lt;code class=&quot;highlighter-rouge&quot;&gt;RESULT&lt;/code&gt; with beautiful message which describes that markers are faulty. So a PR reverting the previous changes and applying a new solution was &lt;a href=&quot;https://github.com/coala/coala/pull/4637&quot;&gt;made and merged&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This was it!! I have successfully achieved my milestone of &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-3&lt;/code&gt;. You can see my progress &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/11&quot;&gt;here&lt;/a&gt;. And here’s how my burndown chart looks like.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/chart_phase3.png&quot; alt=&quot;bonding chart&quot; /&gt;
+Yay! I did it!&lt;/p&gt;
+
+&lt;h2 id=&quot;stretch-goal&quot;&gt;STRETCH GOAL&lt;/h2&gt;
+&lt;p&gt;Yes you read it correctly. I completed one of the biggest stretch goal which I had a thought since &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-1&lt;/code&gt;. It was about giving an error handling mechanism to DocumentationAPI. So we now have &lt;code class=&quot;highlighter-rouge&quot;&gt;MalformedComment&lt;/code&gt; class which can be yielded if there is some error in parsing the docstring by DocumentationAPI. Which contains attributes like error message and line number, so these can be yielded on the bear part. A PR has been &lt;a href=&quot;https://github.com/coala/coala/pull/4637&quot;&gt;made and merged&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There’s still one more week remaining for hard deadline of August 29. I was thinking about doing some more quirks to DocGrammarBear and DocStyleBear which will polish my project and a review sprint ;) You can see all progress about stretch goals &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/44&quot;&gt;here!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There were some up and downs in &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-2&lt;/code&gt; I nearly failed the milestone. But&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Why do we fall? So we can learn to pick ourself’s up - Alfred&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;party-time&quot;&gt;PARTY TIME!!&lt;/h2&gt;
+&lt;p&gt;Kudos to….Both of my mentors &lt;a href=&quot;https://github.com/SanketDG&quot;&gt;SanketDG&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/NiklasMM&quot;&gt;NiklasMM&lt;/a&gt; for achieving this milestone together. Couldn’t have done this without them. We made 2 calls a week to discuss about progress and to answer my queries one on one, which is the sole reason of this project being done in time.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-up-next&quot;&gt;What’s up Next?&lt;/h2&gt;
+&lt;p&gt;I don’t know where this journey ends. It’s feels like it had just begun and opened up a new chapter to fill ;) I will soon write another blog wrapping up about my overall GSoC journey.&lt;/p&gt;
+
+&lt;p&gt;Till next time. See Yaa!!&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 19 Aug 2017 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/gsoc/Phase-3-Month-End-Summary.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-3-Month-End-Summary.html</guid>
+			</item>
+		
+			<item>
 				<title>Phase 3 Mid Month Summary</title>
 				        
 				
@@ -439,66 +483,6 @@ Although, I wasn’t able to complete my &lt;code class=&quot;highlighter-rouge&
 				<pubDate>Sun, 28 May 2017 00:00:00 +0530</pubDate>
 				<link>http://localhost:4000/gsoc/An-Insight-Into-coala's-Structure.html</link>
 				<guid isPermaLink="true">http://localhost:4000/gsoc/An-Insight-Into-coala's-Structure.html</guid>
-			</item>
-		
-			<item>
-				<title>First Week GSoC'17</title>
-				        
-				
-					<description>&lt;p&gt;Hey people!! This is the end of my first week at GSoC’2017 (Google Summer of Code). The programme kicks off with the start of community bonding. Which is probably the period where students and mentors break the ice between them. So, I will be summarizing what all has been done till now, and what lies on the road ahead. In this blog Im gonna explain about my project in little more detail, followed by my objective for the upcoming week. This is gonna be a lengthy one so hold on tight!!&lt;/p&gt;
-
-&lt;h3 id=&quot;whats-my-project-about&quot;&gt;What’s my project about?&lt;/h3&gt;
-&lt;p&gt;I have already been through with the description of my project twice, in my previous blogs. So rather than repeating the same Im gonna explain you in a bit detail what exactly my project will be acheiving after it’s completion. So my project deals with the documentation of different languages&lt;/p&gt;
-
-&lt;p&gt;For java, the idea for the docstyle to be followed is defined &lt;a href=&quot;http://www.oracle.com/technetwork/articles/java/index-137868.html&quot;&gt;here&lt;/a&gt;. In general it will look like:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/**
- * &amp;lt;main_description&amp;gt;
- *
- * @param &amp;lt;param_name&amp;gt; &amp;lt;param_description&amp;gt;
- * @return             &amp;lt;return_description&amp;gt;
- */
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;Similarly for python, the idea for the docstring to be followed is defined in &lt;a href=&quot;https://www.python.org/dev/peps/pep-0257/&quot;&gt;PEP-257&lt;/a&gt;. And this looks like:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;&quot;&quot;
-&amp;lt;main_description&amp;gt;
-
-:param &amp;lt;param_name&amp;gt;:
-    &amp;lt;param_description&amp;gt;
-:return:
-    &amp;lt;return_description&amp;gt;
-&quot;&quot;&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;So, I have to basically design an efficient API and later DocStyleBear &amp;amp; DocGrammarBear(using the API), which will contain analyzing routines over the documentation of python and java files according to the above defined format.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-did-the-1st-week-go&quot;&gt;How did the 1st week go?&lt;/h3&gt;
-&lt;p&gt;Start of the week was full of joyness and excitement among all of the selected students. Which is because most of the bachelors (including me) are having first time experience as an intern and we are very much excited to begin our work. So we started our bonding period with a nice chat, setting everything up. Everything is going as smooth as it can ever be. We discussed about what all has to be done in the recent upcoming days, and what all will be done for the big picture. SO! LET’S ROLLLL!!&lt;/p&gt;
-
-&lt;p&gt;My first task was to create a detailed schedule over gitlab. We have done this through creating milestones according to official &lt;a href=&quot;https://developers.google.com/open-source/gsoc/timeline&quot;&gt;GSoC Timeline&lt;/a&gt;. Which are as follows:&lt;/p&gt;
-
-&lt;p&gt;Objectives:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/4&quot;&gt;BONDING PERIOD&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/5&quot;&gt;CODING PHASE-1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/10&quot;&gt;CODING PHASE-2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/11&quot;&gt;CODING PHASE-3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Second, was to introduce myself to the whole community on the coala-dev &amp;amp; coala-newcomers mailing lists.&lt;/p&gt;
-
-&lt;p&gt;And Final, was that I have get my feed.xml for this blog-page to be aggregated with &lt;a href=&quot;http://blog.coala.io/&quot;&gt;blog.coala.io&lt;/a&gt;. You guys can now also access my blogs @coala’s official &lt;a href=&quot;http://blog.coala.io/&quot;&gt;blog-page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;whats-for-the-upcoming-week&quot;&gt;What’s for the upcoming week?&lt;/h3&gt;
-&lt;p&gt;Finally my exams are over and summer vacation has begun. Now I can devote my full time to this project. So probably Im gonna start completing my BONDING PERIOD: Milestones. Which right now has 4 issues. Also, I will be diving deep into the coala’s codebase to understand its voodoo, and will be writing about it’s working in the near future.&lt;/p&gt;
-
-&lt;p&gt;That’s it for this week folks!! See yaa!!&lt;/p&gt;
-</description>
-				
-				<pubDate>Wed, 17 May 2017 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/gsoc/First-Week-GSoC'17.html</link>
-				<guid isPermaLink="true">http://localhost:4000/gsoc/First-Week-GSoC'17.html</guid>
 			</item>
 		
 	</channel>
