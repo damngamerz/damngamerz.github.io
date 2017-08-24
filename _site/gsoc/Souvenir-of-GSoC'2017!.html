@@ -1,0 +1,376 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>
+    
+      Souvenir of GSoC'2017! | Saurav Singh
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://damngamerz.github.io/css/main.css">
+  <link rel="stylesheet" href="https://damngamerz.github.io/css/syntax.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80213386-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="https://damngamerz.github.io/">Saurav Singh</a>
+    <small class="masthead-subtitle">damngamerz</small>
+    <div class="menu">
+  <div class="menu-content">
+    <a href="https://damngamerz.github.io/about.html">About</a>
+    <a href="https://damngamerz.github.io/writing.html">Writing</a>
+    <a href="https://damngamerz.github.io/contacts.html">Contact</a>
+  </div>
+  <div class="social-icons">
+    <a href="https://github.com/damngamerz"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://gitlab.com/damngamerz"><i class="fa fa-gitlab" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://twitter.com/damngamerz"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://www.facebook.com/damngamerz"><i class="fa fa-facebook" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://instagram.com/damngamerz"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://linkedin.com/in/damngamerz"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
+    <a href="mailto:sauravsinghshakya@yahoo.com"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://damngamerz.github.io/feed.xml"><i class="fa fa-rss" aria-hidden="true" target="_blank"></i></a>
+  </div>
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h1>
+  Souvenir of GSoC'2017!
+</h1>
+
+
+  <img src="https://damngamerz.github.io/images/gsoc.jpg">
+
+
+<p>So this it guys. The day I have worked for is finally here. This marks the end of my Google Summer of Code’2017. It’s been an awesome journey of 4 months.</p>
+
+<h2 id="thanks">Thanks!</h2>
+<p>Firstly, Thanks to both of my mentors <a href="https://github.com/SanketDG">SanketDG</a> &amp; <a href="https://github.com/NiklasMM">NiklasMM</a>. Thanks for everything! It’s been an awesome journey for me, I couldn’t have asked for better mentors than you guys. Secondly, Thanks to Org. admins and other mentors of coala.</p>
+
+<p>Thank you guys, for not losing hope on me when I nearly failed my <code class="highlighter-rouge">PHASE-2</code> milestone. Somewhere this was the sole reason which drived me to recover my work and complete my final milestone in time :)</p>
+
+<p>Finally, Thanks Google! for such a wonderful programme.</p>
+
+<h2 id="how-this-all-begin">How this all begin?</h2>
+<p>I came across coala while surfing on the internet. Though those were the initial days where I wanted to learn only python, but my ideology is if you want to learn something then do a project on it ;)<br />
+The welcoming nature of the community thrived me to contribute towards this wonderful project. I continued to contribute in coala and in 2 weeks I was promoted to <code class="highlighter-rouge">core-developer</code>. This was the first ever experience of me contributing to an opensource community. Later I continued to contribute more and more. Although I already knew about Google Summer of Code but I wasn’t sure if I’m surely gonna try a shot. Until I started talking with some of the mentors of coala. First was <a href="https://github.com/NiklasMM">NiklasMM</a>, the project Handle Nested Programming language was sounding interesting. Meanwhile I was doing an issue with <a href="https://github.com/SanketDG">SanketDG</a>. I came to know that he was an Ex-GSoCer at coala. So I started investigating with him about the process, reading his blogs, investing about how did he started….etc. At the end I got more interested towards <strong>Documentation Extraction and Parsing</strong>. We scheduled a skype call where he answered some of my doubts one on one.</p>
+
+<p>And the rest, It all just happened ;)</p>
+
+<h2 id="what-i-have-achieved-with-this-project">What I have achieved with this project?</h2>
+<p>Coming back to my project <strong>Documentation Extraction and Parsing</strong>, The final goal was to develop an analyzing routine at least for python and java that will find all documentation strings in a file, parse them into specific groups and check them against a specified documentation style given by the user. The functionality can be extended so that the analyzing routine provides a patch that re-formats the documentation correctly, checks for grammatical errors (like spell checking).</p>
+
+<p><strong><em>Specifics of DocStyleBear</em></strong><br />
+DocStyleBear supports following style:</p>
+
+<p>Python:</p>
+<ul>
+  <li>Sphinx, The DocStyle followed is in below format:
+    <div class="language-python highlighter-rouge"><pre class="highlight"><code>     <span class="k">def</span> <span class="nf">xyz_function</span><span class="p">(</span><span class="n">param1</span><span class="p">,</span> <span class="n">param2</span><span class="p">,</span> <span class="n">param3</span><span class="p">):</span>
+         <span class="s">"""
+         This is functions main description.
+
+         :param param1:
+             Param1 desc.
+         :param param2:
+             Param2 desc.
+         :param param3:
+             Param3 desc.
+         :return:
+             Nothing.
+         """</span>
+         <span class="k">return</span> <span class="bp">None</span>
+</code></pre>
+    </div>
+    <p>For further info <a href="http://www.sphinx-doc.org/en/stable/domains.html#info-field-lists">check here</a>.</p>
+  </li>
+</ul>
+
+<p>Java:</p>
+<ul>
+  <li>Default style, The DocString followed is in below format:
+    <div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">HelloWorld</span> <span class="o">{</span>
+
+    <span class="cm">/**
+     * Returns an String that says Hello with the name argument.
+     *
+     * @param  name
+     *     the name to which to say hello
+     * @raises
+     *     IOException throws IOException
+     * @return  
+     *     the concatenated string
+     */</span>
+     <span class="kd">public</span> <span class="n">String</span> <span class="n">sayHello</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">IOException</span> <span class="o">{</span>
+         <span class="k">return</span> <span class="s">"Hello, "</span> <span class="o">+</span> <span class="n">name</span><span class="o">;</span>
+     <span class="o">}</span>
+ <span class="o">}</span>
+</code></pre>
+    </div>
+    <p>For further info <a href="http://www.oracle.com/technetwork/articles/java/index-137868.html">check here</a>.</p>
+  </li>
+</ul>
+
+<p><strong><em>Specifics of DocGrammarBear</em></strong><br />
+DocGrammarBear should atleast be able to lint basic spell checking over: Main descriptions and Comments descriptions.
+For example: If we have a malformed docstring.</p>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">some_func</span><span class="p">(</span><span class="n">param1</span><span class="p">,</span> <span class="n">param2</span><span class="p">):</span>
+    <span class="s">"""
+    This is thet main descrpton.
+
+    :param param1:
+        This is param1 description.
+    :param param2
+        Thiss is param2 descripton.
+    :return:
+        Nothing
+    """</span>
+</code></pre>
+</div>
+
+<p>This has incorrect spelling mistakes. The DocGrammarBear should be able to correct it.</p>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">some_func</span><span class="p">(</span><span class="n">param1</span><span class="p">,</span> <span class="n">param2</span><span class="p">):</span>
+    <span class="s">"""
+    This is the main description.
+
+    :param param1:
+        This is param1 description.
+    :param param2
+        This is param2 description.
+    :return:
+        Nothing    
+    """</span>
+</code></pre>
+</div>
+<p>Now, if I see the whole evolution of DocumentationAPI in these past 4 months. There are many things which I achieved:</p>
+<ol>
+  <li>Earlier DocumentationAPI was not being in use by any bear. <code class="highlighter-rouge">DocStyleBear</code> was in <code class="highlighter-rouge">Work-In-Progress</code> mode, from past 1 year. So I took over that PR and with some quirks I was able to merge it in time.</li>
+  <li>DocumentationAPI still wasn’t stable. It longed for an stable design. Which <code class="highlighter-rouge">DocBaseClass</code> fulfilled it. <code class="highlighter-rouge">DocBaseClass</code> have 3 static methods:
+    <ol>
+      <li><code class="highlighter-rouge">extract</code> - Used for extracting documentation.</li>
+      <li><code class="highlighter-rouge">process_documentation</code> - Used to change the original instance of <code class="highlighter-rouge">DocumentationComment</code> according to the needed style.</li>
+      <li><code class="highlighter-rouge">generate_diff</code> - If desired instance of <code class="highlighter-rouge">DocumentationComment</code> is not obtained. Applies a diff.</li>
+    </ol>
+  </li>
+  <li>Later added 2 new features: <code class="highlighter-rouge">automatic_padding</code> and <code class="highlighter-rouge">docstring_type</code> which made it possible for the DocumentationAPI to actually check the <code class="highlighter-rouge">docstring_type</code> and amend blanklines before and after the docstring according to <a href="https://www.python.org/dev/peps/pep-0257/">PEP-257</a>.
+    <ol>
+      <li><code class="highlighter-rouge">docstring_type</code> of <code class="highlighter-rouge">function</code> should have paddings <code class="highlighter-rouge">(top_padding=0, bottom_padding=0)</code>. Which means function level docstrings should never be followed by a line before or after.</li>
+      <li><code class="highlighter-rouge">docstring_type</code> of <code class="highlighter-rouge">class</code> should have paddings <code class="highlighter-rouge">(top_padding=0, bottom_padding=1)</code>. Which means class level docstrings should be followed by a line below.</li>
+    </ol>
+  </li>
+  <li>Adding <code class="highlighter-rouge">DocGrammarBear</code>, which used to analyze and fix basic spellings and grammar inside the descriptions of DocComments.</li>
+</ol>
+
+<p><strong>Stretch Goal</strong></p>
+<ol>
+  <li>Adding an error handling mechanism to DocumentationAPI. <code class="highlighter-rouge">MalformedComment</code> which will be returned instead of <code class="highlighter-rouge">DocumentationComment</code>, if any part of DocumentationAPI(DocumentationExtraction.py, DocstyleDefinition, DocBaseClass.py and DocumentationComment.py) will be unable handle a docstring. This is important so that we can yield a <code class="highlighter-rouge">RESULT</code> with a beautiful message in the bear.</li>
+</ol>
+
+<p>These were the biggest achievements which I consider the completion factor of this project. Hence, achieving the final/stretch goal as mentioned above.</p>
+
+<h2 id="what-has-been-done-till-now">What has been done till now?</h2>
+
+<p><strong>coala</strong></p>
+
+<p><a href="https://github.com/coala/coala/commit/e41d6b5"><strong>e41d6b5</strong></a> DocumentationExtraction.py: Diff cut-off fix<br />
+<a href="https://github.com/coala/coala/commit/c79ec5a"><strong>c79ec5a</strong></a> DocumentationComment.py: Improve <code class="highlighter-rouge">assemble()</code><br />
+<a href="https://github.com/coala/coala/commit/fa26911"><strong>fa26911</strong></a> DocumentationAPI: Support for :raises xyz:<br />
+<a href="https://github.com/coala/coala/commit/6abf8a0"><strong>6abf8a0</strong></a> DocumentationComment.py: Add in-line comment<br />
+<a href="https://github.com/coala/coala/commit/bac0c3e"><strong>bac0c3e</strong></a> DocumentationComment.py: Pass <code class="highlighter-rouge">indent</code><br />
+<a href="https://github.com/coala/coala/commit/526af97"><strong>526af97</strong></a> DocumentationComment: Add conditional for <code class="highlighter-rouge">None</code><br />
+<a href="https://github.com/coala/coala/commit/f3f613a"><strong>f3f613a</strong></a> DocumentationComment.py: Accept <code class="highlighter-rouge">position</code><br />
+<a href="https://github.com/coala/coala/commit/fa7bd17"><strong>fa7bd17</strong></a> DocumentationComment: Fix missing ending colon<br />
+<a href="https://github.com/coala/coala/commit/d79e497"><strong>d79e497</strong></a> DocBaseClass: Add DocBaseClass<br />
+<a href="https://github.com/coala/coala/commit/ffba831"><strong>ffba831</strong></a> DocumentationComment.py: Add blankline padding<br />
+<a href="https://github.com/coala/coala/commit/cebe4f2"><strong>cebe4f2</strong></a> DocumentationAPI: Ignore triple quote strings<br />
+<a href="https://github.com/coala/coala/commit/0f81583"><strong>0f81583</strong></a> DocumentationAPI: Add <code class="highlighter-rouge">MalformedComment</code><br />
+<a href="https://github.com/coala/coala/commit/070a19e"><strong>070a19e</strong></a> DocumentationAPI: Add <code class="highlighter-rouge">padding</code> and <code class="highlighter-rouge">type</code></p>
+
+<p><strong>coala-bears</strong></p>
+
+<p><a href="https://github.com/coala/coala-bears/commit/7ad62fb"><strong>7ad62fb</strong></a> Add allow_missing_func_desc<br />
+<a href="https://github.com/coala/coala-bears/commit/40de247"><strong>40de247</strong></a> DocumentationStyleBear.py: Amend <code class="highlighter-rouge">position</code><br />
+<a href="https://github.com/coala/coala-bears/commit/314dfdf"><strong>314dfdf</strong></a> DocumentationStyleBear: Use DocBaseClass<br />
+<a href="https://github.com/coala/coala-bears/commit/40cd086"><strong>40cd086</strong></a> DocumentationStyleBear: Add expand_one_liners<br />
+<a href="https://github.com/coala/coala-bears/commit/112fa7d"><strong>112fa7d</strong></a> Add DocGrammarBear for docstrings<br />
+<a href="https://github.com/coala/coala-bears/commit/dccce31"><strong>dccce31</strong></a> DocStyleBear: Add <code class="highlighter-rouge">MalformedComment</code> support<br />
+<a href="https://github.com/coala/coala-bears/commit/89b5913"><strong>89b5913</strong></a> DocumentationStyleBear: Add blankline support</p>
+
+<h2 id="whats-up-ahead">What’s up ahead?</h2>
+<p>There are still some quirks need to be done with <code class="highlighter-rouge">DocStyleBear</code> and <code class="highlighter-rouge">DocGrammarBear</code>.</p>
+<ol>
+  <li><code class="highlighter-rouge">DocStyleBear</code> is adding <code class="highlighter-rouge">r</code> if the docstring is a raw string. See <a href="https://gitlab.com/coala/GSoC-2017/issues/33">here for info</a>.</li>
+  <li><code class="highlighter-rouge">DocGrammarBear</code> doesn’t works with well if there are some acronyms.</li>
+</ol>
+
+<p>Next is, if everything is sorted I will add <code class="highlighter-rouge">DocStyleBear</code> and <code class="highlighter-rouge">DocGrammarBear</code> into <code class="highlighter-rouge">.coafile</code> of coala. I really want that my work should be used somewhere(at least in coala and coala-bears repo).</p>
+
+<h2 id="how-did-i-feel-after-completing-my-final-milestone">How did I feel after completing my final milestone?</h2>
+<p>Well I felt awesome to get everything done in time. But now Im feeling jobless xD. I guess I will go on a review sprint and help my other GSoC coalians.</p>
+
+<h2 id="gsoc-coalians">GSoC coalians.</h2>
+<p>Lastly, I wanna speak about my other GSoC collegues. They had also done a great job with their projects. You can read alot about us <a href="https://blog.coala.io/">@blog.coala.io</a>. Also If any of this sounds interesting to you. How about joining us next? <a href="http://coala.io/newcomer">@coala.io/newcomer</a>.</p>
+
+<p>That’s it folks!</p>
+
+<p>Till next time see yaa!!</p>
+
+<span class="post-date">
+  Written on
+  
+  August
+  21st
+    ,
+  2017
+  by Saurav Singh
+</span>
+<div class="post-date">Feel free to share!</div>
+  <div class="sharing-icons">
+    <a href="https://twitter.com/intent/tweet?text=Souvenir of GSoC'2017!&amp;url=https://damngamerz.github.io/gsoc/Souvenir-of-GSoC'2017!.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/gsoc/Souvenir-of-GSoC'2017!.html&amp;title=Souvenir of GSoC'2017!" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/gsoc/Souvenir-of-GSoC'2017!.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+<div class="related">
+  <h1 >You may also enjoy:</h1>
+  
+  <ul class="related-posts">
+    
+      
+        
+        
+      
+        
+          <li>
+            <h3>
+              <a href="https://damngamerz.github.io/gsoc/Phase-3-Month-End-Summary.html">
+                Phase 3 Month End Summary
+                <!--<img src="http://localhost:4000/images/coding_final-teaser.jpg">-->
+                <!--<small>August 19, 2017</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+        
+          <li>
+            <h3>
+              <a href="https://damngamerz.github.io/gsoc/Phase-3-Mid-Month-Summary.html">
+                Phase 3 Mid Month Summary
+                <!--<img src="http://localhost:4000/images/coding_final-teaser.jpg">-->
+                <!--<small>August 11, 2017</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+    
+  </ul>
+</div>
+
+
+
+  <section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'damngamerz';
+    var disqus_developer = 0;
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+    </div>
+
+    <footer class="footer">
+  <a href="https://github.com/damngamerz"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://gitlab.com/damngamerz"><i class="fa fa-gitlab" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://twitter.com/damngamerz"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://www.facebook.com/damngamerz"><i class="fa fa-facebook" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://instagram.com/damngamerz"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://linkedin.com/in/damngamerz"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
+  <a href="mailto:sauravsinghshakya@yahoo.com"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+  <a href="https://damngamerz.github.io/feed.xml"><i class="fa fa-rss" aria-hidden="true" target="_blank"></i></a>
+  <div class="post-date"><a href="https://damngamerz.github.io/about.html">Saurav Singh | damngamerz © by Saurav Singh</a></div>
+</footer>
+
+
+  </div>
+</body>
+</html>

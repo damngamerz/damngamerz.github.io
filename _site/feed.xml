@@ -7,6 +7,189 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Souvenir of GSoC'2017!</title>
+				        
+				
+					<description>&lt;p&gt;So this it guys. The day I have worked for is finally here. This marks the end of my Google Summer of Code’2017. It’s been an awesome journey of 4 months.&lt;/p&gt;
+
+&lt;h2 id=&quot;thanks&quot;&gt;Thanks!&lt;/h2&gt;
+&lt;p&gt;Firstly, Thanks to both of my mentors &lt;a href=&quot;https://github.com/SanketDG&quot;&gt;SanketDG&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/NiklasMM&quot;&gt;NiklasMM&lt;/a&gt;. Thanks for everything! It’s been an awesome journey for me, I couldn’t have asked for better mentors than you guys. Secondly, Thanks to Org. admins and other mentors of coala.&lt;/p&gt;
+
+&lt;p&gt;Thank you guys, for not losing hope on me when I nearly failed my &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-2&lt;/code&gt; milestone. Somewhere this was the sole reason which drived me to recover my work and complete my final milestone in time :)&lt;/p&gt;
+
+&lt;p&gt;Finally, Thanks Google! for such a wonderful programme.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-this-all-begin&quot;&gt;How this all begin?&lt;/h2&gt;
+&lt;p&gt;I came across coala while surfing on the internet. Though those were the initial days where I wanted to learn only python, but my ideology is if you want to learn something then do a project on it ;)&lt;br /&gt;
+The welcoming nature of the community thrived me to contribute towards this wonderful project. I continued to contribute in coala and in 2 weeks I was promoted to &lt;code class=&quot;highlighter-rouge&quot;&gt;core-developer&lt;/code&gt;. This was the first ever experience of me contributing to an opensource community. Later I continued to contribute more and more. Although I already knew about Google Summer of Code but I wasn’t sure if I’m surely gonna try a shot. Until I started talking with some of the mentors of coala. First was &lt;a href=&quot;https://github.com/NiklasMM&quot;&gt;NiklasMM&lt;/a&gt;, the project Handle Nested Programming language was sounding interesting. Meanwhile I was doing an issue with &lt;a href=&quot;https://github.com/SanketDG&quot;&gt;SanketDG&lt;/a&gt;. I came to know that he was an Ex-GSoCer at coala. So I started investigating with him about the process, reading his blogs, investing about how did he started….etc. At the end I got more interested towards &lt;strong&gt;Documentation Extraction and Parsing&lt;/strong&gt;. We scheduled a skype call where he answered some of my doubts one on one.&lt;/p&gt;
+
+&lt;p&gt;And the rest, It all just happened ;)&lt;/p&gt;
+
+&lt;h2 id=&quot;what-i-have-achieved-with-this-project&quot;&gt;What I have achieved with this project?&lt;/h2&gt;
+&lt;p&gt;Coming back to my project &lt;strong&gt;Documentation Extraction and Parsing&lt;/strong&gt;, The final goal was to develop an analyzing routine at least for python and java that will find all documentation strings in a file, parse them into specific groups and check them against a specified documentation style given by the user. The functionality can be extended so that the analyzing routine provides a patch that re-formats the documentation correctly, checks for grammatical errors (like spell checking).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Specifics of DocStyleBear&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+DocStyleBear supports following style:&lt;/p&gt;
+
+&lt;p&gt;Python:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sphinx, The DocStyle followed is in below format:
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;xyz_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+         &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+         This is functions main description.
+
+         :param param1:
+             Param1 desc.
+         :param param2:
+             Param2 desc.
+         :param param3:
+             Param3 desc.
+         :return:
+             Nothing.
+         &quot;&quot;&quot;&lt;/span&gt;
+         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;For further info &lt;a href=&quot;http://www.sphinx-doc.org/en/stable/domains.html#info-field-lists&quot;&gt;check here&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Java:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Default style, The DocString followed is in below format:
+    &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HelloWorld&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/**
+     * Returns an String that says Hello with the name argument.
+     *
+     * @param  name
+     *     the name to which to say hello
+     * @raises
+     *     IOException throws IOException
+     * @return  
+     *     the concatenated string
+     */&lt;/span&gt;
+     &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sayHello&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;throws&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;IOException&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello, &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+ &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;For further info &lt;a href=&quot;http://www.oracle.com/technetwork/articles/java/index-137868.html&quot;&gt;check here&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Specifics of DocGrammarBear&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+DocGrammarBear should atleast be able to lint basic spell checking over: Main descriptions and Comments descriptions.
+For example: If we have a malformed docstring.&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;some_func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+    This is thet main descrpton.
+
+    :param param1:
+        This is param1 description.
+    :param param2
+        Thiss is param2 descripton.
+    :return:
+        Nothing
+    &quot;&quot;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This has incorrect spelling mistakes. The DocGrammarBear should be able to correct it.&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;some_func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+    This is the main description.
+
+    :param param1:
+        This is param1 description.
+    :param param2
+        This is param2 description.
+    :return:
+        Nothing    
+    &quot;&quot;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Now, if I see the whole evolution of DocumentationAPI in these past 4 months. There are many things which I achieved:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Earlier DocumentationAPI was not being in use by any bear. &lt;code class=&quot;highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; was in &lt;code class=&quot;highlighter-rouge&quot;&gt;Work-In-Progress&lt;/code&gt; mode, from past 1 year. So I took over that PR and with some quirks I was able to merge it in time.&lt;/li&gt;
+  &lt;li&gt;DocumentationAPI still wasn’t stable. It longed for an stable design. Which &lt;code class=&quot;highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt; fulfilled it. &lt;code class=&quot;highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt; have 3 static methods:
+    &lt;ol&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;extract&lt;/code&gt; - Used for extracting documentation.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;process_documentation&lt;/code&gt; - Used to change the original instance of &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; according to the needed style.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;generate_diff&lt;/code&gt; - If desired instance of &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; is not obtained. Applies a diff.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Later added 2 new features: &lt;code class=&quot;highlighter-rouge&quot;&gt;automatic_padding&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;docstring_type&lt;/code&gt; which made it possible for the DocumentationAPI to actually check the &lt;code class=&quot;highlighter-rouge&quot;&gt;docstring_type&lt;/code&gt; and amend blanklines before and after the docstring according to &lt;a href=&quot;https://www.python.org/dev/peps/pep-0257/&quot;&gt;PEP-257&lt;/a&gt;.
+    &lt;ol&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docstring_type&lt;/code&gt; of &lt;code class=&quot;highlighter-rouge&quot;&gt;function&lt;/code&gt; should have paddings &lt;code class=&quot;highlighter-rouge&quot;&gt;(top_padding=0, bottom_padding=0)&lt;/code&gt;. Which means function level docstrings should never be followed by a line before or after.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docstring_type&lt;/code&gt; of &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; should have paddings &lt;code class=&quot;highlighter-rouge&quot;&gt;(top_padding=0, bottom_padding=1)&lt;/code&gt;. Which means class level docstrings should be followed by a line below.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Adding &lt;code class=&quot;highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt;, which used to analyze and fix basic spellings and grammar inside the descriptions of DocComments.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Stretch Goal&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Adding an error handling mechanism to DocumentationAPI. &lt;code class=&quot;highlighter-rouge&quot;&gt;MalformedComment&lt;/code&gt; which will be returned instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt;, if any part of DocumentationAPI(DocumentationExtraction.py, DocstyleDefinition, DocBaseClass.py and DocumentationComment.py) will be unable handle a docstring. This is important so that we can yield a &lt;code class=&quot;highlighter-rouge&quot;&gt;RESULT&lt;/code&gt; with a beautiful message in the bear.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These were the biggest achievements which I consider the completion factor of this project. Hence, achieving the final/stretch goal as mentioned above.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-has-been-done-till-now&quot;&gt;What has been done till now?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;coala&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/coala/coala/commit/e41d6b5&quot;&gt;&lt;strong&gt;e41d6b5&lt;/strong&gt;&lt;/a&gt; DocumentationExtraction.py: Diff cut-off fix&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/c79ec5a&quot;&gt;&lt;strong&gt;c79ec5a&lt;/strong&gt;&lt;/a&gt; DocumentationComment.py: Improve &lt;code class=&quot;highlighter-rouge&quot;&gt;assemble()&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/fa26911&quot;&gt;&lt;strong&gt;fa26911&lt;/strong&gt;&lt;/a&gt; DocumentationAPI: Support for :raises xyz:&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/6abf8a0&quot;&gt;&lt;strong&gt;6abf8a0&lt;/strong&gt;&lt;/a&gt; DocumentationComment.py: Add in-line comment&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/bac0c3e&quot;&gt;&lt;strong&gt;bac0c3e&lt;/strong&gt;&lt;/a&gt; DocumentationComment.py: Pass &lt;code class=&quot;highlighter-rouge&quot;&gt;indent&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/526af97&quot;&gt;&lt;strong&gt;526af97&lt;/strong&gt;&lt;/a&gt; DocumentationComment: Add conditional for &lt;code class=&quot;highlighter-rouge&quot;&gt;None&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/f3f613a&quot;&gt;&lt;strong&gt;f3f613a&lt;/strong&gt;&lt;/a&gt; DocumentationComment.py: Accept &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/fa7bd17&quot;&gt;&lt;strong&gt;fa7bd17&lt;/strong&gt;&lt;/a&gt; DocumentationComment: Fix missing ending colon&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/d79e497&quot;&gt;&lt;strong&gt;d79e497&lt;/strong&gt;&lt;/a&gt; DocBaseClass: Add DocBaseClass&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/ffba831&quot;&gt;&lt;strong&gt;ffba831&lt;/strong&gt;&lt;/a&gt; DocumentationComment.py: Add blankline padding&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/cebe4f2&quot;&gt;&lt;strong&gt;cebe4f2&lt;/strong&gt;&lt;/a&gt; DocumentationAPI: Ignore triple quote strings&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/0f81583&quot;&gt;&lt;strong&gt;0f81583&lt;/strong&gt;&lt;/a&gt; DocumentationAPI: Add &lt;code class=&quot;highlighter-rouge&quot;&gt;MalformedComment&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/070a19e&quot;&gt;&lt;strong&gt;070a19e&lt;/strong&gt;&lt;/a&gt; DocumentationAPI: Add &lt;code class=&quot;highlighter-rouge&quot;&gt;padding&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;type&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;coala-bears&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/coala/coala-bears/commit/7ad62fb&quot;&gt;&lt;strong&gt;7ad62fb&lt;/strong&gt;&lt;/a&gt; Add allow_missing_func_desc&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala-bears/commit/40de247&quot;&gt;&lt;strong&gt;40de247&lt;/strong&gt;&lt;/a&gt; DocumentationStyleBear.py: Amend &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala-bears/commit/314dfdf&quot;&gt;&lt;strong&gt;314dfdf&lt;/strong&gt;&lt;/a&gt; DocumentationStyleBear: Use DocBaseClass&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala-bears/commit/40cd086&quot;&gt;&lt;strong&gt;40cd086&lt;/strong&gt;&lt;/a&gt; DocumentationStyleBear: Add expand_one_liners&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala-bears/commit/112fa7d&quot;&gt;&lt;strong&gt;112fa7d&lt;/strong&gt;&lt;/a&gt; Add DocGrammarBear for docstrings&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala-bears/commit/dccce31&quot;&gt;&lt;strong&gt;dccce31&lt;/strong&gt;&lt;/a&gt; DocStyleBear: Add &lt;code class=&quot;highlighter-rouge&quot;&gt;MalformedComment&lt;/code&gt; support&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala-bears/commit/89b5913&quot;&gt;&lt;strong&gt;89b5913&lt;/strong&gt;&lt;/a&gt; DocumentationStyleBear: Add blankline support&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-up-ahead&quot;&gt;What’s up ahead?&lt;/h2&gt;
+&lt;p&gt;There are still some quirks need to be done with &lt;code class=&quot;highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt;.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; is adding &lt;code class=&quot;highlighter-rouge&quot;&gt;r&lt;/code&gt; if the docstring is a raw string. See &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/issues/33&quot;&gt;here for info&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt; doesn’t works with well if there are some acronyms.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Next is, if everything is sorted I will add &lt;code class=&quot;highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt; into &lt;code class=&quot;highlighter-rouge&quot;&gt;.coafile&lt;/code&gt; of coala. I really want that my work should be used somewhere(at least in coala and coala-bears repo).&lt;/p&gt;
+
+&lt;h2 id=&quot;how-did-i-feel-after-completing-my-final-milestone&quot;&gt;How did I feel after completing my final milestone?&lt;/h2&gt;
+&lt;p&gt;Well I felt awesome to get everything done in time. But now Im feeling jobless xD. I guess I will go on a review sprint and help my other GSoC coalians.&lt;/p&gt;
+
+&lt;h2 id=&quot;gsoc-coalians&quot;&gt;GSoC coalians.&lt;/h2&gt;
+&lt;p&gt;Lastly, I wanna speak about my other GSoC collegues. They had also done a great job with their projects. You can read alot about us &lt;a href=&quot;https://blog.coala.io/&quot;&gt;@blog.coala.io&lt;/a&gt;. Also If any of this sounds interesting to you. How about joining us next? &lt;a href=&quot;http://coala.io/newcomer&quot;&gt;@coala.io/newcomer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;That’s it folks!&lt;/p&gt;
+
+&lt;p&gt;Till next time see yaa!!&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 21 Aug 2017 00:00:00 +0530</pubDate>
+				<link>http://localhost:4000/gsoc/Souvenir-of-GSoC'2017!.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/Souvenir-of-GSoC'2017!.html</guid>
+			</item>
+		
+			<item>
 				<title>Phase 3 Month End Summary</title>
 				        
 				
@@ -422,67 +605,6 @@ Although, I wasn’t able to complete my &lt;code class=&quot;highlighter-rouge&
 				<pubDate>Wed, 31 May 2017 00:00:00 +0530</pubDate>
 				<link>http://localhost:4000/gsoc/Bonding-Period-Ends.html</link>
 				<guid isPermaLink="true">http://localhost:4000/gsoc/Bonding-Period-Ends.html</guid>
-			</item>
-		
-			<item>
-				<title>An Insight Into coala's Structure</title>
-				        
-				
-					<description>&lt;p&gt;Hi Guys!! Its been a long since my last post. This blog post is intended for all newcomer’s who would like to contribute to coala. So, I will give you an insight into coala’s Structure in a bit detail to actually get you started.&lt;/p&gt;
-
-&lt;h2 id=&quot;an-insight-into-coalas-structure&quot;&gt;An Insight Into coala’s Structure.&lt;/h2&gt;
-&lt;p&gt;coala’s code base can be found here at &lt;a href=&quot;https://github.com/coala/coala&quot;&gt;github&lt;/a&gt;. It’s directory tree looks like:
-&lt;img src=&quot;http://localhost:4000/images/coala_tree.png&quot; alt=&quot;coala's tree&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can see, this tree has 3 major parts.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;coalib&lt;/strong&gt;: Which is the homeground of coala API. This is the place where most of the important technical aspects goes.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;docs&lt;/strong&gt;: Contains generated documention of coala API, which is built and beautifully displayed over &lt;a href=&quot;http://api.coala.io&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;api.coala.io&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;tests&lt;/strong&gt;: Contains all the test files over coalib directory.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Since, &lt;code class=&quot;highlighter-rouge&quot;&gt;docs&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;tests&lt;/code&gt; are established over &lt;code class=&quot;highlighter-rouge&quot;&gt;coalib&lt;/code&gt;, so &lt;code class=&quot;highlighter-rouge&quot;&gt;coalib&lt;/code&gt; is the star directory. And hence, I would be only explaining about it.&lt;/p&gt;
-
-&lt;h2 id=&quot;coalib&quot;&gt;coalib&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;coalib&lt;/code&gt; is the collection of various subpackages regarding writing, executing, editing bears, formatting, settings and much more. So let’s dig in boys!!&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;coalib&lt;/code&gt; is further divided into 11 parts:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;bearlib&lt;/strong&gt;: Which contains bear utilities, &lt;code class=&quot;highlighter-rouge&quot;&gt;aspects&lt;/code&gt;’s API, &lt;code class=&quot;highlighter-rouge&quot;&gt;abstractions&lt;/code&gt; like linter bears and also &lt;code class=&quot;highlighter-rouge&quot;&gt;languages&lt;/code&gt; which contains various language definitions(such as identifying different languages with their versions) to provide unified language experience to coala.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;bears&lt;/strong&gt;: Provides the base bear class i.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;LocalBear&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;GlobalBear&lt;/code&gt;. Without which bears that exists in coala-bears &lt;a href=&quot;https://github.com/coala/coala-bears&quot;&gt;repo&lt;/a&gt; wouldn’t exist.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;collecting&lt;/strong&gt;: provides collector routines which collects all bears, dependencies and file directories for coala. The collection works on the basis of 2 factors inputs provided at &lt;code class=&quot;highlighter-rouge&quot;&gt;CLI&lt;/code&gt; and at &lt;code class=&quot;highlighter-rouge&quot;&gt;.coafile&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;core&lt;/strong&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;core&lt;/code&gt; module contains the chronological order about what coala has to do with a bear. It takes care of all the step’s involved(like having a complete schedule), when a bear runs over a given file.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;misc&lt;/strong&gt;: Provides all the other utilities like &lt;code class=&quot;highlighter-rouge&quot;&gt;cachingUtilities&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;DictUtilities&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;BuildManPage&lt;/code&gt; module and &lt;code class=&quot;highlighter-rouge&quot;&gt;Shell&lt;/code&gt; module. &lt;code class=&quot;highlighter-rouge&quot;&gt;Shell&lt;/code&gt; module is the important aspect here, as it helps coala to run in an interactive shell mode.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;output&lt;/strong&gt;: Provides the API for making coala interactive with its users via &lt;code class=&quot;highlighter-rouge&quot;&gt;CLI&lt;/code&gt;. The &lt;code class=&quot;highlighter-rouge&quot;&gt;ConsoleInteraction&lt;/code&gt; module provides the utilities about user provided &lt;code class=&quot;highlighter-rouge&quot;&gt;Actions&lt;/code&gt; like &lt;code class=&quot;highlighter-rouge&quot;&gt;Show_Patch&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Apply_Patch&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Ignore_Patch&lt;/code&gt;..etc. It acts as a mediator between coala and the user, helps coala in providing the user important information by printing generated diff’s, messages, list of bears..etc.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;parsing&lt;/strong&gt;: The name itself suggests this is the &lt;code class=&quot;highlighter-rouge&quot;&gt;parsing&lt;/code&gt; module. It contains all the routines about parsing important information from a string of characters. Most of them support regex pattern matching. For example: Parsing &lt;code class=&quot;highlighter-rouge&quot;&gt;CLI&lt;/code&gt; arguments and creating sections out of it.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;processes&lt;/strong&gt;: Provides the processing utilities and routines which takes decisive actions when a bear is in running state. It has routines which works like a control centre for processes. It takes care of process execution’s tasks such as:
-    &lt;ul&gt;
-      &lt;li&gt;preparing a process -&amp;gt; loading files -&amp;gt; creating queues&lt;/li&gt;
-      &lt;li&gt;spawn up one or more processes&lt;/li&gt;
-      &lt;li&gt;yielding results from the processes&lt;/li&gt;
-      &lt;li&gt;finally joining all the processes&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;results&lt;/strong&gt;: This section works closely with the &lt;code class=&quot;highlighter-rouge&quot;&gt;output&lt;/code&gt; section. &lt;code class=&quot;highlighter-rouge&quot;&gt;results&lt;/code&gt; provides routines like &lt;code class=&quot;highlighter-rouge&quot;&gt;Diff&lt;/code&gt; module, &lt;code class=&quot;highlighter-rouge&quot;&gt;LineDiff&lt;/code&gt; module, &lt;code class=&quot;highlighter-rouge&quot;&gt;TextRange&lt;/code&gt; module and &lt;code class=&quot;highlighter-rouge&quot;&gt;ApplyAction&lt;/code&gt;’s module(user defined actions like ApplyPatch, IgnorePatch, ResultAction and ShowPatchAction). &lt;code class=&quot;highlighter-rouge&quot;&gt;Diff&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;LineDiff&lt;/code&gt; modules are similar, they both generates a unified diff corresponding to a generated patch by coala. The only difference between them is &lt;code class=&quot;highlighter-rouge&quot;&gt;LineDiff&lt;/code&gt; generates diffs over two strings wheareas &lt;code class=&quot;highlighter-rouge&quot;&gt;Diff&lt;/code&gt; generates it over two files. When a &lt;code class=&quot;highlighter-rouge&quot;&gt;Diff&lt;/code&gt; is being generated or we have a yielded &lt;code class=&quot;highlighter-rouge&quot;&gt;Result&lt;/code&gt;, it is supplied to the &lt;code class=&quot;highlighter-rouge&quot;&gt;output&lt;/code&gt; section, which in turn is being commuted to the user.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;settings&lt;/strong&gt;: A &lt;code class=&quot;highlighter-rouge&quot;&gt;setting&lt;/code&gt; in coala consists of a key and a value. It mainly offers many conversions into common data types. It provides important modules like &lt;code class=&quot;highlighter-rouge&quot;&gt;Section&lt;/code&gt; module which holds all the set of settings and &lt;code class=&quot;highlighter-rouge&quot;&gt;ConfigurationGathering&lt;/code&gt; module which plays two important roles:
-    &lt;ul&gt;
-      &lt;li&gt;finds user configs(&lt;code class=&quot;highlighter-rouge&quot;&gt;.coafile&lt;/code&gt; ofcourse)&lt;/li&gt;
-      &lt;li&gt;gathers configuration(such as loading configs, retrieves bears and all needed settings, saves the settings back if needed and warns about non existent targets)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;testing&lt;/strong&gt;: The last and final section is the &lt;code class=&quot;highlighter-rouge&quot;&gt;testing&lt;/code&gt;, which contains the API for bear testing. It provides &lt;code class=&quot;highlighter-rouge&quot;&gt;LocalBearTestHelper&lt;/code&gt; module which contains routines like &lt;code class=&quot;highlighter-rouge&quot;&gt;check_results&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;check_validity&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;verify_local_bear&lt;/code&gt;. These basically test a bear by doing a simple assertion test, between the given result and to the actual yielded result from the bear over a given file.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;If you will dive deep enough, it’s working is even more interesting. If it sounds interesting to you as well, you can start contributing right away by following our &lt;a href=&quot;http://coala.io/newcomer&quot;&gt;newcomer’s guide&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Till next time see ya!!&lt;/p&gt;
-</description>
-				
-				<pubDate>Sun, 28 May 2017 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/gsoc/An-Insight-Into-coala's-Structure.html</link>
-				<guid isPermaLink="true">http://localhost:4000/gsoc/An-Insight-Into-coala's-Structure.html</guid>
 			</item>
 		
 	</channel>
