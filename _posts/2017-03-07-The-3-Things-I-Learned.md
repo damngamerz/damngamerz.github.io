@@ -26,11 +26,11 @@ So, we have a newcomers guide, which every newcomer has to follow. The very firs
 
 This community has a workflow that on each issue only an individual who is assigned to it, can work for it. So my first task was to get myself assigned to a newcomer's issue. Well in coala most of the things are automated. So, for issue assignment we have a gitter `cobot` (coala bot) with which you can easily assign yourself to any issue with a single command. Soon after I got myself assigned to one, I started working on my first patch. It was about removing deprecated `<center>` tags from their "projects" website. Well that was pretty easy isn't it? Yes, so I finished making my PR in about 10-15 mins. Just Wait a sec! the work doesn't get's over yet!!. We have some specific rules before a PR is merged into the code-base. After submitting your PR you have to wait for a review from any existing member of a community. Which I feel is the best thing in this community, anyone can review anyone's PR. By reviewing we can even learn more about someone's work. This even embraces our own coding knowledge. I totally love reviewing other's work by this you can actually learn more about coding style. So, soon my pending PR got reviewed and BAAM! in 2 days my first patch got merged into coala's code-base.
 
-After this I took 2-3 more issues. And on the end of my second week I got promoted to a core-dev [@coala](http://www.coala.io/).
+After this I took 2-3 more issues. And on the end of my second week I got promoted to a core-dev [@coala](https://www.coala.io/).
 
 ![Developer Result]({{ site.url }}/images/developer_result.jpg)
 
-Thanks to all the maintainer's and my fellow dev's [@coala](http://www.coala.io/). Special Thanks to [@sils](https://github.com/sils),[@Makman2](https://github.com/Makman2),[@jayvdb](https://github.com/jayvdb),[@SanketDG](https://github.com/SanketDG) and [@mixih](https://github.com/Mixih) for giving me an initial boost.
+Thanks to all the maintainer's and my fellow dev's [@coala](https://www.coala.io/). Special Thanks to [@sils](https://github.com/sils),[@Makman2](https://github.com/Makman2),[@jayvdb](https://github.com/jayvdb),[@SanketDG](https://github.com/SanketDG) and [@mixih](https://github.com/Mixih) for giving me an initial boost.
 
 ### The 3 Things I Learned
   1.  The first and the most exciting thing I learned after joining coala was, getting to know people and about their work. It's really fascinating how much these people invest their time in open-source project. And at last it's all worth it. Every single bit of it. I can actually tell you that, after experiencing it myself. The feel about how your work can make a difference in million's of peoples lives, is enough to get yourself motivated.

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>Saurav Singh</title>
 		<description>Personal Blog</description>		
-		<link>http://localhost:4000</link>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://localhost:4000</link>
+		<atom:link href="https://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Souvenir of GSoC'2017!</title>
@@ -50,7 +50,7 @@ DocStyleBear supports following style:&lt;/p&gt;
          &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
     &lt;/div&gt;
-    &lt;p&gt;For further info &lt;a href=&quot;http://www.sphinx-doc.org/en/stable/domains.html#info-field-lists&quot;&gt;check here&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;For further info &lt;a href=&quot;https://www.sphinx-doc.org/en/stable/domains.html#info-field-lists&quot;&gt;check here&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -75,7 +75,7 @@ DocStyleBear supports following style:&lt;/p&gt;
  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
     &lt;/div&gt;
-    &lt;p&gt;For further info &lt;a href=&quot;http://www.oracle.com/technetwork/articles/java/index-137868.html&quot;&gt;check here&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;For further info &lt;a href=&quot;https://www.oracle.com/technetwork/articles/java/index-137868.html&quot;&gt;check here&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -177,7 +177,7 @@ For example: If we have a malformed docstring.&lt;/p&gt;
 &lt;p&gt;Well I felt awesome to get everything done in time. But now Im feeling jobless xD. I guess I will go on a review sprint and help my other GSoC coalians.&lt;/p&gt;
 
 &lt;h2 id=&quot;gsoc-coalians&quot;&gt;GSoC coalians.&lt;/h2&gt;
-&lt;p&gt;Lastly, I wanna speak about my other GSoC collegues. They had also done a great job with their projects. You can read alot about us &lt;a href=&quot;https://blog.coala.io/&quot;&gt;@blog.coala.io&lt;/a&gt;. Also If any of this sounds interesting to you. How about joining us next? &lt;a href=&quot;http://coala.io/newcomer&quot;&gt;@coala.io/newcomer&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Lastly, I wanna speak about my other GSoC collegues. They had also done a great job with their projects. You can read alot about us &lt;a href=&quot;https://blog.coala.io/&quot;&gt;@blog.coala.io&lt;/a&gt;. Also If any of this sounds interesting to you. How about joining us next? &lt;a href=&quot;https://coala.io/newcomer&quot;&gt;@coala.io/newcomer&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;That’s it folks!&lt;/p&gt;
 
@@ -185,8 +185,8 @@ For example: If we have a malformed docstring.&lt;/p&gt;
 </description>
 				
 				<pubDate>Mon, 21 Aug 2017 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/gsoc/Souvenir-of-GSoC'2017!.html</link>
-				<guid isPermaLink="true">http://localhost:4000/gsoc/Souvenir-of-GSoC'2017!.html</guid>
+				<link>https://localhost:4000/gsoc/Souvenir-of-GSoC'2017!.html</link>
+				<guid isPermaLink="true">https://localhost:4000/gsoc/Souvenir-of-GSoC'2017!.html</guid>
 			</item>
 		
 			<item>
@@ -206,7 +206,7 @@ It’s been 4 weeks of &lt;code class=&quot;highlighter-rouge&quot;&gt;CODING PH
 
 &lt;p&gt;This was it!! I have successfully achieved my milestone of &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-3&lt;/code&gt;. You can see my progress &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/11&quot;&gt;here&lt;/a&gt;. And here’s how my burndown chart looks like.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/chart_phase3.png&quot; alt=&quot;bonding chart&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://localhost:4000/images/chart_phase3.png&quot; alt=&quot;bonding chart&quot; /&gt;
 Yay! I did it!&lt;/p&gt;
 
 &lt;h2 id=&quot;stretch-goal&quot;&gt;STRETCH GOAL&lt;/h2&gt;
@@ -229,8 +229,8 @@ Yay! I did it!&lt;/p&gt;
 </description>
 				
 				<pubDate>Sat, 19 Aug 2017 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/gsoc/Phase-3-Month-End-Summary.html</link>
-				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-3-Month-End-Summary.html</guid>
+				<link>https://localhost:4000/gsoc/Phase-3-Month-End-Summary.html</link>
+				<guid isPermaLink="true">https://localhost:4000/gsoc/Phase-3-Month-End-Summary.html</guid>
 			</item>
 		
 			<item>
@@ -265,8 +265,8 @@ Yay! I did it!&lt;/p&gt;
 </description>
 				
 				<pubDate>Fri, 11 Aug 2017 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/gsoc/Phase-3-Mid-Month-Summary.html</link>
-				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-3-Mid-Month-Summary.html</guid>
+				<link>https://localhost:4000/gsoc/Phase-3-Mid-Month-Summary.html</link>
+				<guid isPermaLink="true">https://localhost:4000/gsoc/Phase-3-Mid-Month-Summary.html</guid>
 			</item>
 		
 			<item>
@@ -287,7 +287,7 @@ It’s been 4 weeks of &lt;code class=&quot;highlighter-rouge&quot;&gt;CODING PH
 
 &lt;p&gt;This was it!! Im close to achieving my milestone of &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-2&lt;/code&gt;. You can see my progress &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/10&quot;&gt;here&lt;/a&gt;. And here’s how my burndown chart looks like.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/chart_phase2.png&quot; alt=&quot;bonding chart&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://localhost:4000/images/chart_phase2.png&quot; alt=&quot;bonding chart&quot; /&gt;
 sweeeet!! ^_^&lt;/p&gt;
 
 &lt;h2 id=&quot;party-time&quot;&gt;PARTY TIME!!&lt;/h2&gt;
@@ -300,8 +300,8 @@ sweeeet!! ^_^&lt;/p&gt;
 </description>
 				
 				<pubDate>Sun, 23 Jul 2017 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/gsoc/Phase-2-Month-End-Summary.html</link>
-				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-2-Month-End-Summary.html</guid>
+				<link>https://localhost:4000/gsoc/Phase-2-Month-End-Summary.html</link>
+				<guid isPermaLink="true">https://localhost:4000/gsoc/Phase-2-Month-End-Summary.html</guid>
 			</item>
 		
 			<item>
@@ -312,21 +312,21 @@ sweeeet!! ^_^&lt;/p&gt;
 
 &lt;p&gt;First of all meet my coala team. It’s because of these guys that I had been to such a wonderful conference. Made lots of friends. Had a talk with creative and likely minded people. My dream of having a beer with my GSoC mentor Niklas got fulfilled ^_^ . And later ofcourse some awesome cuisines, dinner, beer and wine ;)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/coala-team.jpg&quot; alt=&quot;coala team&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://localhost:4000/images/coala-team.jpg&quot; alt=&quot;coala team&quot; /&gt;
 (Sebastian, Me(Saurav), Celestine , Max, Fabian &amp;amp; Alex)&lt;/p&gt;
 
 &lt;p&gt;Oh we’re 9 people by the way. Some of them are in my later pics.&lt;/p&gt;
 
 &lt;p&gt;When I reached at the AirBnB and opened the fridge. I found these on the very moment ^_^
 It’s called the coala ritual. Well every new-comers gets a bar of chocolates. Or a piece :P if we are running out of them. You have to get your hands on those awesome chocolates &amp;lt;3
-&lt;img src=&quot;http://localhost:4000/images/chocolates.jpeg&quot; alt=&quot;coala chocolates&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://localhost:4000/images/chocolates.jpeg&quot; alt=&quot;coala chocolates&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Anyway lets move ahead, it was an awesome experience for me cause this was my first technical conference and on the first day itself, we organized Beginner’s Day Workshop. Where I was mentoring a group of people with &lt;code class=&quot;highlighter-rouge&quot;&gt;pandas&lt;/code&gt; library, Machine-Learning and Data Science stuff. It was more like of knowledge sharing session. And at the end of the day we had to share with everyone what we did/discussed the whole day. It was pretty much sweeeeet.&lt;/p&gt;
 
 &lt;p&gt;Then at the beginning of each day we had keynote sessions. In which everyone participated. And the whole Amphitheatro was completely filled. Wanna see the crowd?&lt;/p&gt;
 
 &lt;p&gt;Here it is.
-&lt;img src=&quot;http://localhost:4000/images/crowd.jpg&quot; alt=&quot;crowd&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://localhost:4000/images/crowd.jpg&quot; alt=&quot;crowd&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Then I kind of sticked to coala’s desk at sponsors room. Where I helped people to understand what coala was about. For some I even fired it up on there machines. And then I met a lot of sponsoring people from companies like facebook, kiwi.com, Intel etc.&lt;/p&gt;
 
@@ -334,19 +334,19 @@ It’s called the coala ritual. Well every new-comers gets a bar of chocolates. 
 It was my pleasure meeting them personally. And these guys were also one of the reason of making my trip to Italy affordable. They gave me flight vouchers of 200 Euros in a programme called &lt;a href=&quot;www.kiwi.com/sourcelift/&quot;&gt;Sourcelift&lt;/a&gt;. Also later that day they invited all coala people to their BEACH PARTY!! You Guys you are AWESOME ^_^&lt;/p&gt;
 
 &lt;p&gt;Here’s a pic of Jan and me(Saurav).
-&lt;img src=&quot;http://localhost:4000/images/Jan-Bleha.jpg&quot; alt=&quot;Jan Bleha&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://localhost:4000/images/Jan-Bleha.jpg&quot; alt=&quot;Jan Bleha&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;At the end of the conference day we had Lightening Talks which was the coolest part of whole EuroPython according to me. In which random people chooses their topic of interest and speak on it for 5 mins. Even I gave a talk about “A Newcomers Perspective to FOSS” where I explained about my experience of OpenSource. Which was pretty good experience for me, considering the fact that it was my first public speaking experience.&lt;/p&gt;
 
 &lt;p&gt;Although every day was pretty tiring in the end. But guess what? we were so close to beach that I dont think of the day where we didn’t walked on the shore-line. Here’s how it looks.
-&lt;img src=&quot;http://localhost:4000/images/Beach3.jpg&quot; alt=&quot;Beach3&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/images/Beach2.jpg&quot; alt=&quot;Beach2&quot; /&gt;
-&lt;img src=&quot;http://localhost:4000/images/Beach1.jpg&quot; alt=&quot;Beach1&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://localhost:4000/images/Beach3.jpg&quot; alt=&quot;Beach3&quot; /&gt;
+&lt;img src=&quot;https://localhost:4000/images/Beach2.jpg&quot; alt=&quot;Beach2&quot; /&gt;
+&lt;img src=&quot;https://localhost:4000/images/Beach1.jpg&quot; alt=&quot;Beach1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Then there was the day of EuroPython Social Event ^_^ I gotta tell this, the food was just amazing. And we had lots of fun especially that drinking game with beer xD.&lt;/p&gt;
 
 &lt;p&gt;This was one of the best group pics I have.
-&lt;img src=&quot;http://localhost:4000/images/social-event.jpg&quot; alt=&quot;social event&quot; /&gt;
+&lt;img src=&quot;https://localhost:4000/images/social-event.jpg&quot; alt=&quot;social event&quot; /&gt;
 (Niklas, Max, Alex , Me(Saurav), Celestine, Fabian, Stefan and Lasse)&lt;/p&gt;
 
 &lt;p&gt;Still Sebastian is missing hmm :/&lt;/p&gt;
@@ -361,8 +361,8 @@ It was my pleasure meeting them personally. And these guys were also one of the 
 </description>
 				
 				<pubDate>Sun, 23 Jul 2017 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/journey/EuroPython-Awesomeness.html</link>
-				<guid isPermaLink="true">http://localhost:4000/journey/EuroPython-Awesomeness.html</guid>
+				<link>https://localhost:4000/journey/EuroPython-Awesomeness.html</link>
+				<guid isPermaLink="true">https://localhost:4000/journey/EuroPython-Awesomeness.html</guid>
 			</item>
 		
 			<item>
@@ -401,8 +401,8 @@ It was my pleasure meeting them personally. And these guys were also one of the 
 </description>
 				
 				<pubDate>Sun, 16 Jul 2017 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/gsoc/Phase-2-Mid-Month-Summary.html</link>
-				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-2-Mid-Month-Summary.html</guid>
+				<link>https://localhost:4000/gsoc/Phase-2-Mid-Month-Summary.html</link>
+				<guid isPermaLink="true">https://localhost:4000/gsoc/Phase-2-Mid-Month-Summary.html</guid>
 			</item>
 		
 			<item>
@@ -447,7 +447,7 @@ Lately, I noticed why the parser was breaking. There was an &lt;code class=&quot
 
 &lt;p&gt;This was it!! I achieved my milestone of &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-I&lt;/code&gt;. You can see my progress &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/5&quot;&gt;here&lt;/a&gt;. And here’s how my burndown chart looks like.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/chart_phase1.png&quot; alt=&quot;bonding chart&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://localhost:4000/images/chart_phase1.png&quot; alt=&quot;bonding chart&quot; /&gt;
 feelsgoodman!! ^_^&lt;/p&gt;
 
 &lt;h2 id=&quot;thanks&quot;&gt;Thanks!!&lt;/h2&gt;
@@ -466,8 +466,8 @@ July is going to be one hell of a month.&lt;/p&gt;
 </description>
 				
 				<pubDate>Mon, 26 Jun 2017 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/gsoc/Phase-1-Month-End-Summary.html</link>
-				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-1-Month-End-Summary.html</guid>
+				<link>https://localhost:4000/gsoc/Phase-1-Month-End-Summary.html</link>
+				<guid isPermaLink="true">https://localhost:4000/gsoc/Phase-1-Month-End-Summary.html</guid>
 			</item>
 		
 			<item>
@@ -479,26 +479,26 @@ July is going to be one hell of a month.&lt;/p&gt;
 &lt;h2 id=&quot;what-exactly-is-europython-and-why-am-i-attending-it&quot;&gt;What exactly is EuroPython and why am I attending it?&lt;/h2&gt;
 &lt;p&gt;EuroPython is a community initiative by a team of Python enthusiast in Europe to bring together Python users and developers, as well as provide an opportunity for those who are interested in these technologies.&lt;/p&gt;
 
-&lt;p&gt;So around march &lt;em&gt;Lasse&lt;/em&gt; (&lt;a href=&quot;http://github.com/sils&quot;&gt;@sils&lt;/a&gt;) invited us all for this conference where since past 2 years was the venue for coalians annual meet. Although I haven’t spent a lot of time with these guys. But now it feels like I have been knowing them since years and hence, I will really be pleased to meet them all. Even my mentor of GSoC’17 &lt;em&gt;Niklas&lt;/em&gt; &lt;a href=&quot;http://github.com/NiklasMM&quot;&gt;@NiklasMM&lt;/a&gt; will be present. Yes my dream of having a beer with my mentor is coming true :P&lt;/p&gt;
+&lt;p&gt;So around march &lt;em&gt;Lasse&lt;/em&gt; (&lt;a href=&quot;https://github.com/sils&quot;&gt;@sils&lt;/a&gt;) invited us all for this conference where since past 2 years was the venue for coalians annual meet. Although I haven’t spent a lot of time with these guys. But now it feels like I have been knowing them since years and hence, I will really be pleased to meet them all. Even my mentor of GSoC’17 &lt;em&gt;Niklas&lt;/em&gt; &lt;a href=&quot;https://github.com/NiklasMM&quot;&gt;@NiklasMM&lt;/a&gt; will be present. Yes my dream of having a beer with my mentor is coming true :P&lt;/p&gt;
 
 &lt;p&gt;I would also like to share that I had applied for a Talk proposal on the words of my admins. Though it got rejected but Im happy. I have never been to a Tech. conference before, so I was a bit hesitant about it. But If I will get a chance surely I will give a lightening talk about my GSoC project.&lt;/p&gt;
 &lt;h2 id=&quot;funding-and-sponsorship&quot;&gt;Funding and Sponsorship.&lt;/h2&gt;
 &lt;p&gt;Yes guys you have read it perfectly I m being funded for this trip. Though not fully but partially and I m really thankful to the guys who are helping me to actually make this affordable. First of all Thanks to &lt;code class=&quot;highlighter-rouge&quot;&gt;Kiwi.com&lt;/code&gt; for their generosity and their amazing programme source-lift which funds open-source teams.&lt;/p&gt;
 &lt;h2 id=&quot;what-is-source-lift-programme&quot;&gt;What is source-lift programme?&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/kiwidotcom_source_lift.png&quot; alt=&quot;kiwidotcom source lift&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://localhost:4000/images/kiwidotcom_source_lift.png&quot; alt=&quot;kiwidotcom source lift&quot; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Kiwi.com is giving away flights to open source teams that need to travel!&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;If I can say it in one sentence. It’s their way of thanking to the world of FOSS. Source-lift programme funds Open-Source organizations to make their dream of attending a conference together come true. They do so by providing each member of the team with flight voucher upto 200 Euros. Read more about them on their official site: &lt;a href=&quot;https://www.kiwi.com/sourcelift/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kiwi.com/sourcelift&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt; is the first organization to be a part this programme. It’s was the effort of &lt;em&gt;Lasse&lt;/em&gt; (&lt;a href=&quot;http://github.com/sils&quot;&gt;@sils&lt;/a&gt;) and few other admins to make this happen. Im really Thankful to them for such an effort. Keep bringing more awesomeness to the community.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt; is the first organization to be a part this programme. It’s was the effort of &lt;em&gt;Lasse&lt;/em&gt; (&lt;a href=&quot;https://github.com/sils&quot;&gt;@sils&lt;/a&gt;) and few other admins to make this happen. Im really Thankful to them for such an effort. Keep bringing more awesomeness to the community.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/kiwidotcom_coala.png&quot; alt=&quot;kiwidotcom coala&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://localhost:4000/images/kiwidotcom_coala.png&quot; alt=&quot;kiwidotcom coala&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So Guys here’s how the voucher looks like :) It gives me chills thinking that I m one of the first few members to get this.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/kiwidotcom_mail.jpg&quot; alt=&quot;kiwidotcom mail&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://localhost:4000/images/kiwidotcom_mail.jpg&quot; alt=&quot;kiwidotcom mail&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Also, I have heard that &lt;code class=&quot;highlighter-rouge&quot;&gt;Google&lt;/code&gt; funded some of the GSoC students last year. There haven’t been any official news about it for this year so far. And that’s what worried me mostly. But &lt;code class=&quot;highlighter-rouge&quot;&gt;kiwi.com&lt;/code&gt; made my thought clear that I would be definitely attending &lt;strong&gt;EP’2017&lt;/strong&gt;. Thanks again guys!! You’re Awesome.
 So, I am all set, applied for a VISA. Hopefully It will get accepted.&lt;/p&gt;
@@ -507,8 +507,8 @@ So, I am all set, applied for a VISA. Hopefully It will get accepted.&lt;/p&gt;
 </description>
 				
 				<pubDate>Tue, 20 Jun 2017 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/gsoc/EuroPython-And-A-Lot-More-Awesomeness.html</link>
-				<guid isPermaLink="true">http://localhost:4000/gsoc/EuroPython-And-A-Lot-More-Awesomeness.html</guid>
+				<link>https://localhost:4000/gsoc/EuroPython-And-A-Lot-More-Awesomeness.html</link>
+				<guid isPermaLink="true">https://localhost:4000/gsoc/EuroPython-And-A-Lot-More-Awesomeness.html</guid>
 			</item>
 		
 			<item>
@@ -545,8 +545,8 @@ So, I am all set, applied for a VISA. Hopefully It will get accepted.&lt;/p&gt;
 </description>
 				
 				<pubDate>Sun, 18 Jun 2017 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/gsoc/Phase-1-Mid-Month-Summary.html</link>
-				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-1-Mid-Month-Summary.html</guid>
+				<link>https://localhost:4000/gsoc/Phase-1-Mid-Month-Summary.html</link>
+				<guid isPermaLink="true">https://localhost:4000/gsoc/Phase-1-Mid-Month-Summary.html</guid>
 			</item>
 		
 			<item>
@@ -590,7 +590,7 @@ avg= (a+b+c)/3
 &lt;/ol&gt;
 
 &lt;p&gt;At the end here’s a burnout chart depicting my working efficiency.
-&lt;img src=&quot;http://localhost:4000/images/chart_bonding.png&quot; alt=&quot;bonding chart&quot; /&gt;
+&lt;img src=&quot;https://localhost:4000/images/chart_bonding.png&quot; alt=&quot;bonding chart&quot; /&gt;
 Although, I wasn’t able to complete my &lt;code class=&quot;highlighter-rouge&quot;&gt;Bonding&lt;/code&gt; milestone 100%. As to close an issue, the related PR should be merged beforehand. While I got my 2 PR’s in review state. And both of those PR’s had big updates/patches, which I submitted beforehand deadline by 2 days and hence it didn’t got sufficient time to go through review phase.&lt;/p&gt;
 
 &lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
@@ -603,8 +603,8 @@ Although, I wasn’t able to complete my &lt;code class=&quot;highlighter-rouge&
 </description>
 				
 				<pubDate>Wed, 31 May 2017 00:00:00 +0530</pubDate>
-				<link>http://localhost:4000/gsoc/Bonding-Period-Ends.html</link>
-				<guid isPermaLink="true">http://localhost:4000/gsoc/Bonding-Period-Ends.html</guid>
+				<link>https://localhost:4000/gsoc/Bonding-Period-Ends.html</link>
+				<guid isPermaLink="true">https://localhost:4000/gsoc/Bonding-Period-Ends.html</guid>
 			</item>
 		
 	</channel>

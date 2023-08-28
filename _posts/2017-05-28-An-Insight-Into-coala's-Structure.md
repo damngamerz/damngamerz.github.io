@@ -19,7 +19,7 @@ coala's code base can be found here at [github](https://github.com/coala/coala).
 You can see, this tree has 3 major parts.
 
  1. **coalib**: Which is the homeground of coala API. This is the place where most of the important technical aspects goes.
- 2. **docs**: Contains generated documention of coala API, which is built and beautifully displayed over [`api.coala.io`](http://api.coala.io)
+ 2. **docs**: Contains generated documention of coala API, which is built and beautifully displayed over [`api.coala.io`](https://api.coala.io)
  3. **tests**: Contains all the test files over coalib directory.
 
 Since, `docs` and `tests` are established over `coalib`, so `coalib` is the star directory. And hence, I would be only explaining about it.
@@ -47,6 +47,6 @@ Since, `docs` and `tests` are established over `coalib`, so `coalib` is the star
      * gathers configuration(such as loading configs, retrieves bears and all needed settings, saves the settings back if needed and warns about non existent targets)
  11. **testing**: The last and final section is the `testing`, which contains the API for bear testing. It provides `LocalBearTestHelper` module which contains routines like `check_results`, `check_validity` and `verify_local_bear`. These basically test a bear by doing a simple assertion test, between the given result and to the actual yielded result from the bear over a given file.
 
-If you will dive deep enough, it's working is even more interesting. If it sounds interesting to you as well, you can start contributing right away by following our [newcomer's guide](http://coala.io/newcomer).
+If you will dive deep enough, it's working is even more interesting. If it sounds interesting to you as well, you can start contributing right away by following our [newcomer's guide](https://coala.io/newcomer).
 
 Till next time see ya!!

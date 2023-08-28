@@ -14,7 +14,7 @@ Hey Guys, Im pleased to tell you that I will be travelling to Italy on 2nd week 
 ## What exactly is EuroPython and why am I attending it?
 EuroPython is a community initiative by a team of Python enthusiast in Europe to bring together Python users and developers, as well as provide an opportunity for those who are interested in these technologies.
 
-So around march *Lasse* ([@sils](http://github.com/sils)) invited us all for this conference where since past 2 years was the venue for coalians annual meet. Although I haven't spent a lot of time with these guys. But now it feels like I have been knowing them since years and hence, I will really be pleased to meet them all. Even my mentor of GSoC'17 *Niklas* [@NiklasMM](http://github.com/NiklasMM) will be present. Yes my dream of having a beer with my mentor is coming true :P
+So around march *Lasse* ([@sils](https://github.com/sils)) invited us all for this conference where since past 2 years was the venue for coalians annual meet. Although I haven't spent a lot of time with these guys. But now it feels like I have been knowing them since years and hence, I will really be pleased to meet them all. Even my mentor of GSoC'17 *Niklas* [@NiklasMM](https://github.com/NiklasMM) will be present. Yes my dream of having a beer with my mentor is coming true :P
 
 I would also like to share that I had applied for a Talk proposal on the words of my admins. Though it got rejected but Im happy. I have never been to a Tech. conference before, so I was a bit hesitant about it. But If I will get a chance surely I will give a lightening talk about my GSoC project. 
 ## Funding and Sponsorship.
@@ -25,7 +25,7 @@ Yes guys you have read it perfectly I m being funded for this trip. Though not f
 
 If I can say it in one sentence. It's their way of thanking to the world of FOSS. Source-lift programme funds Open-Source organizations to make their dream of attending a conference together come true. They do so by providing each member of the team with flight voucher upto 200 Euros. Read more about them on their official site: [`kiwi.com/sourcelift`](https://www.kiwi.com/sourcelift/)
 
-`coala` is the first organization to be a part this programme. It's was the effort of *Lasse* ([@sils](http://github.com/sils)) and few other admins to make this happen. Im really Thankful to them for such an effort. Keep bringing more awesomeness to the community.
+`coala` is the first organization to be a part this programme. It's was the effort of *Lasse* ([@sils](https://github.com/sils)) and few other admins to make this happen. Im really Thankful to them for such an effort. Keep bringing more awesomeness to the community.
 
 ![kiwidotcom coala]({{ site.url }}/images/kiwidotcom_coala.png)
 

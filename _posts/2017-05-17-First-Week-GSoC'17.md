@@ -15,7 +15,7 @@ Hey people!! This is the end of my first week at GSoC'2017 (Google Summer of Cod
 ### What's my project about?
 I have already been through with the description of my project twice, in my previous blogs. So rather than repeating the same Im gonna explain you in a bit detail what exactly my project will be acheiving after it's completion. So my project deals with the documentation of different languages
 
-For java, the idea for the docstyle to be followed is defined [here](http://www.oracle.com/technetwork/articles/java/index-137868.html). In general it will look like:
+For java, the idea for the docstyle to be followed is defined [here](https://www.oracle.com/technetwork/articles/java/index-137868.html). In general it will look like:
 ```
 /**
  * <main_description>
@@ -51,7 +51,7 @@ Objectives:
 
 Second, was to introduce myself to the whole community on the coala-dev & coala-newcomers mailing lists.
 
-And Final, was that I have get my feed.xml for this blog-page to be aggregated with [blog.coala.io](http://blog.coala.io/). You guys can now also access my blogs @coala's official [blog-page](http://blog.coala.io/).
+And Final, was that I have get my feed.xml for this blog-page to be aggregated with [blog.coala.io](https://blog.coala.io/). You guys can now also access my blogs @coala's official [blog-page](https://blog.coala.io/).
 
 ### What's for the upcoming week?
 Finally my exams are over and summer vacation has begun. Now I can devote my full time to this project. So probably Im gonna start completing my BONDING PERIOD: Milestones. Which right now has 4 issues. Also, I will be diving deep into the coala's codebase to understand its voodoo, and will be writing about it's working in the near future.

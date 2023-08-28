@@ -49,7 +49,7 @@ Python:
             """
             return None
     ```
-    For further info [check here](http://www.sphinx-doc.org/en/stable/domains.html#info-field-lists).
+    For further info [check here](https://www.sphinx-doc.org/en/stable/domains.html#info-field-lists).
 
 Java:  
  * Default style, The DocString followed is in below format:
@@ -71,7 +71,7 @@ Java:
         }
     }
     ```
-    For further info [check here](http://www.oracle.com/technetwork/articles/java/index-137868.html).
+    For further info [check here](https://www.oracle.com/technetwork/articles/java/index-137868.html).
 
 ***Specifics of DocGrammarBear***  
 DocGrammarBear should atleast be able to lint basic spell checking over: Main descriptions and Comments descriptions.
@@ -159,7 +159,7 @@ Next is, if everything is sorted I will add `DocStyleBear` and `DocGrammarBear` 
 Well I felt awesome to get everything done in time. But now Im feeling jobless xD. I guess I will go on a review sprint and help my other GSoC coalians.
 
 ## GSoC coalians.
-Lastly, I wanna speak about my other GSoC collegues. They had also done a great job with their projects. You can read alot about us [@blog.coala.io](https://blog.coala.io/). Also If any of this sounds interesting to you. How about joining us next? [@coala.io/newcomer](http://coala.io/newcomer).
+Lastly, I wanna speak about my other GSoC collegues. They had also done a great job with their projects. You can read alot about us [@blog.coala.io](https://blog.coala.io/). Also If any of this sounds interesting to you. How about joining us next? [@coala.io/newcomer](https://coala.io/newcomer).
 
 That's it folks!
 
