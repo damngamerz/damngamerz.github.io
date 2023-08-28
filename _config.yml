@@ -1,7 +1,7 @@
 # Site Settings
 title:               Saurav Singh
 tagline:             damngamerz
-description:
+description:         Personal Blog
 url:                 "https://saurav.eu"
 github:
   url:               "https://damngamerz.github.io"
@@ -27,5 +27,5 @@ gems:                [jekyll-paginate]
 
 #Feed settings
 name:                Saurav Singh
-description:         Personal Blog
-url:                 https://damngamerz.github.io
+#description:         Personal Blog
+#url:                 https://damngamerz.github.io
