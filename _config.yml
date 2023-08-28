@@ -3,7 +3,7 @@ title:               Saurav Singh
 tagline:             damngamerz
 description:         Personal Blog
 url:                 "https://saurav.eu"
-root:                 /             
+baseurl:                 /             
 github:
   url:               "https://damngamerz.github.io"
 author:
