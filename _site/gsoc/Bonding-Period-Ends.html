@@ -11,8 +11,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://damngamerz.github.io/css/main.css">
-  <link rel="stylesheet" href="https://damngamerz.github.io/css/syntax.css">
+  <link rel="stylesheet" href="https://saurav.eu/css/main.css">
+  <link rel="stylesheet" href="https://saurav.eu/css/syntax.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
@@ -42,13 +42,13 @@
   <div class="container">
     <header class="masthead">
   <h3 class="masthead-title">
-    <a href="https://damngamerz.github.io/">Saurav Singh</a>
+    <a href="https://saurav.eu/">Saurav Singh</a>
     <small class="masthead-subtitle">damngamerz</small>
     <div class="menu">
   <div class="menu-content">
-    <a href="https://damngamerz.github.io/about.html">About</a>
-    <a href="https://damngamerz.github.io/writing.html">Writing</a>
-    <a href="https://damngamerz.github.io/contacts.html">Contact</a>
+    <a href="https://saurav.eu/about.html">About</a>
+    <a href="https://saurav.eu/writing.html">Writing</a>
+    <a href="https://saurav.eu/contacts.html">Contact</a>
   </div>
   <div class="social-icons">
     <a href="https://github.com/damngamerz"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
@@ -72,54 +72,51 @@
 </h1>
 
 
-  <img src="https://damngamerz.github.io/images/bonding.jpg">
+  <img src="https://saurav.eu/images/bonding.jpg">
 
 
-<p>Hi Guys!! With the end of this month <code class="highlighter-rouge">Community Bonding</code> period finally comes to an end, which marks the beginning of <code class="highlighter-rouge">Coding Phase-I</code>. In which, students officially now starts coding on their projects. Before even I would start with <code class="highlighter-rouge">Coding Phase-I</code>, I thought about summarizing my overall objectives achieved in <code class="highlighter-rouge">Community Bonding</code>.</p>
+<p>Hi Guys!! With the end of this month <code class="language-plaintext highlighter-rouge">Community Bonding</code> period finally comes to an end, which marks the beginning of <code class="language-plaintext highlighter-rouge">Coding Phase-I</code>. In which, students officially now starts coding on their projects. Before even I would start with <code class="language-plaintext highlighter-rouge">Coding Phase-I</code>, I thought about summarizing my overall objectives achieved in <code class="language-plaintext highlighter-rouge">Community Bonding</code>.</p>
 
 <h2 id="summary">Summary</h2>
 <ol>
-  <li>I started with testing the old <code class="highlighter-rouge">DocumentationStyleBear</code> over <code class="highlighter-rouge">coala</code> and <code class="highlighter-rouge">coala-bears</code> repo. My first task was to get the old <a href="https://github.com/coala/coala-bears/pull/1506"><code class="highlighter-rouge">DocStyleBear</code> PR</a> of <a href="https://github.com/SanketDG">SanketDG</a> merged, currently! I have hijacked it :P . I found 2 major issues while testing:
+  <li>I started with testing the old <code class="language-plaintext highlighter-rouge">DocumentationStyleBear</code> over <code class="language-plaintext highlighter-rouge">coala</code> and <code class="language-plaintext highlighter-rouge">coala-bears</code> repo. My first task was to get the old <a href="https://github.com/coala/coala-bears/pull/1506"><code class="language-plaintext highlighter-rouge">DocStyleBear</code> PR</a> of <a href="https://github.com/SanketDG">SanketDG</a> merged, currently! I have hijacked it :P . I found 2 major issues while testing:
     <ul>
       <li>We know python has some fancy strings which are written as:
-        <div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="nx">arguments</span><span class="o">=</span><span class="s2">"""
+        <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">arguments</span><span class="o">=</span><span class="dl">"""</span><span class="s2">
 sum= a+b+c
 avg= (a+b+c)/3
-"""</span>
-</code></pre>
-        </div>
-        <p><code class="highlighter-rouge">DocumentionAPI</code> should ignore such strings. I had a healthy discussion with my mentors about this issue and we came to a conclusion that it required some more ideation, hence being moved to <code class="highlighter-rouge">Coding Phase-I</code>.</p>
+</span><span class="dl">"""</span>
+</code></pre></div>        </div>
+        <p><code class="language-plaintext highlighter-rouge">DocumentionAPI</code> should ignore such strings. I had a healthy discussion with my mentors about this issue and we came to a conclusion that it required some more ideation, hence being moved to <code class="language-plaintext highlighter-rouge">Coding Phase-I</code>.</p>
       </li>
-      <li><code class="highlighter-rouge">DocumentationAPI</code> was not having support for <code class="highlighter-rouge">:raises xyz:</code>. Hence, it’s being successfully <a href="https://github.com/coala/coala/pull/4281">implemented</a>. The patch right now is in review phase.</li>
+      <li><code class="language-plaintext highlighter-rouge">DocumentationAPI</code> was not having support for <code class="language-plaintext highlighter-rouge">:raises xyz:</code>. Hence, it’s being successfully <a href="https://github.com/coala/coala/pull/4281">implemented</a>. The patch right now is in review phase.</li>
     </ul>
   </li>
-  <li>There was bug in <code class="highlighter-rouge">DocumentationAPI</code>, which generated cut-off diffs. For example, if a docstring is written this way:
-    <div class="language-js highlighter-rouge"><pre class="highlight"><code>    <span class="s2">"""
+  <li>There was bug in <code class="language-plaintext highlighter-rouge">DocumentationAPI</code>, which generated cut-off diffs. For example, if a docstring is written this way:
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="dl">"""</span><span class="s2">
  This is not a cool way to write docstrings.
-    """</span>
-</code></pre>
-    </div>
+    </span><span class="dl">"""</span>
+</code></pre></div>    </div>
     <p>The generated diff would be.</p>
-    <div class="language-js highlighter-rouge"><pre class="highlight"><code>    <span class="s2">"""
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="dl">"""</span><span class="s2">
      not a cool way to write docstrings.
-    """</span>
-</code></pre>
-    </div>
+    </span><span class="dl">"""</span>
+</code></pre></div>    </div>
     <p>A patch fixing this bug has been <a href="https://github.com/coala/coala/pull/4275">implemented and merged</a>.</p>
   </li>
-  <li>A new parameter <code class="highlighter-rouge">allow_missing_func_desc</code> needs to be added which will ignore a warning message, when <code class="highlighter-rouge">DocStyleBear</code> doesn’t finds a function description. This has also been <a href="https://github.com/coala/coala-bears/pull/1506">implemented</a>.</li>
+  <li>A new parameter <code class="language-plaintext highlighter-rouge">allow_missing_func_desc</code> needs to be added which will ignore a warning message, when <code class="language-plaintext highlighter-rouge">DocStyleBear</code> doesn’t finds a function description. This has also been <a href="https://github.com/coala/coala-bears/pull/1506">implemented</a>.</li>
   <li>Last and Final task was to analyze coala’s structure and write a blog about it. So, <a href="https://damngamerz.github.io/gsoc/An-Insight-Into-coala's-Structure.html">here it is</a>.</li>
 </ol>
 
 <p>At the end here’s a burnout chart depicting my working efficiency.
-<img src="https://localhost:4000/images/chart_bonding.png" alt="bonding chart" />
-Although, I wasn’t able to complete my <code class="highlighter-rouge">Bonding</code> milestone 100%. As to close an issue, the related PR should be merged beforehand. While I got my 2 PR’s in review state. And both of those PR’s had big updates/patches, which I submitted beforehand deadline by 2 days and hence it didn’t got sufficient time to go through review phase.</p>
+<img src="http://localhost:4000/images/chart_bonding.png" alt="bonding chart" />
+Although, I wasn’t able to complete my <code class="language-plaintext highlighter-rouge">Bonding</code> milestone 100%. As to close an issue, the related PR should be merged beforehand. While I got my 2 PR’s in review state. And both of those PR’s had big updates/patches, which I submitted beforehand deadline by 2 days and hence it didn’t got sufficient time to go through review phase.</p>
 
 <h2 id="whats-next">What’s next?</h2>
-<p>Well <code class="highlighter-rouge">Coding Phase-I</code> begins now, and I can’t risk my chances of staying behind schedule. The things I learned from <code class="highlighter-rouge">Community Bonding</code> phase will play a very crucial role in this phase, one of which is I have to submit my patches as early as possible, cause about 60% time goes in review cycle. Ofcourse, I don’t blame the review process by that statement, cause it is very fruitful and it always polishes the PR to get merge ready. Although, I must say coala’s review process is fast, well faster than the other open-source organisations, In which a simple patch can be in review phase for months before it finally gets accepted. Here it take a day or so. But for big patches it obviously takes weeks of review iterations to actually get it merged. Kudos!! to all my fellow devs and maintainers for making this process fast!!</p>
+<p>Well <code class="language-plaintext highlighter-rouge">Coding Phase-I</code> begins now, and I can’t risk my chances of staying behind schedule. The things I learned from <code class="language-plaintext highlighter-rouge">Community Bonding</code> phase will play a very crucial role in this phase, one of which is I have to submit my patches as early as possible, cause about 60% time goes in review cycle. Ofcourse, I don’t blame the review process by that statement, cause it is very fruitful and it always polishes the PR to get merge ready. Although, I must say coala’s review process is fast, well faster than the other open-source organisations, In which a simple patch can be in review phase for months before it finally gets accepted. Here it take a day or so. But for big patches it obviously takes weeks of review iterations to actually get it merged. Kudos!! to all my fellow devs and maintainers for making this process fast!!</p>
 
 <h2 id="thanks">Thanks!</h2>
-<p>Special Thanks to both of my mentors <a href="https://github.com/SanketDG">SanketDG</a>, <a href="https://github.com/NiklasMM">NiklasMM</a> and other mentors of coala. Without them this wouldn’t have been possible. Thanks for understanding when I asked to code in <code class="highlighter-rouge">Bonding Period</code> phase and making me code in, which really gave me a taste of how <code class="highlighter-rouge">Coding Phase-I</code> will actually go. I will try hard to not let you guys down.</p>
+<p>Special Thanks to both of my mentors <a href="https://github.com/SanketDG">SanketDG</a>, <a href="https://github.com/NiklasMM">NiklasMM</a> and other mentors of coala. Without them this wouldn’t have been possible. Thanks for understanding when I asked to code in <code class="language-plaintext highlighter-rouge">Bonding Period</code> phase and making me code in, which really gave me a taste of how <code class="language-plaintext highlighter-rouge">Coding Phase-I</code> will actually go. I will try hard to not let you guys down.</p>
 
 <p>Till next time Tschüss!!</p>
 
@@ -134,9 +131,9 @@ Although, I wasn’t able to complete my <code class="highlighter-rouge">Bonding
 </span>
 <div class="post-date">Feel free to share!</div>
   <div class="sharing-icons">
-    <a href="https://twitter.com/intent/tweet?text=Bonding Period Ends&amp;url=https://damngamerz.github.io/gsoc/Bonding-Period-Ends.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/gsoc/Bonding-Period-Ends.html&amp;title=Bonding Period Ends" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/gsoc/Bonding-Period-Ends.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/intent/tweet?text=Bonding Period Ends&amp;url=https://saurav.eu/gsoc/Bonding-Period-Ends.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://saurav.eu/gsoc/Bonding-Period-Ends.html&amp;title=Bonding Period Ends" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=https://saurav.eu/gsoc/Bonding-Period-Ends.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -149,9 +146,9 @@ Although, I wasn’t able to complete my <code class="highlighter-rouge">Bonding
         
           <li>
             <h3>
-              <a href="https://damngamerz.github.io/gsoc/Souvenir-of-GSoC'2017!.html">
+              <a href="https://saurav.eu/gsoc/Souvenir-of-GSoC'2017!.html">
                 Souvenir of GSoC'2017!
-                <!--<img src="https://localhost:4000/images/gsoc-teaser.jpg">-->
+                <!--<img src="http://localhost:4000/images/gsoc-teaser.jpg">-->
                 <!--<small>August 21, 2017</small>-->
               </a>
             </h3>
@@ -162,9 +159,9 @@ Although, I wasn’t able to complete my <code class="highlighter-rouge">Bonding
         
           <li>
             <h3>
-              <a href="https://damngamerz.github.io/gsoc/Phase-3-Month-End-Summary.html">
+              <a href="https://saurav.eu/gsoc/Phase-3-Month-End-Summary.html">
                 Phase 3 Month End Summary
-                <!--<img src="https://localhost:4000/images/coding_final-teaser.jpg">-->
+                <!--<img src="http://localhost:4000/images/coding_final-teaser.jpg">-->
                 <!--<small>August 19, 2017</small>-->
               </a>
             </h3>
@@ -175,9 +172,9 @@ Although, I wasn’t able to complete my <code class="highlighter-rouge">Bonding
         
           <li>
             <h3>
-              <a href="https://damngamerz.github.io/gsoc/Phase-3-Mid-Month-Summary.html">
+              <a href="https://saurav.eu/gsoc/Phase-3-Mid-Month-Summary.html">
                 Phase 3 Mid Month Summary
-                <!--<img src="https://localhost:4000/images/coding_final-teaser.jpg">-->
+                <!--<img src="http://localhost:4000/images/coding_final-teaser.jpg">-->
                 <!--<small>August 11, 2017</small>-->
               </a>
             </h3>
@@ -252,7 +249,7 @@ Although, I wasn’t able to complete my <code class="highlighter-rouge">Bonding
   <a href="https://linkedin.com/in/damngamerz"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
   <a href="mailto:sauravsinghshakya@yahoo.com"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
   <a href="https://damngamerz.github.io/feed.xml"><i class="fa fa-rss" aria-hidden="true" target="_blank"></i></a>
-  <div class="post-date"><a href="https://damngamerz.github.io/about.html">Saurav Singh | damngamerz © by Saurav Singh</a></div>
+  <div class="post-date"><a href="https://saurav.eu/about.html">Saurav Singh | damngamerz © by Saurav Singh</a></div>
 </footer>
 
 

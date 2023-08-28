@@ -11,8 +11,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://damngamerz.github.io/css/main.css">
-  <link rel="stylesheet" href="https://damngamerz.github.io/css/syntax.css">
+  <link rel="stylesheet" href="https://saurav.eu/css/main.css">
+  <link rel="stylesheet" href="https://saurav.eu/css/syntax.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
@@ -42,13 +42,13 @@
   <div class="container">
     <header class="masthead">
   <h3 class="masthead-title">
-    <a href="https://damngamerz.github.io/">Saurav Singh</a>
+    <a href="https://saurav.eu/">Saurav Singh</a>
     <small class="masthead-subtitle">damngamerz</small>
     <div class="menu">
   <div class="menu-content">
-    <a href="https://damngamerz.github.io/about.html">About</a>
-    <a href="https://damngamerz.github.io/writing.html">Writing</a>
-    <a href="https://damngamerz.github.io/contacts.html">Contact</a>
+    <a href="https://saurav.eu/about.html">About</a>
+    <a href="https://saurav.eu/writing.html">Writing</a>
+    <a href="https://saurav.eu/contacts.html">Contact</a>
   </div>
   <div class="social-icons">
     <a href="https://github.com/damngamerz"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
@@ -72,31 +72,31 @@
 </h1>
 
 
-  <img src="https://damngamerz.github.io/images/coding_final.jpg">
+  <img src="https://saurav.eu/images/coding_final.jpg">
 
 
 <p>Hi Guys!, How you doing?
-It’s been 4 weeks of <code class="highlighter-rouge">CODING PHASE-3</code> and it’s evaluation time again, this is the final one. So from 21st 9:30pm, Evaluation links will become active both me and my mentor have to fill a Q &amp; A form ^_^. In this blog I will be sumarizing my GSoC’2017’s work of last 2 weeks. Let’s begin!!</p>
+It’s been 4 weeks of <code class="language-plaintext highlighter-rouge">CODING PHASE-3</code> and it’s evaluation time again, this is the final one. So from 21st 9:30pm, Evaluation links will become active both me and my mentor have to fill a Q &amp; A form ^_^. In this blog I will be sumarizing my GSoC’2017’s work of last 2 weeks. Let’s begin!!</p>
 
 <h2 id="summary">Summary</h2>
-<p>The deadline of achieving the milestones set by my organization is 21st August. The big thing was <code class="highlighter-rouge">DocumentationAPI</code> now has support for automatic padding and docstring type. Which tells us about the trailing no. of blank lines before or after the docstring and also about the type of docstring it is: <code class="highlighter-rouge">function</code> level or <code class="highlighter-rouge">class</code> level. By using these, now we can have blank lines detected and fixed according to <a href="https://www.python.org/dev/peps/pep-0257/">PEP-257</a>. Last 2 weeks was mostly about bug fixes.</p>
+<p>The deadline of achieving the milestones set by my organization is 21st August. The big thing was <code class="language-plaintext highlighter-rouge">DocumentationAPI</code> now has support for automatic padding and docstring type. Which tells us about the trailing no. of blank lines before or after the docstring and also about the type of docstring it is: <code class="language-plaintext highlighter-rouge">function</code> level or <code class="language-plaintext highlighter-rouge">class</code> level. By using these, now we can have blank lines detected and fixed according to <a href="https://www.python.org/dev/peps/pep-0257/">PEP-257</a>. Last 2 weeks was mostly about bug fixes.</p>
 
 <ol>
-  <li>Triple quoted string literals which was ignored by <code class="highlighter-rouge">DocumentationAPI</code> was creating a bug. It’s end marker was taken as the starting of a new docstring. Seems like the patch which I submitted in <code class="highlighter-rouge">PHASE-1</code> to ignore these string literals was creating this. So I found the other way around. We now Ignore the whole <code class="highlighter-rouge">DocComment</code> instead of ignoring it by regex(Which was the case previously). So a PR reverting the previous changes and applying a new solution was <a href="https://github.com/coala/coala/pull/4632">made and merged.</a></li>
-  <li>There was a Java docstyle bug (you can read more about it <a href="https://github.com/coala/coala/issues/4029">here</a>). The solution I proposed in <code class="highlighter-rouge">PHASE-2</code> was breaking a corner case. Which we thought could be fixed seperately. But it wasn’t like that. So finally we came to a conclusion that <code class="highlighter-rouge">DocumentationAPI</code> couldn’t fix docstrings if their markers are faulty. As markers are the only thing by which drives <code class="highlighter-rouge">DocumentationAPI</code> to find docstrings inside a file, we now just yield a <code class="highlighter-rouge">RESULT</code> with beautiful message which describes that markers are faulty. So a PR reverting the previous changes and applying a new solution was <a href="https://github.com/coala/coala/pull/4637">made and merged</a>.</li>
+  <li>Triple quoted string literals which was ignored by <code class="language-plaintext highlighter-rouge">DocumentationAPI</code> was creating a bug. It’s end marker was taken as the starting of a new docstring. Seems like the patch which I submitted in <code class="language-plaintext highlighter-rouge">PHASE-1</code> to ignore these string literals was creating this. So I found the other way around. We now Ignore the whole <code class="language-plaintext highlighter-rouge">DocComment</code> instead of ignoring it by regex(Which was the case previously). So a PR reverting the previous changes and applying a new solution was <a href="https://github.com/coala/coala/pull/4632">made and merged.</a></li>
+  <li>There was a Java docstyle bug (you can read more about it <a href="https://github.com/coala/coala/issues/4029">here</a>). The solution I proposed in <code class="language-plaintext highlighter-rouge">PHASE-2</code> was breaking a corner case. Which we thought could be fixed seperately. But it wasn’t like that. So finally we came to a conclusion that <code class="language-plaintext highlighter-rouge">DocumentationAPI</code> couldn’t fix docstrings if their markers are faulty. As markers are the only thing by which drives <code class="language-plaintext highlighter-rouge">DocumentationAPI</code> to find docstrings inside a file, we now just yield a <code class="language-plaintext highlighter-rouge">RESULT</code> with beautiful message which describes that markers are faulty. So a PR reverting the previous changes and applying a new solution was <a href="https://github.com/coala/coala/pull/4637">made and merged</a>.</li>
 </ol>
 
-<p>This was it!! I have successfully achieved my milestone of <code class="highlighter-rouge">PHASE-3</code>. You can see my progress <a href="https://gitlab.com/coala/GSoC-2017/milestones/11">here</a>. And here’s how my burndown chart looks like.</p>
+<p>This was it!! I have successfully achieved my milestone of <code class="language-plaintext highlighter-rouge">PHASE-3</code>. You can see my progress <a href="https://gitlab.com/coala/GSoC-2017/milestones/11">here</a>. And here’s how my burndown chart looks like.</p>
 
-<p><img src="https://localhost:4000/images/chart_phase3.png" alt="bonding chart" />
+<p><img src="http://localhost:4000/images/chart_phase3.png" alt="bonding chart" />
 Yay! I did it!</p>
 
 <h2 id="stretch-goal">STRETCH GOAL</h2>
-<p>Yes you read it correctly. I completed one of the biggest stretch goal which I had a thought since <code class="highlighter-rouge">PHASE-1</code>. It was about giving an error handling mechanism to DocumentationAPI. So we now have <code class="highlighter-rouge">MalformedComment</code> class which can be yielded if there is some error in parsing the docstring by DocumentationAPI. Which contains attributes like error message and line number, so these can be yielded on the bear part. A PR has been <a href="https://github.com/coala/coala/pull/4637">made and merged</a>.</p>
+<p>Yes you read it correctly. I completed one of the biggest stretch goal which I had a thought since <code class="language-plaintext highlighter-rouge">PHASE-1</code>. It was about giving an error handling mechanism to DocumentationAPI. So we now have <code class="language-plaintext highlighter-rouge">MalformedComment</code> class which can be yielded if there is some error in parsing the docstring by DocumentationAPI. Which contains attributes like error message and line number, so these can be yielded on the bear part. A PR has been <a href="https://github.com/coala/coala/pull/4637">made and merged</a>.</p>
 
 <p>There’s still one more week remaining for hard deadline of August 29. I was thinking about doing some more quirks to DocGrammarBear and DocStyleBear which will polish my project and a review sprint ;) You can see all progress about stretch goals <a href="https://gitlab.com/coala/GSoC-2017/milestones/44">here!</a></p>
 
-<p>There were some up and downs in <code class="highlighter-rouge">PHASE-2</code> I nearly failed the milestone. But</p>
+<p>There were some up and downs in <code class="language-plaintext highlighter-rouge">PHASE-2</code> I nearly failed the milestone. But</p>
 <blockquote>
   <p>Why do we fall? So we can learn to pick ourself’s up - Alfred</p>
 </blockquote>
@@ -119,9 +119,9 @@ Yay! I did it!</p>
 </span>
 <div class="post-date">Feel free to share!</div>
   <div class="sharing-icons">
-    <a href="https://twitter.com/intent/tweet?text=Phase 3 Month End Summary&amp;url=https://damngamerz.github.io/gsoc/Phase-3-Month-End-Summary.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/gsoc/Phase-3-Month-End-Summary.html&amp;title=Phase 3 Month End Summary" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/gsoc/Phase-3-Month-End-Summary.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/intent/tweet?text=Phase 3 Month End Summary&amp;url=https://saurav.eu/gsoc/Phase-3-Month-End-Summary.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://saurav.eu/gsoc/Phase-3-Month-End-Summary.html&amp;title=Phase 3 Month End Summary" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=https://saurav.eu/gsoc/Phase-3-Month-End-Summary.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -134,9 +134,9 @@ Yay! I did it!</p>
         
           <li>
             <h3>
-              <a href="https://damngamerz.github.io/gsoc/Souvenir-of-GSoC'2017!.html">
+              <a href="https://saurav.eu/gsoc/Souvenir-of-GSoC'2017!.html">
                 Souvenir of GSoC'2017!
-                <!--<img src="https://localhost:4000/images/gsoc-teaser.jpg">-->
+                <!--<img src="http://localhost:4000/images/gsoc-teaser.jpg">-->
                 <!--<small>August 21, 2017</small>-->
               </a>
             </h3>
@@ -150,9 +150,9 @@ Yay! I did it!</p>
         
           <li>
             <h3>
-              <a href="https://damngamerz.github.io/gsoc/Phase-3-Mid-Month-Summary.html">
+              <a href="https://saurav.eu/gsoc/Phase-3-Mid-Month-Summary.html">
                 Phase 3 Mid Month Summary
-                <!--<img src="https://localhost:4000/images/coding_final-teaser.jpg">-->
+                <!--<img src="http://localhost:4000/images/coding_final-teaser.jpg">-->
                 <!--<small>August 11, 2017</small>-->
               </a>
             </h3>
@@ -227,7 +227,7 @@ Yay! I did it!</p>
   <a href="https://linkedin.com/in/damngamerz"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
   <a href="mailto:sauravsinghshakya@yahoo.com"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
   <a href="https://damngamerz.github.io/feed.xml"><i class="fa fa-rss" aria-hidden="true" target="_blank"></i></a>
-  <div class="post-date"><a href="https://damngamerz.github.io/about.html">Saurav Singh | damngamerz © by Saurav Singh</a></div>
+  <div class="post-date"><a href="https://saurav.eu/about.html">Saurav Singh | damngamerz © by Saurav Singh</a></div>
 </footer>
 
 

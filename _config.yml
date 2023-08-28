@@ -3,9 +3,9 @@ title:               Saurav Singh
 tagline:             damngamerz
 description:         Personal Blog
 url:                 "https://saurav.eu"
-baseurl:                 /             
+baseurl:             ""           
 github:
-  url:               "https://damngamerz.github.io"
+  url:               "https://saurav.eu"
 author:
   name:              "Saurav Singh"
   email:             "sauravsinghshakya@yahoo.com"

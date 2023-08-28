@@ -3,11 +3,11 @@
 	<channel>
 		<title>Saurav Singh</title>
 		<description>Personal Blog</description>		
-		<link>https://localhost:4000</link>
-		<atom:link href="https://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Souvenir of GSoC'2017!</title>
+				<title>Souvenir of GSoC&apos;2017!</title>
 				        
 				
 					<description>&lt;p&gt;So this it guys. The day I have worked for is finally here. This marks the end of my Google Summer of Code’2017. It’s been an awesome journey of 4 months.&lt;/p&gt;
@@ -15,13 +15,13 @@
 &lt;h2 id=&quot;thanks&quot;&gt;Thanks!&lt;/h2&gt;
 &lt;p&gt;Firstly, Thanks to both of my mentors &lt;a href=&quot;https://github.com/SanketDG&quot;&gt;SanketDG&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/NiklasMM&quot;&gt;NiklasMM&lt;/a&gt;. Thanks for everything! It’s been an awesome journey for me, I couldn’t have asked for better mentors than you guys. Secondly, Thanks to Org. admins and other mentors of coala.&lt;/p&gt;
 
-&lt;p&gt;Thank you guys, for not losing hope on me when I nearly failed my &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-2&lt;/code&gt; milestone. Somewhere this was the sole reason which drived me to recover my work and complete my final milestone in time :)&lt;/p&gt;
+&lt;p&gt;Thank you guys, for not losing hope on me when I nearly failed my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PHASE-2&lt;/code&gt; milestone. Somewhere this was the sole reason which drived me to recover my work and complete my final milestone in time :)&lt;/p&gt;
 
 &lt;p&gt;Finally, Thanks Google! for such a wonderful programme.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-this-all-begin&quot;&gt;How this all begin?&lt;/h2&gt;
 &lt;p&gt;I came across coala while surfing on the internet. Though those were the initial days where I wanted to learn only python, but my ideology is if you want to learn something then do a project on it ;)&lt;br /&gt;
-The welcoming nature of the community thrived me to contribute towards this wonderful project. I continued to contribute in coala and in 2 weeks I was promoted to &lt;code class=&quot;highlighter-rouge&quot;&gt;core-developer&lt;/code&gt;. This was the first ever experience of me contributing to an opensource community. Later I continued to contribute more and more. Although I already knew about Google Summer of Code but I wasn’t sure if I’m surely gonna try a shot. Until I started talking with some of the mentors of coala. First was &lt;a href=&quot;https://github.com/NiklasMM&quot;&gt;NiklasMM&lt;/a&gt;, the project Handle Nested Programming language was sounding interesting. Meanwhile I was doing an issue with &lt;a href=&quot;https://github.com/SanketDG&quot;&gt;SanketDG&lt;/a&gt;. I came to know that he was an Ex-GSoCer at coala. So I started investigating with him about the process, reading his blogs, investing about how did he started….etc. At the end I got more interested towards &lt;strong&gt;Documentation Extraction and Parsing&lt;/strong&gt;. We scheduled a skype call where he answered some of my doubts one on one.&lt;/p&gt;
+The welcoming nature of the community thrived me to contribute towards this wonderful project. I continued to contribute in coala and in 2 weeks I was promoted to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;core-developer&lt;/code&gt;. This was the first ever experience of me contributing to an opensource community. Later I continued to contribute more and more. Although I already knew about Google Summer of Code but I wasn’t sure if I’m surely gonna try a shot. Until I started talking with some of the mentors of coala. First was &lt;a href=&quot;https://github.com/NiklasMM&quot;&gt;NiklasMM&lt;/a&gt;, the project Handle Nested Programming language was sounding interesting. Meanwhile I was doing an issue with &lt;a href=&quot;https://github.com/SanketDG&quot;&gt;SanketDG&lt;/a&gt;. I came to know that he was an Ex-GSoCer at coala. So I started investigating with him about the process, reading his blogs, investing about how did he started….etc. At the end I got more interested towards &lt;strong&gt;Documentation Extraction and Parsing&lt;/strong&gt;. We scheduled a skype call where he answered some of my doubts one on one.&lt;/p&gt;
 
 &lt;p&gt;And the rest, It all just happened ;)&lt;/p&gt;
 
@@ -34,8 +34,8 @@ DocStyleBear supports following style:&lt;/p&gt;
 &lt;p&gt;Python:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Sphinx, The DocStyle followed is in below format:
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;xyz_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-         &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;xyz_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+         &lt;span class=&quot;sh&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;
          This is functions main description.
 
          :param param1:
@@ -46,10 +46,9 @@ DocStyleBear supports following style:&lt;/p&gt;
              Param3 desc.
          :return:
              Nothing.
-         &quot;&quot;&quot;&lt;/span&gt;
+         &lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;
          &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
     &lt;p&gt;For further info &lt;a href=&quot;https://www.sphinx-doc.org/en/stable/domains.html#info-field-lists&quot;&gt;check here&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -57,7 +56,7 @@ DocStyleBear supports following style:&lt;/p&gt;
 &lt;p&gt;Java:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Default style, The DocString followed is in below format:
-    &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HelloWorld&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HelloWorld&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
 
     &lt;span class=&quot;cm&quot;&gt;/**
      * Returns an String that says Hello with the name argument.
@@ -69,12 +68,11 @@ DocStyleBear supports following style:&lt;/p&gt;
      * @return  
      *     the concatenated string
      */&lt;/span&gt;
-     &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sayHello&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;throws&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;IOException&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+     &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sayHello&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;throws&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;IOException&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
          &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello, &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
      &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
     &lt;p&gt;For further info &lt;a href=&quot;https://www.oracle.com/technetwork/articles/java/index-137868.html&quot;&gt;check here&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -82,8 +80,8 @@ DocStyleBear supports following style:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Specifics of DocGrammarBear&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
 DocGrammarBear should atleast be able to lint basic spell checking over: Main descriptions and Comments descriptions.
 For example: If we have a malformed docstring.&lt;/p&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;some_func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;some_func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;sh&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;
     This is thet main descrpton.
 
     :param param1:
@@ -92,13 +90,12 @@ For example: If we have a malformed docstring.&lt;/p&gt;
         Thiss is param2 descripton.
     :return:
         Nothing
-    &quot;&quot;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+    &lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;This has incorrect spelling mistakes. The DocGrammarBear should be able to correct it.&lt;/p&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;some_func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;some_func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;sh&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;
     This is the main description.
 
     :param param1:
@@ -107,31 +104,30 @@ For example: If we have a malformed docstring.&lt;/p&gt;
         This is param2 description.
     :return:
         Nothing    
-    &quot;&quot;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+    &lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Now, if I see the whole evolution of DocumentationAPI in these past 4 months. There are many things which I achieved:&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;Earlier DocumentationAPI was not being in use by any bear. &lt;code class=&quot;highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; was in &lt;code class=&quot;highlighter-rouge&quot;&gt;Work-In-Progress&lt;/code&gt; mode, from past 1 year. So I took over that PR and with some quirks I was able to merge it in time.&lt;/li&gt;
-  &lt;li&gt;DocumentationAPI still wasn’t stable. It longed for an stable design. Which &lt;code class=&quot;highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt; fulfilled it. &lt;code class=&quot;highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt; have 3 static methods:
+  &lt;li&gt;Earlier DocumentationAPI was not being in use by any bear. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; was in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Work-In-Progress&lt;/code&gt; mode, from past 1 year. So I took over that PR and with some quirks I was able to merge it in time.&lt;/li&gt;
+  &lt;li&gt;DocumentationAPI still wasn’t stable. It longed for an stable design. Which &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt; fulfilled it. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt; have 3 static methods:
     &lt;ol&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;extract&lt;/code&gt; - Used for extracting documentation.&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;process_documentation&lt;/code&gt; - Used to change the original instance of &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; according to the needed style.&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;generate_diff&lt;/code&gt; - If desired instance of &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; is not obtained. Applies a diff.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;extract&lt;/code&gt; - Used for extracting documentation.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;process_documentation&lt;/code&gt; - Used to change the original instance of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; according to the needed style.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;generate_diff&lt;/code&gt; - If desired instance of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; is not obtained. Applies a diff.&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-  &lt;li&gt;Later added 2 new features: &lt;code class=&quot;highlighter-rouge&quot;&gt;automatic_padding&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;docstring_type&lt;/code&gt; which made it possible for the DocumentationAPI to actually check the &lt;code class=&quot;highlighter-rouge&quot;&gt;docstring_type&lt;/code&gt; and amend blanklines before and after the docstring according to &lt;a href=&quot;https://www.python.org/dev/peps/pep-0257/&quot;&gt;PEP-257&lt;/a&gt;.
+  &lt;li&gt;Later added 2 new features: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;automatic_padding&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docstring_type&lt;/code&gt; which made it possible for the DocumentationAPI to actually check the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docstring_type&lt;/code&gt; and amend blanklines before and after the docstring according to &lt;a href=&quot;https://www.python.org/dev/peps/pep-0257/&quot;&gt;PEP-257&lt;/a&gt;.
     &lt;ol&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docstring_type&lt;/code&gt; of &lt;code class=&quot;highlighter-rouge&quot;&gt;function&lt;/code&gt; should have paddings &lt;code class=&quot;highlighter-rouge&quot;&gt;(top_padding=0, bottom_padding=0)&lt;/code&gt;. Which means function level docstrings should never be followed by a line before or after.&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;docstring_type&lt;/code&gt; of &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; should have paddings &lt;code class=&quot;highlighter-rouge&quot;&gt;(top_padding=0, bottom_padding=1)&lt;/code&gt;. Which means class level docstrings should be followed by a line below.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docstring_type&lt;/code&gt; of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;function&lt;/code&gt; should have paddings &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(top_padding=0, bottom_padding=0)&lt;/code&gt;. Which means function level docstrings should never be followed by a line before or after.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docstring_type&lt;/code&gt; of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt; should have paddings &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(top_padding=0, bottom_padding=1)&lt;/code&gt;. Which means class level docstrings should be followed by a line below.&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-  &lt;li&gt;Adding &lt;code class=&quot;highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt;, which used to analyze and fix basic spellings and grammar inside the descriptions of DocComments.&lt;/li&gt;
+  &lt;li&gt;Adding &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt;, which used to analyze and fix basic spellings and grammar inside the descriptions of DocComments.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Stretch Goal&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;Adding an error handling mechanism to DocumentationAPI. &lt;code class=&quot;highlighter-rouge&quot;&gt;MalformedComment&lt;/code&gt; which will be returned instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt;, if any part of DocumentationAPI(DocumentationExtraction.py, DocstyleDefinition, DocBaseClass.py and DocumentationComment.py) will be unable handle a docstring. This is important so that we can yield a &lt;code class=&quot;highlighter-rouge&quot;&gt;RESULT&lt;/code&gt; with a beautiful message in the bear.&lt;/li&gt;
+  &lt;li&gt;Adding an error handling mechanism to DocumentationAPI. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MalformedComment&lt;/code&gt; which will be returned instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt;, if any part of DocumentationAPI(DocumentationExtraction.py, DocstyleDefinition, DocBaseClass.py and DocumentationComment.py) will be unable handle a docstring. This is important so that we can yield a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RESULT&lt;/code&gt; with a beautiful message in the bear.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;These were the biggest achievements which I consider the completion factor of this project. Hence, achieving the final/stretch goal as mentioned above.&lt;/p&gt;
@@ -141,37 +137,37 @@ For example: If we have a malformed docstring.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;coala&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/coala/coala/commit/e41d6b5&quot;&gt;&lt;strong&gt;e41d6b5&lt;/strong&gt;&lt;/a&gt; DocumentationExtraction.py: Diff cut-off fix&lt;br /&gt;
-&lt;a href=&quot;https://github.com/coala/coala/commit/c79ec5a&quot;&gt;&lt;strong&gt;c79ec5a&lt;/strong&gt;&lt;/a&gt; DocumentationComment.py: Improve &lt;code class=&quot;highlighter-rouge&quot;&gt;assemble()&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/c79ec5a&quot;&gt;&lt;strong&gt;c79ec5a&lt;/strong&gt;&lt;/a&gt; DocumentationComment.py: Improve &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assemble()&lt;/code&gt;&lt;br /&gt;
 &lt;a href=&quot;https://github.com/coala/coala/commit/fa26911&quot;&gt;&lt;strong&gt;fa26911&lt;/strong&gt;&lt;/a&gt; DocumentationAPI: Support for :raises xyz:&lt;br /&gt;
 &lt;a href=&quot;https://github.com/coala/coala/commit/6abf8a0&quot;&gt;&lt;strong&gt;6abf8a0&lt;/strong&gt;&lt;/a&gt; DocumentationComment.py: Add in-line comment&lt;br /&gt;
-&lt;a href=&quot;https://github.com/coala/coala/commit/bac0c3e&quot;&gt;&lt;strong&gt;bac0c3e&lt;/strong&gt;&lt;/a&gt; DocumentationComment.py: Pass &lt;code class=&quot;highlighter-rouge&quot;&gt;indent&lt;/code&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/coala/coala/commit/526af97&quot;&gt;&lt;strong&gt;526af97&lt;/strong&gt;&lt;/a&gt; DocumentationComment: Add conditional for &lt;code class=&quot;highlighter-rouge&quot;&gt;None&lt;/code&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/coala/coala/commit/f3f613a&quot;&gt;&lt;strong&gt;f3f613a&lt;/strong&gt;&lt;/a&gt; DocumentationComment.py: Accept &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/bac0c3e&quot;&gt;&lt;strong&gt;bac0c3e&lt;/strong&gt;&lt;/a&gt; DocumentationComment.py: Pass &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;indent&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/526af97&quot;&gt;&lt;strong&gt;526af97&lt;/strong&gt;&lt;/a&gt; DocumentationComment: Add conditional for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;None&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/f3f613a&quot;&gt;&lt;strong&gt;f3f613a&lt;/strong&gt;&lt;/a&gt; DocumentationComment.py: Accept &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;position&lt;/code&gt;&lt;br /&gt;
 &lt;a href=&quot;https://github.com/coala/coala/commit/fa7bd17&quot;&gt;&lt;strong&gt;fa7bd17&lt;/strong&gt;&lt;/a&gt; DocumentationComment: Fix missing ending colon&lt;br /&gt;
 &lt;a href=&quot;https://github.com/coala/coala/commit/d79e497&quot;&gt;&lt;strong&gt;d79e497&lt;/strong&gt;&lt;/a&gt; DocBaseClass: Add DocBaseClass&lt;br /&gt;
 &lt;a href=&quot;https://github.com/coala/coala/commit/ffba831&quot;&gt;&lt;strong&gt;ffba831&lt;/strong&gt;&lt;/a&gt; DocumentationComment.py: Add blankline padding&lt;br /&gt;
 &lt;a href=&quot;https://github.com/coala/coala/commit/cebe4f2&quot;&gt;&lt;strong&gt;cebe4f2&lt;/strong&gt;&lt;/a&gt; DocumentationAPI: Ignore triple quote strings&lt;br /&gt;
-&lt;a href=&quot;https://github.com/coala/coala/commit/0f81583&quot;&gt;&lt;strong&gt;0f81583&lt;/strong&gt;&lt;/a&gt; DocumentationAPI: Add &lt;code class=&quot;highlighter-rouge&quot;&gt;MalformedComment&lt;/code&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/coala/coala/commit/070a19e&quot;&gt;&lt;strong&gt;070a19e&lt;/strong&gt;&lt;/a&gt; DocumentationAPI: Add &lt;code class=&quot;highlighter-rouge&quot;&gt;padding&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;type&lt;/code&gt;&lt;/p&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/0f81583&quot;&gt;&lt;strong&gt;0f81583&lt;/strong&gt;&lt;/a&gt; DocumentationAPI: Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MalformedComment&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala/commit/070a19e&quot;&gt;&lt;strong&gt;070a19e&lt;/strong&gt;&lt;/a&gt; DocumentationAPI: Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;padding&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;coala-bears&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/coala/coala-bears/commit/7ad62fb&quot;&gt;&lt;strong&gt;7ad62fb&lt;/strong&gt;&lt;/a&gt; Add allow_missing_func_desc&lt;br /&gt;
-&lt;a href=&quot;https://github.com/coala/coala-bears/commit/40de247&quot;&gt;&lt;strong&gt;40de247&lt;/strong&gt;&lt;/a&gt; DocumentationStyleBear.py: Amend &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala-bears/commit/40de247&quot;&gt;&lt;strong&gt;40de247&lt;/strong&gt;&lt;/a&gt; DocumentationStyleBear.py: Amend &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;position&lt;/code&gt;&lt;br /&gt;
 &lt;a href=&quot;https://github.com/coala/coala-bears/commit/314dfdf&quot;&gt;&lt;strong&gt;314dfdf&lt;/strong&gt;&lt;/a&gt; DocumentationStyleBear: Use DocBaseClass&lt;br /&gt;
 &lt;a href=&quot;https://github.com/coala/coala-bears/commit/40cd086&quot;&gt;&lt;strong&gt;40cd086&lt;/strong&gt;&lt;/a&gt; DocumentationStyleBear: Add expand_one_liners&lt;br /&gt;
 &lt;a href=&quot;https://github.com/coala/coala-bears/commit/112fa7d&quot;&gt;&lt;strong&gt;112fa7d&lt;/strong&gt;&lt;/a&gt; Add DocGrammarBear for docstrings&lt;br /&gt;
-&lt;a href=&quot;https://github.com/coala/coala-bears/commit/dccce31&quot;&gt;&lt;strong&gt;dccce31&lt;/strong&gt;&lt;/a&gt; DocStyleBear: Add &lt;code class=&quot;highlighter-rouge&quot;&gt;MalformedComment&lt;/code&gt; support&lt;br /&gt;
+&lt;a href=&quot;https://github.com/coala/coala-bears/commit/dccce31&quot;&gt;&lt;strong&gt;dccce31&lt;/strong&gt;&lt;/a&gt; DocStyleBear: Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MalformedComment&lt;/code&gt; support&lt;br /&gt;
 &lt;a href=&quot;https://github.com/coala/coala-bears/commit/89b5913&quot;&gt;&lt;strong&gt;89b5913&lt;/strong&gt;&lt;/a&gt; DocumentationStyleBear: Add blankline support&lt;/p&gt;
 
 &lt;h2 id=&quot;whats-up-ahead&quot;&gt;What’s up ahead?&lt;/h2&gt;
-&lt;p&gt;There are still some quirks need to be done with &lt;code class=&quot;highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;There are still some quirks need to be done with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt;.&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; is adding &lt;code class=&quot;highlighter-rouge&quot;&gt;r&lt;/code&gt; if the docstring is a raw string. See &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/issues/33&quot;&gt;here for info&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt; doesn’t works with well if there are some acronyms.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; is adding &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;r&lt;/code&gt; if the docstring is a raw string. See &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/issues/33&quot;&gt;here for info&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt; doesn’t works with well if there are some acronyms.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Next is, if everything is sorted I will add &lt;code class=&quot;highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt; into &lt;code class=&quot;highlighter-rouge&quot;&gt;.coafile&lt;/code&gt; of coala. I really want that my work should be used somewhere(at least in coala and coala-bears repo).&lt;/p&gt;
+&lt;p&gt;Next is, if everything is sorted I will add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt; into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.coafile&lt;/code&gt; of coala. I really want that my work should be used somewhere(at least in coala and coala-bears repo).&lt;/p&gt;
 
 &lt;h2 id=&quot;how-did-i-feel-after-completing-my-final-milestone&quot;&gt;How did I feel after completing my final milestone?&lt;/h2&gt;
 &lt;p&gt;Well I felt awesome to get everything done in time. But now Im feeling jobless xD. I guess I will go on a review sprint and help my other GSoC coalians.&lt;/p&gt;
@@ -184,9 +180,9 @@ For example: If we have a malformed docstring.&lt;/p&gt;
 &lt;p&gt;Till next time see yaa!!&lt;/p&gt;
 </description>
 				
-				<pubDate>Mon, 21 Aug 2017 00:00:00 +0530</pubDate>
-				<link>https://localhost:4000/gsoc/Souvenir-of-GSoC'2017!.html</link>
-				<guid isPermaLink="true">https://localhost:4000/gsoc/Souvenir-of-GSoC'2017!.html</guid>
+				<pubDate>Mon, 21 Aug 2017 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/gsoc/Souvenir-of-GSoC'2017!.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/Souvenir-of-GSoC'2017!.html</guid>
 			</item>
 		
 			<item>
@@ -194,27 +190,27 @@ For example: If we have a malformed docstring.&lt;/p&gt;
 				        
 				
 					<description>&lt;p&gt;Hi Guys!, How you doing?
-It’s been 4 weeks of &lt;code class=&quot;highlighter-rouge&quot;&gt;CODING PHASE-3&lt;/code&gt; and it’s evaluation time again, this is the final one. So from 21st 9:30pm, Evaluation links will become active both me and my mentor have to fill a Q &amp;amp; A form ^_^. In this blog I will be sumarizing my GSoC’2017’s work of last 2 weeks. Let’s begin!!&lt;/p&gt;
+It’s been 4 weeks of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CODING PHASE-3&lt;/code&gt; and it’s evaluation time again, this is the final one. So from 21st 9:30pm, Evaluation links will become active both me and my mentor have to fill a Q &amp;amp; A form ^_^. In this blog I will be sumarizing my GSoC’2017’s work of last 2 weeks. Let’s begin!!&lt;/p&gt;
 
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;The deadline of achieving the milestones set by my organization is 21st August. The big thing was &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; now has support for automatic padding and docstring type. Which tells us about the trailing no. of blank lines before or after the docstring and also about the type of docstring it is: &lt;code class=&quot;highlighter-rouge&quot;&gt;function&lt;/code&gt; level or &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; level. By using these, now we can have blank lines detected and fixed according to &lt;a href=&quot;https://www.python.org/dev/peps/pep-0257/&quot;&gt;PEP-257&lt;/a&gt;. Last 2 weeks was mostly about bug fixes.&lt;/p&gt;
+&lt;p&gt;The deadline of achieving the milestones set by my organization is 21st August. The big thing was &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; now has support for automatic padding and docstring type. Which tells us about the trailing no. of blank lines before or after the docstring and also about the type of docstring it is: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;function&lt;/code&gt; level or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt; level. By using these, now we can have blank lines detected and fixed according to &lt;a href=&quot;https://www.python.org/dev/peps/pep-0257/&quot;&gt;PEP-257&lt;/a&gt;. Last 2 weeks was mostly about bug fixes.&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Triple quoted string literals which was ignored by &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; was creating a bug. It’s end marker was taken as the starting of a new docstring. Seems like the patch which I submitted in &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-1&lt;/code&gt; to ignore these string literals was creating this. So I found the other way around. We now Ignore the whole &lt;code class=&quot;highlighter-rouge&quot;&gt;DocComment&lt;/code&gt; instead of ignoring it by regex(Which was the case previously). So a PR reverting the previous changes and applying a new solution was &lt;a href=&quot;https://github.com/coala/coala/pull/4632&quot;&gt;made and merged.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;There was a Java docstyle bug (you can read more about it &lt;a href=&quot;https://github.com/coala/coala/issues/4029&quot;&gt;here&lt;/a&gt;). The solution I proposed in &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-2&lt;/code&gt; was breaking a corner case. Which we thought could be fixed seperately. But it wasn’t like that. So finally we came to a conclusion that &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; couldn’t fix docstrings if their markers are faulty. As markers are the only thing by which drives &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; to find docstrings inside a file, we now just yield a &lt;code class=&quot;highlighter-rouge&quot;&gt;RESULT&lt;/code&gt; with beautiful message which describes that markers are faulty. So a PR reverting the previous changes and applying a new solution was &lt;a href=&quot;https://github.com/coala/coala/pull/4637&quot;&gt;made and merged&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Triple quoted string literals which was ignored by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; was creating a bug. It’s end marker was taken as the starting of a new docstring. Seems like the patch which I submitted in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PHASE-1&lt;/code&gt; to ignore these string literals was creating this. So I found the other way around. We now Ignore the whole &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocComment&lt;/code&gt; instead of ignoring it by regex(Which was the case previously). So a PR reverting the previous changes and applying a new solution was &lt;a href=&quot;https://github.com/coala/coala/pull/4632&quot;&gt;made and merged.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;There was a Java docstyle bug (you can read more about it &lt;a href=&quot;https://github.com/coala/coala/issues/4029&quot;&gt;here&lt;/a&gt;). The solution I proposed in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PHASE-2&lt;/code&gt; was breaking a corner case. Which we thought could be fixed seperately. But it wasn’t like that. So finally we came to a conclusion that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; couldn’t fix docstrings if their markers are faulty. As markers are the only thing by which drives &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; to find docstrings inside a file, we now just yield a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RESULT&lt;/code&gt; with beautiful message which describes that markers are faulty. So a PR reverting the previous changes and applying a new solution was &lt;a href=&quot;https://github.com/coala/coala/pull/4637&quot;&gt;made and merged&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;This was it!! I have successfully achieved my milestone of &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-3&lt;/code&gt;. You can see my progress &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/11&quot;&gt;here&lt;/a&gt;. And here’s how my burndown chart looks like.&lt;/p&gt;
+&lt;p&gt;This was it!! I have successfully achieved my milestone of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PHASE-3&lt;/code&gt;. You can see my progress &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/11&quot;&gt;here&lt;/a&gt;. And here’s how my burndown chart looks like.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://localhost:4000/images/chart_phase3.png&quot; alt=&quot;bonding chart&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/chart_phase3.png&quot; alt=&quot;bonding chart&quot; /&gt;
 Yay! I did it!&lt;/p&gt;
 
 &lt;h2 id=&quot;stretch-goal&quot;&gt;STRETCH GOAL&lt;/h2&gt;
-&lt;p&gt;Yes you read it correctly. I completed one of the biggest stretch goal which I had a thought since &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-1&lt;/code&gt;. It was about giving an error handling mechanism to DocumentationAPI. So we now have &lt;code class=&quot;highlighter-rouge&quot;&gt;MalformedComment&lt;/code&gt; class which can be yielded if there is some error in parsing the docstring by DocumentationAPI. Which contains attributes like error message and line number, so these can be yielded on the bear part. A PR has been &lt;a href=&quot;https://github.com/coala/coala/pull/4637&quot;&gt;made and merged&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Yes you read it correctly. I completed one of the biggest stretch goal which I had a thought since &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PHASE-1&lt;/code&gt;. It was about giving an error handling mechanism to DocumentationAPI. So we now have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MalformedComment&lt;/code&gt; class which can be yielded if there is some error in parsing the docstring by DocumentationAPI. Which contains attributes like error message and line number, so these can be yielded on the bear part. A PR has been &lt;a href=&quot;https://github.com/coala/coala/pull/4637&quot;&gt;made and merged&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;There’s still one more week remaining for hard deadline of August 29. I was thinking about doing some more quirks to DocGrammarBear and DocStyleBear which will polish my project and a review sprint ;) You can see all progress about stretch goals &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/44&quot;&gt;here!&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;There were some up and downs in &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-2&lt;/code&gt; I nearly failed the milestone. But&lt;/p&gt;
+&lt;p&gt;There were some up and downs in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PHASE-2&lt;/code&gt; I nearly failed the milestone. But&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Why do we fall? So we can learn to pick ourself’s up - Alfred&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -228,32 +224,32 @@ Yay! I did it!&lt;/p&gt;
 &lt;p&gt;Till next time. See Yaa!!&lt;/p&gt;
 </description>
 				
-				<pubDate>Sat, 19 Aug 2017 00:00:00 +0530</pubDate>
-				<link>https://localhost:4000/gsoc/Phase-3-Month-End-Summary.html</link>
-				<guid isPermaLink="true">https://localhost:4000/gsoc/Phase-3-Month-End-Summary.html</guid>
+				<pubDate>Sat, 19 Aug 2017 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/gsoc/Phase-3-Month-End-Summary.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-3-Month-End-Summary.html</guid>
 			</item>
 		
 			<item>
 				<title>Phase 3 Mid Month Summary</title>
 				        
 				
-					<description>&lt;p&gt;Hey guys, It’s been 2 weeks since 2nd evaluation. And this is my &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-3&lt;/code&gt; Mid Month summary. Before I begin with the summary, I just wanna share with you guys that I nearly passed my 2nd evaluation. My bad, I wasn’t able to achieve my last issue, it turns out the issue’s solution was designing the API rather than what I proposed earlier.&lt;/p&gt;
+					<description>&lt;p&gt;Hey guys, It’s been 2 weeks since 2nd evaluation. And this is my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Coding Phase-3&lt;/code&gt; Mid Month summary. Before I begin with the summary, I just wanna share with you guys that I nearly passed my 2nd evaluation. My bad, I wasn’t able to achieve my last issue, it turns out the issue’s solution was designing the API rather than what I proposed earlier.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-did-i-feel-about-failing-the-milestone&quot;&gt;How did I feel about failing the milestone?&lt;/h2&gt;
 &lt;p&gt;It sucks!! Well at first I really got tensed what will the org. admins decide. But it turns out they understood the situation and believed in me that I will still achieve my final goal. Ofcourse! I will not let them down :) . Thanks to org. admins and my mentors for understanding why I wasn’t able to achieve it. At the end it all turned out well, I’m quite happy about how the final solution turned out to be. Also this solution is the biggest patch of my GSoC experience, which introduced 2 new features to the Documentation API. Kind of an achievement for me ^_^&lt;/p&gt;
 
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Originally! the only objective for me this month was to implement &lt;code class=&quot;highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt;. Which will check for grammatical errors inside the DocumentationComment’s descriptions. But most of the time I spent on clearing the issue which got a bit off-scheduled from my previous milestone.&lt;/p&gt;
+&lt;p&gt;Originally! the only objective for me this month was to implement &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt;. Which will check for grammatical errors inside the DocumentationComment’s descriptions. But most of the time I spent on clearing the issue which got a bit off-scheduled from my previous milestone.&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;First, the issue was to check and fix the blank lines before and after the Documentation for &lt;code class=&quot;highlighter-rouge&quot;&gt;function&lt;/code&gt; vs &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt;. According to &lt;a href=&quot;https://www.python.org/dev/peps/pep-0257/&quot;&gt;PEP-257&lt;/a&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; docstrings should be followed by a blank line and &lt;code class=&quot;highlighter-rouge&quot;&gt;function&lt;/code&gt; docstrings should never have any blank lines before of after. This issue got so stretched that I ended up implementing 2 new features to the DocumentationAPI.
+  &lt;li&gt;First, the issue was to check and fix the blank lines before and after the Documentation for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;function&lt;/code&gt; vs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt;. According to &lt;a href=&quot;https://www.python.org/dev/peps/pep-0257/&quot;&gt;PEP-257&lt;/a&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt; docstrings should be followed by a blank line and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;function&lt;/code&gt; docstrings should never have any blank lines before of after. This issue got so stretched that I ended up implementing 2 new features to the DocumentationAPI.
     &lt;ol&gt;
       &lt;li&gt;&lt;strong&gt;Automatic Padding&lt;/strong&gt;- We have a setting in DocumentationAPI which automatically tells how many lines are above and below the docstring.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Docstring Type&lt;/strong&gt;- We can detect &amp;amp; determine between docstrings, whether they are of type &lt;code class=&quot;highlighter-rouge&quot;&gt;function&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;others&lt;/code&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Docstring Type&lt;/strong&gt;- We can detect &amp;amp; determine between docstrings, whether they are of type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;function&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;others&lt;/code&gt;.&lt;/li&gt;
     &lt;/ol&gt;
 
     &lt;p&gt;These both additions were important inorder to solve this issue perfectly. A &lt;a href=&quot;https://github.com/coala/coala/pull/4557&quot;&gt;PR has been made&lt;/a&gt; and is close to being merged.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt; which will check for grammatical errors inside the DocumentationComment’s description. &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1980&quot;&gt;PR is ready&lt;/a&gt; and close to merge. Also I made an &lt;a href=&quot;https://asciinema.org/a/132564&quot;&gt;asciinema&lt;/a&gt; so you can see this bear in action.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocGrammarBear&lt;/code&gt; which will check for grammatical errors inside the DocumentationComment’s description. &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1980&quot;&gt;PR is ready&lt;/a&gt; and close to merge. Also I made an &lt;a href=&quot;https://asciinema.org/a/132564&quot;&gt;asciinema&lt;/a&gt; so you can see this bear in action.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;These were the 2 major objectives of this month. I think I can achieve my final milestone. As everything is back on schedule.&lt;/p&gt;
@@ -264,9 +260,9 @@ Yay! I did it!&lt;/p&gt;
 &lt;p&gt;Till next time! See Yaa!!&lt;/p&gt;
 </description>
 				
-				<pubDate>Fri, 11 Aug 2017 00:00:00 +0530</pubDate>
-				<link>https://localhost:4000/gsoc/Phase-3-Mid-Month-Summary.html</link>
-				<guid isPermaLink="true">https://localhost:4000/gsoc/Phase-3-Mid-Month-Summary.html</guid>
+				<pubDate>Fri, 11 Aug 2017 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/gsoc/Phase-3-Mid-Month-Summary.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-3-Mid-Month-Summary.html</guid>
 			</item>
 		
 			<item>
@@ -274,20 +270,20 @@ Yay! I did it!&lt;/p&gt;
 				        
 				
 					<description>&lt;p&gt;Hi Guys!, How you doing?
-It’s been 4 weeks of &lt;code class=&quot;highlighter-rouge&quot;&gt;CODING PHASE-2&lt;/code&gt; and it’s evaluation time again. So from 24th 9:30pm, Evaluation links will become active both me and my mentor have to fill a Q &amp;amp; A form ^_^. So in this blog I will be sumarizing my GSoC’2017’s work of last 2 weeks. Let’s begin!!&lt;/p&gt;
+It’s been 4 weeks of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CODING PHASE-2&lt;/code&gt; and it’s evaluation time again. So from 24th 9:30pm, Evaluation links will become active both me and my mentor have to fill a Q &amp;amp; A form ^_^. So in this blog I will be sumarizing my GSoC’2017’s work of last 2 weeks. Let’s begin!!&lt;/p&gt;
 
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;The deadline of achieving the milestones set by my organization is 24th July. The big thing was &lt;code class=&quot;highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt; got merged which now takes care of extraction, parsing and diff generation of documentation. Developers now only have to inherit this class in order to work on documentation linters. Following are the issues on which I have worked upon in last 2 weeks. These are mostly bugs fixes and quirks to DocumentationAPI and DocStyleBear:&lt;/p&gt;
+&lt;p&gt;The deadline of achieving the milestones set by my organization is 24th July. The big thing was &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt; got merged which now takes care of extraction, parsing and diff generation of documentation. Developers now only have to inherit this class in order to work on documentation linters. Following are the issues on which I have worked upon in last 2 weeks. These are mostly bugs fixes and quirks to DocumentationAPI and DocStyleBear:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;DocStyleBear now has a setting to expand one-liners. By default it will convert all the docstrings which only have main description to one-liners. In order to expand it as multi-line docstring, you have to set &lt;code class=&quot;highlighter-rouge&quot;&gt;expand_one_liners=True&lt;/code&gt;. A patch has been implemented and &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1940&quot;&gt;merged&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;DocumentationAPI was returning nothing when JavaDoctyle was written with malformed docstyle markers. We now use &lt;code class=&quot;highlighter-rouge&quot;&gt;markers.strip()&lt;/code&gt; to extract documentation. A patch has been implemented and &lt;a href=&quot;https://github.com/coala/coala/pull/4530&quot;&gt;merged&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;The official standard of writing a documentation includes a blank line before and after a docstring. Hence this was important and &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; class now has padding option to include a blank line. A patch is implemented and in &lt;a href=&quot;https://github.com/coala/coala/pull/4549&quot;&gt;review&lt;/a&gt;. I hope It will get merged before the deadline.&lt;/li&gt;
+  &lt;li&gt;DocStyleBear now has a setting to expand one-liners. By default it will convert all the docstrings which only have main description to one-liners. In order to expand it as multi-line docstring, you have to set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;expand_one_liners=True&lt;/code&gt;. A patch has been implemented and &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1940&quot;&gt;merged&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;DocumentationAPI was returning nothing when JavaDoctyle was written with malformed docstyle markers. We now use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markers.strip()&lt;/code&gt; to extract documentation. A patch has been implemented and &lt;a href=&quot;https://github.com/coala/coala/pull/4530&quot;&gt;merged&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;The official standard of writing a documentation includes a blank line before and after a docstring. Hence this was important and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; class now has padding option to include a blank line. A patch is implemented and in &lt;a href=&quot;https://github.com/coala/coala/pull/4549&quot;&gt;review&lt;/a&gt;. I hope It will get merged before the deadline.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;This was it!! Im close to achieving my milestone of &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-2&lt;/code&gt;. You can see my progress &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/10&quot;&gt;here&lt;/a&gt;. And here’s how my burndown chart looks like.&lt;/p&gt;
+&lt;p&gt;This was it!! Im close to achieving my milestone of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PHASE-2&lt;/code&gt;. You can see my progress &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/10&quot;&gt;here&lt;/a&gt;. And here’s how my burndown chart looks like.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://localhost:4000/images/chart_phase2.png&quot; alt=&quot;bonding chart&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/chart_phase2.png&quot; alt=&quot;bonding chart&quot; /&gt;
 sweeeet!! ^_^&lt;/p&gt;
 
 &lt;h2 id=&quot;party-time&quot;&gt;PARTY TIME!!&lt;/h2&gt;
@@ -299,9 +295,9 @@ sweeeet!! ^_^&lt;/p&gt;
 &lt;p&gt;Till next time. See Yaa!!&lt;/p&gt;
 </description>
 				
-				<pubDate>Sun, 23 Jul 2017 00:00:00 +0530</pubDate>
-				<link>https://localhost:4000/gsoc/Phase-2-Month-End-Summary.html</link>
-				<guid isPermaLink="true">https://localhost:4000/gsoc/Phase-2-Month-End-Summary.html</guid>
+				<pubDate>Sun, 23 Jul 2017 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/gsoc/Phase-2-Month-End-Summary.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-2-Month-End-Summary.html</guid>
 			</item>
 		
 			<item>
@@ -312,21 +308,21 @@ sweeeet!! ^_^&lt;/p&gt;
 
 &lt;p&gt;First of all meet my coala team. It’s because of these guys that I had been to such a wonderful conference. Made lots of friends. Had a talk with creative and likely minded people. My dream of having a beer with my GSoC mentor Niklas got fulfilled ^_^ . And later ofcourse some awesome cuisines, dinner, beer and wine ;)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://localhost:4000/images/coala-team.jpg&quot; alt=&quot;coala team&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/coala-team.jpg&quot; alt=&quot;coala team&quot; /&gt;
 (Sebastian, Me(Saurav), Celestine , Max, Fabian &amp;amp; Alex)&lt;/p&gt;
 
 &lt;p&gt;Oh we’re 9 people by the way. Some of them are in my later pics.&lt;/p&gt;
 
 &lt;p&gt;When I reached at the AirBnB and opened the fridge. I found these on the very moment ^_^
 It’s called the coala ritual. Well every new-comers gets a bar of chocolates. Or a piece :P if we are running out of them. You have to get your hands on those awesome chocolates &amp;lt;3
-&lt;img src=&quot;https://localhost:4000/images/chocolates.jpeg&quot; alt=&quot;coala chocolates&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/images/chocolates.jpeg&quot; alt=&quot;coala chocolates&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Anyway lets move ahead, it was an awesome experience for me cause this was my first technical conference and on the first day itself, we organized Beginner’s Day Workshop. Where I was mentoring a group of people with &lt;code class=&quot;highlighter-rouge&quot;&gt;pandas&lt;/code&gt; library, Machine-Learning and Data Science stuff. It was more like of knowledge sharing session. And at the end of the day we had to share with everyone what we did/discussed the whole day. It was pretty much sweeeeet.&lt;/p&gt;
+&lt;p&gt;Anyway lets move ahead, it was an awesome experience for me cause this was my first technical conference and on the first day itself, we organized Beginner’s Day Workshop. Where I was mentoring a group of people with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pandas&lt;/code&gt; library, Machine-Learning and Data Science stuff. It was more like of knowledge sharing session. And at the end of the day we had to share with everyone what we did/discussed the whole day. It was pretty much sweeeeet.&lt;/p&gt;
 
 &lt;p&gt;Then at the beginning of each day we had keynote sessions. In which everyone participated. And the whole Amphitheatro was completely filled. Wanna see the crowd?&lt;/p&gt;
 
 &lt;p&gt;Here it is.
-&lt;img src=&quot;https://localhost:4000/images/crowd.jpg&quot; alt=&quot;crowd&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/images/crowd.jpg&quot; alt=&quot;crowd&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Then I kind of sticked to coala’s desk at sponsors room. Where I helped people to understand what coala was about. For some I even fired it up on there machines. And then I met a lot of sponsoring people from companies like facebook, kiwi.com, Intel etc.&lt;/p&gt;
 
@@ -334,19 +330,19 @@ It’s called the coala ritual. Well every new-comers gets a bar of chocolates. 
 It was my pleasure meeting them personally. And these guys were also one of the reason of making my trip to Italy affordable. They gave me flight vouchers of 200 Euros in a programme called &lt;a href=&quot;www.kiwi.com/sourcelift/&quot;&gt;Sourcelift&lt;/a&gt;. Also later that day they invited all coala people to their BEACH PARTY!! You Guys you are AWESOME ^_^&lt;/p&gt;
 
 &lt;p&gt;Here’s a pic of Jan and me(Saurav).
-&lt;img src=&quot;https://localhost:4000/images/Jan-Bleha.jpg&quot; alt=&quot;Jan Bleha&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/images/Jan-Bleha.jpg&quot; alt=&quot;Jan Bleha&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;At the end of the conference day we had Lightening Talks which was the coolest part of whole EuroPython according to me. In which random people chooses their topic of interest and speak on it for 5 mins. Even I gave a talk about “A Newcomers Perspective to FOSS” where I explained about my experience of OpenSource. Which was pretty good experience for me, considering the fact that it was my first public speaking experience.&lt;/p&gt;
 
 &lt;p&gt;Although every day was pretty tiring in the end. But guess what? we were so close to beach that I dont think of the day where we didn’t walked on the shore-line. Here’s how it looks.
-&lt;img src=&quot;https://localhost:4000/images/Beach3.jpg&quot; alt=&quot;Beach3&quot; /&gt;
-&lt;img src=&quot;https://localhost:4000/images/Beach2.jpg&quot; alt=&quot;Beach2&quot; /&gt;
-&lt;img src=&quot;https://localhost:4000/images/Beach1.jpg&quot; alt=&quot;Beach1&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/images/Beach3.jpg&quot; alt=&quot;Beach3&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/Beach2.jpg&quot; alt=&quot;Beach2&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/Beach1.jpg&quot; alt=&quot;Beach1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Then there was the day of EuroPython Social Event ^_^ I gotta tell this, the food was just amazing. And we had lots of fun especially that drinking game with beer xD.&lt;/p&gt;
 
 &lt;p&gt;This was one of the best group pics I have.
-&lt;img src=&quot;https://localhost:4000/images/social-event.jpg&quot; alt=&quot;social event&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/social-event.jpg&quot; alt=&quot;social event&quot; /&gt;
 (Niklas, Max, Alex , Me(Saurav), Celestine, Fabian, Stefan and Lasse)&lt;/p&gt;
 
 &lt;p&gt;Still Sebastian is missing hmm :/&lt;/p&gt;
@@ -360,39 +356,38 @@ It was my pleasure meeting them personally. And these guys were also one of the 
 &lt;p&gt;Signing off till my next Blog.&lt;/p&gt;
 </description>
 				
-				<pubDate>Sun, 23 Jul 2017 00:00:00 +0530</pubDate>
-				<link>https://localhost:4000/journey/EuroPython-Awesomeness.html</link>
-				<guid isPermaLink="true">https://localhost:4000/journey/EuroPython-Awesomeness.html</guid>
+				<pubDate>Sun, 23 Jul 2017 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/journey/EuroPython-Awesomeness.html</link>
+				<guid isPermaLink="true">http://localhost:4000/journey/EuroPython-Awesomeness.html</guid>
 			</item>
 		
 			<item>
 				<title>Phase 2 Mid Month Summary</title>
 				        
 				
-					<description>&lt;p&gt;Hi guys, It’s been 2 weeks since 1st evaluation. And this is my &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-2&lt;/code&gt; Mid Month summary.&lt;/p&gt;
+					<description>&lt;p&gt;Hi guys, It’s been 2 weeks since 1st evaluation. And this is my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Coding Phase-2&lt;/code&gt; Mid Month summary.&lt;/p&gt;
 
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;This part of GSoC I felt was the toughest and interesting. Cause it was all designing which took a mere time but I finally did it ^_^&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;In coala we have &lt;code class=&quot;highlighter-rouge&quot;&gt;BearBaseClass&lt;/code&gt; so as to create new bears and which also is the back-bone of coala-bears repo. I had to design something similar called &lt;code class=&quot;highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt; which will take care of extraction, parsing of fixed documentation and diff generation. So it looks like this.
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;DocBaseClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;extraction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;fix_parse_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;diff_generation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-    &lt;p&gt;The main objective for this base class to exist is that. The &lt;code class=&quot;highlighter-rouge&quot;&gt;fix_parse_data()&lt;/code&gt; member function can be overided by the user according to their needs. A &lt;a href=&quot;https://github.com/coala/coala/pull/4465&quot;&gt;PR is opened&lt;/a&gt; and is currently in a review phase.&lt;/p&gt;
+  &lt;li&gt;In coala we have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BearBaseClass&lt;/code&gt; so as to create new bears and which also is the back-bone of coala-bears repo. I had to design something similar called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt; which will take care of extraction, parsing of fixed documentation and diff generation. So it looks like this.
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;DocBaseClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;extraction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;bp&quot;&gt;...&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;fix_parse_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;bp&quot;&gt;...&lt;/span&gt;
+  &lt;span class=&quot;nf&quot;&gt;diff_generation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;bp&quot;&gt;...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;The main objective for this base class to exist is that. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fix_parse_data()&lt;/code&gt; member function can be overided by the user according to their needs. A &lt;a href=&quot;https://github.com/coala/coala/pull/4465&quot;&gt;PR is opened&lt;/a&gt; and is currently in a review phase.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DocumetationStyleBear&lt;/code&gt; is ported to use this new &lt;code class=&quot;highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt;. The &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1928&quot;&gt;PR is opened&lt;/a&gt; and is currently waiting for the upstream merge, after which it will get reviewed.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumetationStyleBear&lt;/code&gt; is ported to use this new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt;. The &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1928&quot;&gt;PR is opened&lt;/a&gt; and is currently waiting for the upstream merge, after which it will get reviewed.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;So these were the two major changes which I had done, making about 70% completion of the milestones in my opinion. I guess this time too I will be able to achieve 100% in time.&lt;/p&gt;
 
 &lt;h2 id=&quot;whats-up-next&quot;&gt;What’s up next?&lt;/h2&gt;
-&lt;p&gt;Though my mentors agreed upon to only implement this functionality for this month. But I will be moving to bugs as there’re few in my opinion which definitely needs to be fixed. And then I will be testing this new &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationStyleBear&lt;/code&gt; over coala-repo.&lt;/p&gt;
+&lt;p&gt;Though my mentors agreed upon to only implement this functionality for this month. But I will be moving to bugs as there’re few in my opinion which definitely needs to be fixed. And then I will be testing this new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationStyleBear&lt;/code&gt; over coala-repo.&lt;/p&gt;
 
 &lt;h2 id=&quot;europython-update&quot;&gt;EuroPython Update!&lt;/h2&gt;
 &lt;p&gt;Ahh It’s been a long amazing week beer, beach, a lot of tasty food and what not :P Im still in rimini, Italy and will write a blog soon after I return back to India summarizing my experience of it ^_^&lt;/p&gt;
@@ -400,9 +395,9 @@ It was my pleasure meeting them personally. And these guys were also one of the 
 &lt;p&gt;Till next time! See Yaa!!&lt;/p&gt;
 </description>
 				
-				<pubDate>Sun, 16 Jul 2017 00:00:00 +0530</pubDate>
-				<link>https://localhost:4000/gsoc/Phase-2-Mid-Month-Summary.html</link>
-				<guid isPermaLink="true">https://localhost:4000/gsoc/Phase-2-Mid-Month-Summary.html</guid>
+				<pubDate>Sun, 16 Jul 2017 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/gsoc/Phase-2-Mid-Month-Summary.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-2-Mid-Month-Summary.html</guid>
 			</item>
 		
 			<item>
@@ -410,44 +405,42 @@ It was my pleasure meeting them personally. And these guys were also one of the 
 				        
 				
 					<description>&lt;p&gt;Hi Guys!, How you doing?
-It’s been 4 weeks of &lt;code class=&quot;highlighter-rouge&quot;&gt;CODING PHASE-I&lt;/code&gt; and it’s evaluation time. So from 26th 9:30pm, Evaluation links will become active both me and my mentor have to fill a Q &amp;amp; A form ^_^. I will tell you more about it in a while, but first I will be sumarizing my GSoC’2017’s work of last 2 weeks. So, let’s begin!!&lt;/p&gt;
+It’s been 4 weeks of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CODING PHASE-I&lt;/code&gt; and it’s evaluation time. So from 26th 9:30pm, Evaluation links will become active both me and my mentor have to fill a Q &amp;amp; A form ^_^. I will tell you more about it in a while, but first I will be sumarizing my GSoC’2017’s work of last 2 weeks. So, let’s begin!!&lt;/p&gt;
 
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;The deadline of achieving the milestones set by my organization is 26th June. Following are the issues on which I have worked upon in last 2 weeks:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;In python we have triple quoted string literals. Eg:
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;n&quot;&gt;dummy_variable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;n&quot;&gt;dummy_variable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sh&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;
 This is a triple quoted string literal and is not a docstring.
-&quot;&quot;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-    &lt;p&gt;This needs to be ignored, as it’s not a docstring. The solution to this was pretty simple, we made sure that starting marker (i.e.&lt;code class=&quot;highlighter-rouge&quot;&gt;marker[0]&lt;/code&gt;) should only be followed by an indentation, so as to consider it a valid docstring. Hence I completed the work over this and a patch is submitted and &lt;a href=&quot;https://github.com/coala/coala/pull/4383&quot;&gt;merged&lt;/a&gt;.&lt;/p&gt;
+&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;This needs to be ignored, as it’s not a docstring. The solution to this was pretty simple, we made sure that starting marker (i.e.&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;marker[0]&lt;/code&gt;) should only be followed by an indentation, so as to consider it a valid docstring. Hence I completed the work over this and a patch is submitted and &lt;a href=&quot;https://github.com/coala/coala/pull/4383&quot;&gt;merged&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;parse()&lt;/code&gt; member function of &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; was breaking if we miss an ending colon in the docstring. Eg:
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foobar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;parse()&lt;/code&gt; member function of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; was breaking if we miss an ending colon in the docstring. Eg:
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foobar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;param1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;param2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;sh&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;
     This is a dummy function.
     
     :param param1: ending colon is present
     :param param2  ending colon is missing
     :return: nothing
-    &quot;&quot;&quot;&lt;/span&gt;
+    &lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-    &lt;p&gt;We first began to find a solution by adding &lt;code class=&quot;highlighter-rouge&quot;&gt;self.errors&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt;’s &lt;code class=&quot;highlighter-rouge&quot;&gt;__init__&lt;/code&gt; which will return a list of raised errors to the bear, so that it yields a &lt;code class=&quot;highlighter-rouge&quot;&gt;RESULT&lt;/code&gt; with a beautiful message. Though this worked but was not an appropriate way to handle exceptions. You might be thinking why not directly &lt;code class=&quot;highlighter-rouge&quot;&gt;raise&lt;/code&gt; an appropriate exception from the &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt;?
-Well, If you look carefully about working of &lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt; it runs the bear as a &lt;code class=&quot;highlighter-rouge&quot;&gt;generator&lt;/code&gt; and yeilds a &lt;code class=&quot;highlighter-rouge&quot;&gt;RESULT&lt;/code&gt; if it finds something inappropiate. Our sole aim was to keep the &lt;code class=&quot;highlighter-rouge&quot;&gt;generator&lt;/code&gt; running, so if we raise an &lt;code class=&quot;highlighter-rouge&quot;&gt;Exception&lt;/code&gt; inside &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; the generator will be terminated and &lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt; won’t run further to find any other docstring.
-Second way was to yield something like &lt;code class=&quot;highlighter-rouge&quot;&gt;MalformedComment&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt;. This seems a good idea but it would require a lot of ideation. Also &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationExtraction&lt;/code&gt; yields &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; and we can’t make it out anywhere just after the extraction that the docstring is malformed.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;We first began to find a solution by adding &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;self.errors&lt;/code&gt; in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt;’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__init__&lt;/code&gt; which will return a list of raised errors to the bear, so that it yields a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RESULT&lt;/code&gt; with a beautiful message. Though this worked but was not an appropriate way to handle exceptions. You might be thinking why not directly &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;raise&lt;/code&gt; an appropriate exception from the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt;?
+Well, If you look carefully about working of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;coala&lt;/code&gt; it runs the bear as a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;generator&lt;/code&gt; and yeilds a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RESULT&lt;/code&gt; if it finds something inappropiate. Our sole aim was to keep the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;generator&lt;/code&gt; running, so if we raise an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Exception&lt;/code&gt; inside &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; the generator will be terminated and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;coala&lt;/code&gt; won’t run further to find any other docstring.
+Second way was to yield something like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MalformedComment&lt;/code&gt; instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt;. This seems a good idea but it would require a lot of ideation. Also &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationExtraction&lt;/code&gt; yields &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; and we can’t make it out anywhere just after the extraction that the docstring is malformed.
 So what was the solution?
-Lately, I noticed why the parser was breaking. There was an &lt;code class=&quot;highlighter-rouge&quot;&gt;IndexError&lt;/code&gt; at the position where we spitted the parameter’s name and description. So the fix was to check either for ending marker or for a space so as to split the parameter’s name and a description. And Viola!! This worked!! Although I still feel like &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; needs to have a separate &lt;code class=&quot;highlighter-rouge&quot;&gt;Exception&lt;/code&gt; class. Anyway patch submitted and &lt;a href=&quot;https://github.com/coala/coala/pull/4407&quot;&gt;merged&lt;/a&gt;&lt;/p&gt;
+Lately, I noticed why the parser was breaking. There was an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IndexError&lt;/code&gt; at the position where we spitted the parameter’s name and description. So the fix was to check either for ending marker or for a space so as to split the parameter’s name and a description. And Viola!! This worked!! Although I still feel like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; needs to have a separate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Exception&lt;/code&gt; class. Anyway patch submitted and &lt;a href=&quot;https://github.com/coala/coala/pull/4407&quot;&gt;merged&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Also, 2 Issues are moved ahead to &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-II&lt;/code&gt;. We feel like it’s better to solve them after the implementation of &lt;code class=&quot;highlighter-rouge&quot;&gt;DocBaseClass()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Also, 2 Issues are moved ahead to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PHASE-II&lt;/code&gt;. We feel like it’s better to solve them after the implementation of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocBaseClass()&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;This was it!! I achieved my milestone of &lt;code class=&quot;highlighter-rouge&quot;&gt;PHASE-I&lt;/code&gt;. You can see my progress &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/5&quot;&gt;here&lt;/a&gt;. And here’s how my burndown chart looks like.&lt;/p&gt;
+&lt;p&gt;This was it!! I achieved my milestone of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PHASE-I&lt;/code&gt;. You can see my progress &lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/5&quot;&gt;here&lt;/a&gt;. And here’s how my burndown chart looks like.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://localhost:4000/images/chart_phase1.png&quot; alt=&quot;bonding chart&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/chart_phase1.png&quot; alt=&quot;bonding chart&quot; /&gt;
 feelsgoodman!! ^_^&lt;/p&gt;
 
 &lt;h2 id=&quot;thanks&quot;&gt;Thanks!!&lt;/h2&gt;
@@ -456,7 +449,7 @@ feelsgoodman!! ^_^&lt;/p&gt;
 &lt;p&gt;Special Thanks to &lt;a href=&quot;https://github.com/Makman2&quot;&gt;Makman2&lt;/a&gt;. He helped me alot initially, with some of the issues and also reviewed my patches.&lt;/p&gt;
 
 &lt;h2 id=&quot;whats-up-next&quot;&gt;What’s up next?&lt;/h2&gt;
-&lt;p&gt;Next up after the evaluation is &lt;code class=&quot;highlighter-rouge&quot;&gt;CODING PHASE-II&lt;/code&gt;. In which our sole aim is to implement a &lt;code class=&quot;highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt; and then use it in our existing &lt;code class=&quot;highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Next up after the evaluation is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CODING PHASE-II&lt;/code&gt;. In which our sole aim is to implement a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocBaseClass&lt;/code&gt; and then use it in our existing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;europython-update&quot;&gt;EuroPython Update.&lt;/h2&gt;
 &lt;p&gt;Yass bois!! Im going to attend EP’2017. Got my VISA approved YAY!!
@@ -465,16 +458,16 @@ July is going to be one hell of a month.&lt;/p&gt;
 &lt;p&gt;That’s it for today. Till next time. See yaa!!&lt;/p&gt;
 </description>
 				
-				<pubDate>Mon, 26 Jun 2017 00:00:00 +0530</pubDate>
-				<link>https://localhost:4000/gsoc/Phase-1-Month-End-Summary.html</link>
-				<guid isPermaLink="true">https://localhost:4000/gsoc/Phase-1-Month-End-Summary.html</guid>
+				<pubDate>Mon, 26 Jun 2017 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/gsoc/Phase-1-Month-End-Summary.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-1-Month-End-Summary.html</guid>
 			</item>
 		
 			<item>
 				<title>EuroPython And A Lot More Awesomeness</title>
 				        
 				
-					<description>&lt;p&gt;Hey Guys, Im pleased to tell you that I will be travelling to Italy on 2nd week of July. Im very excited about it as this would be my first foreign trip. There I will attending EuroPython’17 Conference along with my other admins/mentors of &lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt;. This is gonna be a long post so get ready for awesomeness!!&lt;/p&gt;
+					<description>&lt;p&gt;Hey Guys, Im pleased to tell you that I will be travelling to Italy on 2nd week of July. Im very excited about it as this would be my first foreign trip. There I will attending EuroPython’17 Conference along with my other admins/mentors of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;coala&lt;/code&gt;. This is gonna be a long post so get ready for awesomeness!!&lt;/p&gt;
 
 &lt;h2 id=&quot;what-exactly-is-europython-and-why-am-i-attending-it&quot;&gt;What exactly is EuroPython and why am I attending it?&lt;/h2&gt;
 &lt;p&gt;EuroPython is a community initiative by a team of Python enthusiast in Europe to bring together Python users and developers, as well as provide an opportunity for those who are interested in these technologies.&lt;/p&gt;
@@ -483,128 +476,124 @@ July is going to be one hell of a month.&lt;/p&gt;
 
 &lt;p&gt;I would also like to share that I had applied for a Talk proposal on the words of my admins. Though it got rejected but Im happy. I have never been to a Tech. conference before, so I was a bit hesitant about it. But If I will get a chance surely I will give a lightening talk about my GSoC project.&lt;/p&gt;
 &lt;h2 id=&quot;funding-and-sponsorship&quot;&gt;Funding and Sponsorship.&lt;/h2&gt;
-&lt;p&gt;Yes guys you have read it perfectly I m being funded for this trip. Though not fully but partially and I m really thankful to the guys who are helping me to actually make this affordable. First of all Thanks to &lt;code class=&quot;highlighter-rouge&quot;&gt;Kiwi.com&lt;/code&gt; for their generosity and their amazing programme source-lift which funds open-source teams.&lt;/p&gt;
+&lt;p&gt;Yes guys you have read it perfectly I m being funded for this trip. Though not fully but partially and I m really thankful to the guys who are helping me to actually make this affordable. First of all Thanks to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kiwi.com&lt;/code&gt; for their generosity and their amazing programme source-lift which funds open-source teams.&lt;/p&gt;
 &lt;h2 id=&quot;what-is-source-lift-programme&quot;&gt;What is source-lift programme?&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://localhost:4000/images/kiwidotcom_source_lift.png&quot; alt=&quot;kiwidotcom source lift&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/kiwidotcom_source_lift.png&quot; alt=&quot;kiwidotcom source lift&quot; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Kiwi.com is giving away flights to open source teams that need to travel!&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;If I can say it in one sentence. It’s their way of thanking to the world of FOSS. Source-lift programme funds Open-Source organizations to make their dream of attending a conference together come true. They do so by providing each member of the team with flight voucher upto 200 Euros. Read more about them on their official site: &lt;a href=&quot;https://www.kiwi.com/sourcelift/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kiwi.com/sourcelift&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If I can say it in one sentence. It’s their way of thanking to the world of FOSS. Source-lift programme funds Open-Source organizations to make their dream of attending a conference together come true. They do so by providing each member of the team with flight voucher upto 200 Euros. Read more about them on their official site: &lt;a href=&quot;https://www.kiwi.com/sourcelift/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kiwi.com/sourcelift&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt; is the first organization to be a part this programme. It’s was the effort of &lt;em&gt;Lasse&lt;/em&gt; (&lt;a href=&quot;https://github.com/sils&quot;&gt;@sils&lt;/a&gt;) and few other admins to make this happen. Im really Thankful to them for such an effort. Keep bringing more awesomeness to the community.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;coala&lt;/code&gt; is the first organization to be a part this programme. It’s was the effort of &lt;em&gt;Lasse&lt;/em&gt; (&lt;a href=&quot;https://github.com/sils&quot;&gt;@sils&lt;/a&gt;) and few other admins to make this happen. Im really Thankful to them for such an effort. Keep bringing more awesomeness to the community.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://localhost:4000/images/kiwidotcom_coala.png&quot; alt=&quot;kiwidotcom coala&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/kiwidotcom_coala.png&quot; alt=&quot;kiwidotcom coala&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So Guys here’s how the voucher looks like :) It gives me chills thinking that I m one of the first few members to get this.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://localhost:4000/images/kiwidotcom_mail.jpg&quot; alt=&quot;kiwidotcom mail&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/kiwidotcom_mail.jpg&quot; alt=&quot;kiwidotcom mail&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Also, I have heard that &lt;code class=&quot;highlighter-rouge&quot;&gt;Google&lt;/code&gt; funded some of the GSoC students last year. There haven’t been any official news about it for this year so far. And that’s what worried me mostly. But &lt;code class=&quot;highlighter-rouge&quot;&gt;kiwi.com&lt;/code&gt; made my thought clear that I would be definitely attending &lt;strong&gt;EP’2017&lt;/strong&gt;. Thanks again guys!! You’re Awesome.
+&lt;p&gt;Also, I have heard that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Google&lt;/code&gt; funded some of the GSoC students last year. There haven’t been any official news about it for this year so far. And that’s what worried me mostly. But &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kiwi.com&lt;/code&gt; made my thought clear that I would be definitely attending &lt;strong&gt;EP’2017&lt;/strong&gt;. Thanks again guys!! You’re Awesome.
 So, I am all set, applied for a VISA. Hopefully It will get accepted.&lt;/p&gt;
 
 &lt;p&gt;That’s all people. Till my next blog see yaa.&lt;/p&gt;
 </description>
 				
-				<pubDate>Tue, 20 Jun 2017 00:00:00 +0530</pubDate>
-				<link>https://localhost:4000/gsoc/EuroPython-And-A-Lot-More-Awesomeness.html</link>
-				<guid isPermaLink="true">https://localhost:4000/gsoc/EuroPython-And-A-Lot-More-Awesomeness.html</guid>
+				<pubDate>Tue, 20 Jun 2017 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/gsoc/EuroPython-And-A-Lot-More-Awesomeness.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/EuroPython-And-A-Lot-More-Awesomeness.html</guid>
 			</item>
 		
 			<item>
 				<title>Phase 1 Mid Month Summary</title>
 				        
 				
-					<description>&lt;p&gt;Hey there Guys!, I hope you are doing well. In this blog I will summarizing my GSoC’17 work till now. So it’s been 18 days of &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt; and I have been moving forward with all I have, to make this project come to life. So Let’s begin!&lt;/p&gt;
+					<description>&lt;p&gt;Hey there Guys!, I hope you are doing well. In this blog I will summarizing my GSoC’17 work till now. So it’s been 18 days of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt; and I have been moving forward with all I have, to make this project come to life. So Let’s begin!&lt;/p&gt;
 
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;Since, I learnt my lesson well from &lt;code class=&quot;highlighter-rouge&quot;&gt;Bonding Phase&lt;/code&gt; :P so I started solving the big issues first. As they takes up a lot of time in review phase. Firstly I began adding additional functionalities to &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; is the core of &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; which mainly dissociated the whole documentation into it’s sub-parts (i.e. params,exceptions and return descriptions).&lt;/p&gt;
+&lt;p&gt;Since, I learnt my lesson well from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bonding Phase&lt;/code&gt; :P so I started solving the big issues first. As they takes up a lot of time in review phase. Firstly I began adding additional functionalities to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt;. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; is the core of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; which mainly dissociated the whole documentation into it’s sub-parts (i.e. params,exceptions and return descriptions).&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;Previous &lt;code class=&quot;highlighter-rouge&quot;&gt;assemble()&lt;/code&gt; function was not accounting for a case in which middle and ending markers are same. Eg. &lt;code class=&quot;highlighter-rouge&quot;&gt;marker[1]==marker[2]&lt;/code&gt; which is a type of case in python docstring.
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;docstring_find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;## This is dummy docstring find function.&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;#  @param filename contains filename&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;#  @raises FileNotFoundError raises when filename is not found&lt;/span&gt;
-    &lt;span class=&quot;c&quot;&gt;#  @return nothing&lt;/span&gt;
-   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+  &lt;li&gt;Previous &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assemble()&lt;/code&gt; function was not accounting for a case in which middle and ending markers are same. Eg. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;marker[1]==marker[2]&lt;/code&gt; which is a type of case in python docstring.
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;docstring_find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;## This is dummy docstring find function.
+&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;#
+&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;#  @param filename contains filename
+&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;#  @raises FileNotFoundError raises when filename is not found
+&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;#  @return nothing
+&lt;/span&gt;   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
     &lt;p&gt;Hence I completed the work over this and a patch is submitted and &lt;a href=&quot;https://github.com/coala/coala/pull/4319&quot;&gt;merged&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; accepts &lt;code class=&quot;highlighter-rouge&quot;&gt;range&lt;/code&gt; as an argument we will be shifting it to &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt;. Since &lt;code class=&quot;highlighter-rouge&quot;&gt;TextRange&lt;/code&gt; is constructed from &lt;code class=&quot;highlighter-rouge&quot;&gt;TextPosition&lt;/code&gt; it’s just a simplification of constructor but important indeed. A patch is currectly in the &lt;a href=&quot;https://github.com/coala/coala/issues/2646&quot;&gt;review phase&lt;/a&gt; right now. I guess it will be merged in 2 review iterations or so.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationComment&lt;/code&gt; accepts &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;range&lt;/code&gt; as an argument we will be shifting it to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;position&lt;/code&gt;. Since &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TextRange&lt;/code&gt; is constructed from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TextPosition&lt;/code&gt; it’s just a simplification of constructor but important indeed. A patch is currectly in the &lt;a href=&quot;https://github.com/coala/coala/issues/2646&quot;&gt;review phase&lt;/a&gt; right now. I guess it will be merged in 2 review iterations or so.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;So these were the two major changes which I had done, making about 60% completion of the milestones in my opinion. I guess this time I will be able to achieve 100%. 100% or not my patches should be good in quality thats my inner objective ;)&lt;/p&gt;
 
-&lt;p&gt;There’s one more thing, the &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1506&quot;&gt;big patch&lt;/a&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationStyleBear&lt;/code&gt; finally got accepted. It’s not fully complete at the moment. Requires lot of additional functionalities but that’s the basic functionality which we have longed for.&lt;/p&gt;
+&lt;p&gt;There’s one more thing, the &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1506&quot;&gt;big patch&lt;/a&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationStyleBear&lt;/code&gt; finally got accepted. It’s not fully complete at the moment. Requires lot of additional functionalities but that’s the basic functionality which we have longed for.&lt;/p&gt;
 &lt;h2 id=&quot;whats-up-ahead&quot;&gt;What’s up ahead?&lt;/h2&gt;
-&lt;p&gt;Next, I have 4 additions lined up for &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationExtraction&lt;/code&gt; out of which only 2 are solvable at the moment and the rest will be moved ahead to &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-II&lt;/code&gt;. I will be writing more about them in my next blog.&lt;/p&gt;
+&lt;p&gt;Next, I have 4 additions lined up for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationExtraction&lt;/code&gt; out of which only 2 are solvable at the moment and the rest will be moved ahead to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Coding Phase-II&lt;/code&gt;. I will be writing more about them in my next blog.&lt;/p&gt;
 
 &lt;p&gt;That’s all guys. Till next time See YAA!!&lt;/p&gt;
 </description>
 				
-				<pubDate>Sun, 18 Jun 2017 00:00:00 +0530</pubDate>
-				<link>https://localhost:4000/gsoc/Phase-1-Mid-Month-Summary.html</link>
-				<guid isPermaLink="true">https://localhost:4000/gsoc/Phase-1-Mid-Month-Summary.html</guid>
+				<pubDate>Sun, 18 Jun 2017 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/gsoc/Phase-1-Mid-Month-Summary.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/Phase-1-Mid-Month-Summary.html</guid>
 			</item>
 		
 			<item>
 				<title>Bonding Period Ends</title>
 				        
 				
-					<description>&lt;p&gt;Hi Guys!! With the end of this month &lt;code class=&quot;highlighter-rouge&quot;&gt;Community Bonding&lt;/code&gt; period finally comes to an end, which marks the beginning of &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt;. In which, students officially now starts coding on their projects. Before even I would start with &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt;, I thought about summarizing my overall objectives achieved in &lt;code class=&quot;highlighter-rouge&quot;&gt;Community Bonding&lt;/code&gt;.&lt;/p&gt;
+					<description>&lt;p&gt;Hi Guys!! With the end of this month &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Community Bonding&lt;/code&gt; period finally comes to an end, which marks the beginning of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt;. In which, students officially now starts coding on their projects. Before even I would start with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt;, I thought about summarizing my overall objectives achieved in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Community Bonding&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 &lt;ol&gt;
-  &lt;li&gt;I started with testing the old &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationStyleBear&lt;/code&gt; over &lt;code class=&quot;highlighter-rouge&quot;&gt;coala&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;coala-bears&lt;/code&gt; repo. My first task was to get the old &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1506&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; PR&lt;/a&gt; of &lt;a href=&quot;https://github.com/SanketDG&quot;&gt;SanketDG&lt;/a&gt; merged, currently! I have hijacked it :P . I found 2 major issues while testing:
+  &lt;li&gt;I started with testing the old &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationStyleBear&lt;/code&gt; over &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;coala&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;coala-bears&lt;/code&gt; repo. My first task was to get the old &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1506&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; PR&lt;/a&gt; of &lt;a href=&quot;https://github.com/SanketDG&quot;&gt;SanketDG&lt;/a&gt; merged, currently! I have hijacked it :P . I found 2 major issues while testing:
     &lt;ul&gt;
       &lt;li&gt;We know python has some fancy strings which are written as:
-        &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&quot;
+        &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;arguments&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
 sum= a+b+c
 avg= (a+b+c)/3
-&quot;&quot;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-        &lt;/div&gt;
-        &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentionAPI&lt;/code&gt; should ignore such strings. I had a healthy discussion with my mentors about this issue and we came to a conclusion that it required some more ideation, hence being moved to &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt;.&lt;/p&gt;
+&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentionAPI&lt;/code&gt; should ignore such strings. I had a healthy discussion with my mentors about this issue and we came to a conclusion that it required some more ideation, hence being moved to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt;.&lt;/p&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; was not having support for &lt;code class=&quot;highlighter-rouge&quot;&gt;:raises xyz:&lt;/code&gt;. Hence, it’s being successfully &lt;a href=&quot;https://github.com/coala/coala/pull/4281&quot;&gt;implemented&lt;/a&gt;. The patch right now is in review phase.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt; was not having support for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:raises xyz:&lt;/code&gt;. Hence, it’s being successfully &lt;a href=&quot;https://github.com/coala/coala/pull/4281&quot;&gt;implemented&lt;/a&gt;. The patch right now is in review phase.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;There was bug in &lt;code class=&quot;highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt;, which generated cut-off diffs. For example, if a docstring is written this way:
-    &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&quot;
+  &lt;li&gt;There was bug in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocumentationAPI&lt;/code&gt;, which generated cut-off diffs. For example, if a docstring is written this way:
+    &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;dl&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
  This is not a cool way to write docstrings.
-    &quot;&quot;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+    &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
     &lt;p&gt;The generated diff would be.&lt;/p&gt;
-    &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&quot;
+    &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;dl&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
      not a cool way to write docstrings.
-    &quot;&quot;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
+    &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
     &lt;p&gt;A patch fixing this bug has been &lt;a href=&quot;https://github.com/coala/coala/pull/4275&quot;&gt;implemented and merged&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;A new parameter &lt;code class=&quot;highlighter-rouge&quot;&gt;allow_missing_func_desc&lt;/code&gt; needs to be added which will ignore a warning message, when &lt;code class=&quot;highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; doesn’t finds a function description. This has also been &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1506&quot;&gt;implemented&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Last and Final task was to analyze coala’s structure and write a blog about it. So, &lt;a href=&quot;https://damngamerz.github.io/gsoc/An-Insight-Into-coala's-Structure.html&quot;&gt;here it is&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new parameter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;allow_missing_func_desc&lt;/code&gt; needs to be added which will ignore a warning message, when &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DocStyleBear&lt;/code&gt; doesn’t finds a function description. This has also been &lt;a href=&quot;https://github.com/coala/coala-bears/pull/1506&quot;&gt;implemented&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Last and Final task was to analyze coala’s structure and write a blog about it. So, &lt;a href=&quot;https://damngamerz.github.io/gsoc/An-Insight-Into-coala&apos;s-Structure.html&quot;&gt;here it is&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;At the end here’s a burnout chart depicting my working efficiency.
-&lt;img src=&quot;https://localhost:4000/images/chart_bonding.png&quot; alt=&quot;bonding chart&quot; /&gt;
-Although, I wasn’t able to complete my &lt;code class=&quot;highlighter-rouge&quot;&gt;Bonding&lt;/code&gt; milestone 100%. As to close an issue, the related PR should be merged beforehand. While I got my 2 PR’s in review state. And both of those PR’s had big updates/patches, which I submitted beforehand deadline by 2 days and hence it didn’t got sufficient time to go through review phase.&lt;/p&gt;
+&lt;img src=&quot;http://localhost:4000/images/chart_bonding.png&quot; alt=&quot;bonding chart&quot; /&gt;
+Although, I wasn’t able to complete my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bonding&lt;/code&gt; milestone 100%. As to close an issue, the related PR should be merged beforehand. While I got my 2 PR’s in review state. And both of those PR’s had big updates/patches, which I submitted beforehand deadline by 2 days and hence it didn’t got sufficient time to go through review phase.&lt;/p&gt;
 
 &lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
-&lt;p&gt;Well &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt; begins now, and I can’t risk my chances of staying behind schedule. The things I learned from &lt;code class=&quot;highlighter-rouge&quot;&gt;Community Bonding&lt;/code&gt; phase will play a very crucial role in this phase, one of which is I have to submit my patches as early as possible, cause about 60% time goes in review cycle. Ofcourse, I don’t blame the review process by that statement, cause it is very fruitful and it always polishes the PR to get merge ready. Although, I must say coala’s review process is fast, well faster than the other open-source organisations, In which a simple patch can be in review phase for months before it finally gets accepted. Here it take a day or so. But for big patches it obviously takes weeks of review iterations to actually get it merged. Kudos!! to all my fellow devs and maintainers for making this process fast!!&lt;/p&gt;
+&lt;p&gt;Well &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt; begins now, and I can’t risk my chances of staying behind schedule. The things I learned from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Community Bonding&lt;/code&gt; phase will play a very crucial role in this phase, one of which is I have to submit my patches as early as possible, cause about 60% time goes in review cycle. Ofcourse, I don’t blame the review process by that statement, cause it is very fruitful and it always polishes the PR to get merge ready. Although, I must say coala’s review process is fast, well faster than the other open-source organisations, In which a simple patch can be in review phase for months before it finally gets accepted. Here it take a day or so. But for big patches it obviously takes weeks of review iterations to actually get it merged. Kudos!! to all my fellow devs and maintainers for making this process fast!!&lt;/p&gt;
 
 &lt;h2 id=&quot;thanks&quot;&gt;Thanks!&lt;/h2&gt;
-&lt;p&gt;Special Thanks to both of my mentors &lt;a href=&quot;https://github.com/SanketDG&quot;&gt;SanketDG&lt;/a&gt;, &lt;a href=&quot;https://github.com/NiklasMM&quot;&gt;NiklasMM&lt;/a&gt; and other mentors of coala. Without them this wouldn’t have been possible. Thanks for understanding when I asked to code in &lt;code class=&quot;highlighter-rouge&quot;&gt;Bonding Period&lt;/code&gt; phase and making me code in, which really gave me a taste of how &lt;code class=&quot;highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt; will actually go. I will try hard to not let you guys down.&lt;/p&gt;
+&lt;p&gt;Special Thanks to both of my mentors &lt;a href=&quot;https://github.com/SanketDG&quot;&gt;SanketDG&lt;/a&gt;, &lt;a href=&quot;https://github.com/NiklasMM&quot;&gt;NiklasMM&lt;/a&gt; and other mentors of coala. Without them this wouldn’t have been possible. Thanks for understanding when I asked to code in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bonding Period&lt;/code&gt; phase and making me code in, which really gave me a taste of how &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Coding Phase-I&lt;/code&gt; will actually go. I will try hard to not let you guys down.&lt;/p&gt;
 
 &lt;p&gt;Till next time Tschüss!!&lt;/p&gt;
 </description>
 				
-				<pubDate>Wed, 31 May 2017 00:00:00 +0530</pubDate>
-				<link>https://localhost:4000/gsoc/Bonding-Period-Ends.html</link>
-				<guid isPermaLink="true">https://localhost:4000/gsoc/Bonding-Period-Ends.html</guid>
+				<pubDate>Wed, 31 May 2017 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/gsoc/Bonding-Period-Ends.html</link>
+				<guid isPermaLink="true">http://localhost:4000/gsoc/Bonding-Period-Ends.html</guid>
 			</item>
 		
 	</channel>

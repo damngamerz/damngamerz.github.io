@@ -11,8 +11,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://damngamerz.github.io/css/main.css">
-  <link rel="stylesheet" href="https://damngamerz.github.io/css/syntax.css">
+  <link rel="stylesheet" href="https://saurav.eu/css/main.css">
+  <link rel="stylesheet" href="https://saurav.eu/css/syntax.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
@@ -42,13 +42,13 @@
   <div class="container">
     <header class="masthead">
   <h3 class="masthead-title">
-    <a href="https://damngamerz.github.io/">Saurav Singh</a>
+    <a href="https://saurav.eu/">Saurav Singh</a>
     <small class="masthead-subtitle">damngamerz</small>
     <div class="menu">
   <div class="menu-content">
-    <a href="https://damngamerz.github.io/about.html">About</a>
-    <a href="https://damngamerz.github.io/writing.html">Writing</a>
-    <a href="https://damngamerz.github.io/contacts.html">Contact</a>
+    <a href="https://saurav.eu/about.html">About</a>
+    <a href="https://saurav.eu/writing.html">Writing</a>
+    <a href="https://saurav.eu/contacts.html">Contact</a>
   </div>
   <div class="social-icons">
     <a href="https://github.com/damngamerz"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
@@ -72,26 +72,26 @@
 </h1>
 
 
-  <img src="https://damngamerz.github.io/images/coding_final.jpg">
+  <img src="https://saurav.eu/images/coding_final.jpg">
 
 
-<p>Hey guys, It’s been 2 weeks since 2nd evaluation. And this is my <code class="highlighter-rouge">Coding Phase-3</code> Mid Month summary. Before I begin with the summary, I just wanna share with you guys that I nearly passed my 2nd evaluation. My bad, I wasn’t able to achieve my last issue, it turns out the issue’s solution was designing the API rather than what I proposed earlier.</p>
+<p>Hey guys, It’s been 2 weeks since 2nd evaluation. And this is my <code class="language-plaintext highlighter-rouge">Coding Phase-3</code> Mid Month summary. Before I begin with the summary, I just wanna share with you guys that I nearly passed my 2nd evaluation. My bad, I wasn’t able to achieve my last issue, it turns out the issue’s solution was designing the API rather than what I proposed earlier.</p>
 
 <h2 id="how-did-i-feel-about-failing-the-milestone">How did I feel about failing the milestone?</h2>
 <p>It sucks!! Well at first I really got tensed what will the org. admins decide. But it turns out they understood the situation and believed in me that I will still achieve my final goal. Ofcourse! I will not let them down :) . Thanks to org. admins and my mentors for understanding why I wasn’t able to achieve it. At the end it all turned out well, I’m quite happy about how the final solution turned out to be. Also this solution is the biggest patch of my GSoC experience, which introduced 2 new features to the Documentation API. Kind of an achievement for me ^_^</p>
 
 <h2 id="summary">Summary</h2>
-<p>Originally! the only objective for me this month was to implement <code class="highlighter-rouge">DocGrammarBear</code>. Which will check for grammatical errors inside the DocumentationComment’s descriptions. But most of the time I spent on clearing the issue which got a bit off-scheduled from my previous milestone.</p>
+<p>Originally! the only objective for me this month was to implement <code class="language-plaintext highlighter-rouge">DocGrammarBear</code>. Which will check for grammatical errors inside the DocumentationComment’s descriptions. But most of the time I spent on clearing the issue which got a bit off-scheduled from my previous milestone.</p>
 <ol>
-  <li>First, the issue was to check and fix the blank lines before and after the Documentation for <code class="highlighter-rouge">function</code> vs <code class="highlighter-rouge">class</code>. According to <a href="https://www.python.org/dev/peps/pep-0257/">PEP-257</a> <code class="highlighter-rouge">class</code> docstrings should be followed by a blank line and <code class="highlighter-rouge">function</code> docstrings should never have any blank lines before of after. This issue got so stretched that I ended up implementing 2 new features to the DocumentationAPI.
+  <li>First, the issue was to check and fix the blank lines before and after the Documentation for <code class="language-plaintext highlighter-rouge">function</code> vs <code class="language-plaintext highlighter-rouge">class</code>. According to <a href="https://www.python.org/dev/peps/pep-0257/">PEP-257</a> <code class="language-plaintext highlighter-rouge">class</code> docstrings should be followed by a blank line and <code class="language-plaintext highlighter-rouge">function</code> docstrings should never have any blank lines before of after. This issue got so stretched that I ended up implementing 2 new features to the DocumentationAPI.
     <ol>
       <li><strong>Automatic Padding</strong>- We have a setting in DocumentationAPI which automatically tells how many lines are above and below the docstring.</li>
-      <li><strong>Docstring Type</strong>- We can detect &amp; determine between docstrings, whether they are of type <code class="highlighter-rouge">function</code>, <code class="highlighter-rouge">class</code> or <code class="highlighter-rouge">others</code>.</li>
+      <li><strong>Docstring Type</strong>- We can detect &amp; determine between docstrings, whether they are of type <code class="language-plaintext highlighter-rouge">function</code>, <code class="language-plaintext highlighter-rouge">class</code> or <code class="language-plaintext highlighter-rouge">others</code>.</li>
     </ol>
 
     <p>These both additions were important inorder to solve this issue perfectly. A <a href="https://github.com/coala/coala/pull/4557">PR has been made</a> and is close to being merged.</p>
   </li>
-  <li><code class="highlighter-rouge">DocGrammarBear</code> which will check for grammatical errors inside the DocumentationComment’s description. <a href="https://github.com/coala/coala-bears/pull/1980">PR is ready</a> and close to merge. Also I made an <a href="https://asciinema.org/a/132564">asciinema</a> so you can see this bear in action.</li>
+  <li><code class="language-plaintext highlighter-rouge">DocGrammarBear</code> which will check for grammatical errors inside the DocumentationComment’s description. <a href="https://github.com/coala/coala-bears/pull/1980">PR is ready</a> and close to merge. Also I made an <a href="https://asciinema.org/a/132564">asciinema</a> so you can see this bear in action.</li>
 </ol>
 
 <p>These were the 2 major objectives of this month. I think I can achieve my final milestone. As everything is back on schedule.</p>
@@ -111,9 +111,9 @@
 </span>
 <div class="post-date">Feel free to share!</div>
   <div class="sharing-icons">
-    <a href="https://twitter.com/intent/tweet?text=Phase 3 Mid Month Summary&amp;url=https://damngamerz.github.io/gsoc/Phase-3-Mid-Month-Summary.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/gsoc/Phase-3-Mid-Month-Summary.html&amp;title=Phase 3 Mid Month Summary" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/gsoc/Phase-3-Mid-Month-Summary.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/intent/tweet?text=Phase 3 Mid Month Summary&amp;url=https://saurav.eu/gsoc/Phase-3-Mid-Month-Summary.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://saurav.eu/gsoc/Phase-3-Mid-Month-Summary.html&amp;title=Phase 3 Mid Month Summary" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=https://saurav.eu/gsoc/Phase-3-Mid-Month-Summary.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -126,9 +126,9 @@
         
           <li>
             <h3>
-              <a href="https://damngamerz.github.io/gsoc/Souvenir-of-GSoC'2017!.html">
+              <a href="https://saurav.eu/gsoc/Souvenir-of-GSoC'2017!.html">
                 Souvenir of GSoC'2017!
-                <!--<img src="https://localhost:4000/images/gsoc-teaser.jpg">-->
+                <!--<img src="http://localhost:4000/images/gsoc-teaser.jpg">-->
                 <!--<small>August 21, 2017</small>-->
               </a>
             </h3>
@@ -139,9 +139,9 @@
         
           <li>
             <h3>
-              <a href="https://damngamerz.github.io/gsoc/Phase-3-Month-End-Summary.html">
+              <a href="https://saurav.eu/gsoc/Phase-3-Month-End-Summary.html">
                 Phase 3 Month End Summary
-                <!--<img src="https://localhost:4000/images/coding_final-teaser.jpg">-->
+                <!--<img src="http://localhost:4000/images/coding_final-teaser.jpg">-->
                 <!--<small>August 19, 2017</small>-->
               </a>
             </h3>
@@ -219,7 +219,7 @@
   <a href="https://linkedin.com/in/damngamerz"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
   <a href="mailto:sauravsinghshakya@yahoo.com"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
   <a href="https://damngamerz.github.io/feed.xml"><i class="fa fa-rss" aria-hidden="true" target="_blank"></i></a>
-  <div class="post-date"><a href="https://damngamerz.github.io/about.html">Saurav Singh | damngamerz © by Saurav Singh</a></div>
+  <div class="post-date"><a href="https://saurav.eu/about.html">Saurav Singh | damngamerz © by Saurav Singh</a></div>
 </footer>
 
 

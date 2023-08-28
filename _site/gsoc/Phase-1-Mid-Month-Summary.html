@@ -11,8 +11,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://damngamerz.github.io/css/main.css">
-  <link rel="stylesheet" href="https://damngamerz.github.io/css/syntax.css">
+  <link rel="stylesheet" href="https://saurav.eu/css/main.css">
+  <link rel="stylesheet" href="https://saurav.eu/css/syntax.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
@@ -42,13 +42,13 @@
   <div class="container">
     <header class="masthead">
   <h3 class="masthead-title">
-    <a href="https://damngamerz.github.io/">Saurav Singh</a>
+    <a href="https://saurav.eu/">Saurav Singh</a>
     <small class="masthead-subtitle">damngamerz</small>
     <div class="menu">
   <div class="menu-content">
-    <a href="https://damngamerz.github.io/about.html">About</a>
-    <a href="https://damngamerz.github.io/writing.html">Writing</a>
-    <a href="https://damngamerz.github.io/contacts.html">Contact</a>
+    <a href="https://saurav.eu/about.html">About</a>
+    <a href="https://saurav.eu/writing.html">Writing</a>
+    <a href="https://saurav.eu/contacts.html">Contact</a>
   </div>
   <div class="social-icons">
     <a href="https://github.com/damngamerz"><i class="fa fa-github" aria-hidden="true" target="_blank"></i></a>
@@ -72,34 +72,33 @@
 </h1>
 
 
-  <img src="https://damngamerz.github.io/images/bonding.jpg">
+  <img src="https://saurav.eu/images/bonding.jpg">
 
 
-<p>Hey there Guys!, I hope you are doing well. In this blog I will summarizing my GSoC’17 work till now. So it’s been 18 days of <code class="highlighter-rouge">Coding Phase-I</code> and I have been moving forward with all I have, to make this project come to life. So Let’s begin!</p>
+<p>Hey there Guys!, I hope you are doing well. In this blog I will summarizing my GSoC’17 work till now. So it’s been 18 days of <code class="language-plaintext highlighter-rouge">Coding Phase-I</code> and I have been moving forward with all I have, to make this project come to life. So Let’s begin!</p>
 
 <h2 id="summary">Summary</h2>
-<p>Since, I learnt my lesson well from <code class="highlighter-rouge">Bonding Phase</code> :P so I started solving the big issues first. As they takes up a lot of time in review phase. Firstly I began adding additional functionalities to <code class="highlighter-rouge">DocumentationComment</code>. <code class="highlighter-rouge">DocumentationComment</code> is the core of <code class="highlighter-rouge">DocumentationAPI</code> which mainly dissociated the whole documentation into it’s sub-parts (i.e. params,exceptions and return descriptions).</p>
+<p>Since, I learnt my lesson well from <code class="language-plaintext highlighter-rouge">Bonding Phase</code> :P so I started solving the big issues first. As they takes up a lot of time in review phase. Firstly I began adding additional functionalities to <code class="language-plaintext highlighter-rouge">DocumentationComment</code>. <code class="language-plaintext highlighter-rouge">DocumentationComment</code> is the core of <code class="language-plaintext highlighter-rouge">DocumentationAPI</code> which mainly dissociated the whole documentation into it’s sub-parts (i.e. params,exceptions and return descriptions).</p>
 <ol>
-  <li>Previous <code class="highlighter-rouge">assemble()</code> function was not accounting for a case in which middle and ending markers are same. Eg. <code class="highlighter-rouge">marker[1]==marker[2]</code> which is a type of case in python docstring.
-    <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">docstring_find</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
-    <span class="c">## This is dummy docstring find function.</span>
-    <span class="c">#</span>
-    <span class="c">#  @param filename contains filename</span>
-    <span class="c">#  @raises FileNotFoundError raises when filename is not found</span>
-    <span class="c">#  @return nothing</span>
-   <span class="k">return</span> <span class="bp">None</span>
-</code></pre>
-    </div>
+  <li>Previous <code class="language-plaintext highlighter-rouge">assemble()</code> function was not accounting for a case in which middle and ending markers are same. Eg. <code class="language-plaintext highlighter-rouge">marker[1]==marker[2]</code> which is a type of case in python docstring.
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">docstring_find</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+    <span class="c1">## This is dummy docstring find function.
+</span>    <span class="c1">#
+</span>    <span class="c1">#  @param filename contains filename
+</span>    <span class="c1">#  @raises FileNotFoundError raises when filename is not found
+</span>    <span class="c1">#  @return nothing
+</span>   <span class="k">return</span> <span class="bp">None</span>
+</code></pre></div>    </div>
     <p>Hence I completed the work over this and a patch is submitted and <a href="https://github.com/coala/coala/pull/4319">merged</a>.</p>
   </li>
-  <li><code class="highlighter-rouge">DocumentationComment</code> accepts <code class="highlighter-rouge">range</code> as an argument we will be shifting it to <code class="highlighter-rouge">position</code>. Since <code class="highlighter-rouge">TextRange</code> is constructed from <code class="highlighter-rouge">TextPosition</code> it’s just a simplification of constructor but important indeed. A patch is currectly in the <a href="https://github.com/coala/coala/issues/2646">review phase</a> right now. I guess it will be merged in 2 review iterations or so.</li>
+  <li><code class="language-plaintext highlighter-rouge">DocumentationComment</code> accepts <code class="language-plaintext highlighter-rouge">range</code> as an argument we will be shifting it to <code class="language-plaintext highlighter-rouge">position</code>. Since <code class="language-plaintext highlighter-rouge">TextRange</code> is constructed from <code class="language-plaintext highlighter-rouge">TextPosition</code> it’s just a simplification of constructor but important indeed. A patch is currectly in the <a href="https://github.com/coala/coala/issues/2646">review phase</a> right now. I guess it will be merged in 2 review iterations or so.</li>
 </ol>
 
 <p>So these were the two major changes which I had done, making about 60% completion of the milestones in my opinion. I guess this time I will be able to achieve 100%. 100% or not my patches should be good in quality thats my inner objective ;)</p>
 
-<p>There’s one more thing, the <a href="https://github.com/coala/coala-bears/pull/1506">big patch</a> <code class="highlighter-rouge">DocumentationStyleBear</code> finally got accepted. It’s not fully complete at the moment. Requires lot of additional functionalities but that’s the basic functionality which we have longed for.</p>
+<p>There’s one more thing, the <a href="https://github.com/coala/coala-bears/pull/1506">big patch</a> <code class="language-plaintext highlighter-rouge">DocumentationStyleBear</code> finally got accepted. It’s not fully complete at the moment. Requires lot of additional functionalities but that’s the basic functionality which we have longed for.</p>
 <h2 id="whats-up-ahead">What’s up ahead?</h2>
-<p>Next, I have 4 additions lined up for <code class="highlighter-rouge">DocumentationExtraction</code> out of which only 2 are solvable at the moment and the rest will be moved ahead to <code class="highlighter-rouge">Coding Phase-II</code>. I will be writing more about them in my next blog.</p>
+<p>Next, I have 4 additions lined up for <code class="language-plaintext highlighter-rouge">DocumentationExtraction</code> out of which only 2 are solvable at the moment and the rest will be moved ahead to <code class="language-plaintext highlighter-rouge">Coding Phase-II</code>. I will be writing more about them in my next blog.</p>
 
 <p>That’s all guys. Till next time See YAA!!</p>
 
@@ -113,9 +112,9 @@
 </span>
 <div class="post-date">Feel free to share!</div>
   <div class="sharing-icons">
-    <a href="https://twitter.com/intent/tweet?text=Phase 1 Mid Month Summary&amp;url=https://damngamerz.github.io/gsoc/Phase-1-Mid-Month-Summary.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://damngamerz.github.io/gsoc/Phase-1-Mid-Month-Summary.html&amp;title=Phase 1 Mid Month Summary" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="https://plus.google.com/share?url=https://damngamerz.github.io/gsoc/Phase-1-Mid-Month-Summary.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/intent/tweet?text=Phase 1 Mid Month Summary&amp;url=https://saurav.eu/gsoc/Phase-1-Mid-Month-Summary.html&amp;via=damngamerz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://saurav.eu/gsoc/Phase-1-Mid-Month-Summary.html&amp;title=Phase 1 Mid Month Summary" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://plus.google.com/share?url=https://saurav.eu/gsoc/Phase-1-Mid-Month-Summary.html" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -128,9 +127,9 @@
         
           <li>
             <h3>
-              <a href="https://damngamerz.github.io/gsoc/Souvenir-of-GSoC'2017!.html">
+              <a href="https://saurav.eu/gsoc/Souvenir-of-GSoC'2017!.html">
                 Souvenir of GSoC'2017!
-                <!--<img src="https://localhost:4000/images/gsoc-teaser.jpg">-->
+                <!--<img src="http://localhost:4000/images/gsoc-teaser.jpg">-->
                 <!--<small>August 21, 2017</small>-->
               </a>
             </h3>
@@ -141,9 +140,9 @@
         
           <li>
             <h3>
-              <a href="https://damngamerz.github.io/gsoc/Phase-3-Month-End-Summary.html">
+              <a href="https://saurav.eu/gsoc/Phase-3-Month-End-Summary.html">
                 Phase 3 Month End Summary
-                <!--<img src="https://localhost:4000/images/coding_final-teaser.jpg">-->
+                <!--<img src="http://localhost:4000/images/coding_final-teaser.jpg">-->
                 <!--<small>August 19, 2017</small>-->
               </a>
             </h3>
@@ -154,9 +153,9 @@
         
           <li>
             <h3>
-              <a href="https://damngamerz.github.io/gsoc/Phase-3-Mid-Month-Summary.html">
+              <a href="https://saurav.eu/gsoc/Phase-3-Mid-Month-Summary.html">
                 Phase 3 Mid Month Summary
-                <!--<img src="https://localhost:4000/images/coding_final-teaser.jpg">-->
+                <!--<img src="http://localhost:4000/images/coding_final-teaser.jpg">-->
                 <!--<small>August 11, 2017</small>-->
               </a>
             </h3>
@@ -231,7 +230,7 @@
   <a href="https://linkedin.com/in/damngamerz"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
   <a href="mailto:sauravsinghshakya@yahoo.com"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
   <a href="https://damngamerz.github.io/feed.xml"><i class="fa fa-rss" aria-hidden="true" target="_blank"></i></a>
-  <div class="post-date"><a href="https://damngamerz.github.io/about.html">Saurav Singh | damngamerz © by Saurav Singh</a></div>
+  <div class="post-date"><a href="https://saurav.eu/about.html">Saurav Singh | damngamerz © by Saurav Singh</a></div>
 </footer>
 
 
